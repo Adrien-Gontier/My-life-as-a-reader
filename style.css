@@ -1,8 +1,8 @@
-body {
-  background-image: url("pexels-pixabay-159711.jpg"); /* background image of the website */
+body { /* Background image of the website */
+  background-image: url("pexels-pixabay-159711.jpg");
 }
 
-h1 {
+h1 { /* Title of the website */
   font-family: "Times New Roman";
   font-size: 70px;
   text-align: center;
@@ -32,7 +32,7 @@ ul li a {  /* Title of the other pages of the website by link */
 }
 
 
-header {
+header { /* Title link to the others pages of the website. */
   text-align: center;
 }
 
@@ -43,50 +43,50 @@ h2 {  /* Title of the page */
   font-size: 40px;
 }
 
-/* Books */
-.books {
+
+.books { /* Books */
   display: flex;
   justify-content: space-around;
 
 }
 
-.author_name {
+.author_name { /* First and last name of the author. */
   font-family: 'Times New Roman', Times, serif;
   font-size: 40px;
   text-align: center;
 }
 
-.author_date_born_death {
+.author_date_born_death { /* Year of born and year of death of the author. */
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   text-align: center;
 }
 
-.title_of_the_book {
+.title_of_the_book { /* Title of the book. */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40;
   text-align: center;
 }
 
-.book_year_publication {
+.book_year_publication { /* Year of publication of the book. */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   text-align: center;
 }
 
-.summary_title {
+.summary_title { /* Title : "summary" of the book. */
   font-family: 'Courier New', Courier, monospace;
   font-size: 35px;
   text-align: center;
 }
 
-.book_summary {
+.book_summary { /* Summary of the book. */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
 }
 
-p {   /* Will be remove when the flex-box problem is fix */
+p {   /* !!!!! Will be remove when the flex-box problem is fix !!!!! */
   font-family: 'Times New Roman', Times, serif;
   color: white;
   font-size: 40px;
