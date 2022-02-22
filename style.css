@@ -2,6 +2,13 @@ body { /* Background image of the website */
   background-image: url("pexels-pixabay-159711.jpg");
 }
 
+.website_title_page_index {
+  margin: 60px;
+  font-size: 100px;
+}
+
+
+
 h1 { /* Title of the website */
   font-family: "Times New Roman";
   font-size: 70px;
