@@ -2,7 +2,7 @@ body { /* Background image of the website */
   background-image: url("pexels-pixabay-159711.jpg");
 }
 
-.website_title_page_index {
+.website_title_page_index { /* Special style for the website title for index.html */
   margin: 60px;
   font-size: 100px;
 }
