@@ -7,8 +7,6 @@ body {  /* Background image of the website */
   font-size: 100px;
 }
 
-
-
 h1 {  /* Title of the website */
   font-family: "Times New Roman";
   font-size: 70px;
@@ -38,7 +36,6 @@ ul li a {  /* Title of the other pages of the website by link */
   color: white;
 }
 
-
 header {  /* Title link to the others pages of the website */
   text-align: center;
 }
@@ -50,11 +47,9 @@ h2 {  /* Title of the page */
   font-size: 40px;
 }
 
-
 .books {  /* Books */
   display: flex;
   justify-content: space-around;
-
 }
 
 .author_name {  /* First and last name of the author */
