@@ -54,45 +54,51 @@ h2 {  /* Title of the page */
 
 .author_name {  /* First and last name of the author */
   font-family: 'Times New Roman', Times, serif;
+  color: lightgrey;
   font-size: 40px;
   text-align: center;
+  width: 300pt;
 }
 
 .author_date_born_death {  /* Year of born and year of death of the author */
   font-family: 'Times New Roman', Times, serif;
+  color: lightgrey;
   font-size: 20px;
   text-align: center;
+  width: 300pt;
 }
 
 .title_of_the_book {  /* Title of the book */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 40;
+  color: lightgrey;
+  font-size: 40px;
   text-align: center;
+  width: 300pt;
+  width: 300pt;
 }
 
 .book_year_publication {  /* Year of publication of the book */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: lightgrey;
   font-size: 20px;
   text-align: center;
+  width: 300pt;
 }
 
 .summary_title {  /* Title : "summary" of the book */
   font-family: 'Courier New', Courier, monospace;
+  color: lightgrey;
   font-size: 35px;
   text-align: center;
+  width: 300pt;
 }
 
 .book_summary {  /* Summary of the book */
   font-family: Arial, Helvetica, sans-serif;
+  color: lightgrey;
   font-size: 16px;
   text-align: center;
-}
-
-p {  /* !!!!! Will be remove when the flex-box problem is fix !!!!! */
-  font-family: 'Times New Roman', Times, serif;
-  color: white;
-  font-size: 40px;
-  text-align: center;
+  width: 300pt;
 }
 
 #contact {  /* Contactform for contact.html */
