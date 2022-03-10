@@ -1,5 +1,5 @@
 const message =
-  "Thank you for submitting your request. The crew will respond shortly.";
+  "Thank you for your message. I will answer soon.";
 
 document
   .getElementById("contactForm")
