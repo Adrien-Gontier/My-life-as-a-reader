@@ -91,7 +91,24 @@ h2 {  /* Title of the page */
   width: 300pt;
 }
 
-#contact {  /* Contactform for contact.html */
+#contact {  /* Contactstyle for contact.html */
   color: lightgrey;
   text-align: center;
+  font-size: 35pt;
+  font-family: 'Courier New', Courier, monospace;
+  -webkit-text-stroke: 0.5pt black;
+}
+
+#name, #email {  /* Contactstyle for contact.html */
+  width: 500px;
+  height: 25px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#message {  /* Contactstyle for contact.html */
+  font-size: 20px;
+  min-width: 600px;
+  min-height: 300px;
+  font-family: Arial, Helvetica, sans-serif;
 }
