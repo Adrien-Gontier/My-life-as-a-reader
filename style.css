@@ -97,6 +97,7 @@ h2 {  /* Title of the page */
   font-size: 35pt;
   font-family: 'Courier New', Courier, monospace;
   -webkit-text-stroke: 0.5pt black;
+  line-height: 35px; /* Will be fix to have what I want */
 }
 
 #name, #email {  /* Contactstyle for contact.html */
