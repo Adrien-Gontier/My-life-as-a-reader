@@ -113,3 +113,12 @@ h2 {  /* Title of the page */
   min-height: 300px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.story_of_my_life {  /* My life in "who am I" file */
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  color: lightgrey;
+  padding-left: 300px;
+  padding-right: 300px;
+}
