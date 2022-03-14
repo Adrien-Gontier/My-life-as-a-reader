@@ -48,6 +48,21 @@ h2 {  /* Title of the page */
   -webkit-text-stroke: 1px black;
 }
 
+.section_welcome_page {  /* Section of the welcome page */
+  display: flex;
+  color: lightgrey;
+  font-size: 20px;
+  text-align: center;
+}
+
+article { /* Article of the section of the welcome page */
+  flex: 3;
+}
+
+aside {  /* Aside of the section of the welcome page */
+  flex: 1.2;
+}
+
 .books {  /* Books */
   display: flex;
   justify-content: space-around;
