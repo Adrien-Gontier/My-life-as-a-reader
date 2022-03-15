@@ -106,6 +106,13 @@ aside {  /* Aside of the section of the welcome page */
   width: 300pt;
 }
 
+.welcome_message, .contactform_rules {
+  color: lightgrey;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 #contact {  /* Contactstyle for contact.html */
   color: lightgrey;
   text-align: center;
