@@ -1,5 +1,7 @@
 body {  /* Background image of the website */
   background-image: url("pexels-pixabay-159711.jpg");
+  text-align: center;
+  color: lightgrey;
 }
 
 .website_title_page_index {  /* Special style for the website title for index.html */
@@ -10,8 +12,6 @@ body {  /* Background image of the website */
 h1 {  /* Title of the website */
   font-family: "Times New Roman";
   font-size: 70px;
-  color: lightgrey;
-  text-align: center;
   padding: 0px;
   margin: 0px;
   -webkit-text-stroke: 1px black;
@@ -20,7 +20,6 @@ h1 {  /* Title of the website */
 ul {  /* Title of the other pages of the website by link */
   display: flex;
   justify-content: space-around;
-  text-align: center;
   padding: 0px;
 }
 
@@ -36,23 +35,15 @@ ul li a {  /* Title of the other pages of the website by link */
   color: white;
 }
 
-header {  /* Title link to the others pages of the website */
-  text-align: center;
-}
-
 h2 {  /* Title of the page */
   font-family: "Courier New", Courier, monospace;
-  color: lightgrey;
-  text-align: center;
   font-size: 40px;
   -webkit-text-stroke: 1px black;
 }
 
 .section_welcome_page {  /* Section of the welcome page */
   display: flex;
-  color: lightgrey;
   font-size: 20px;
-  text-align: center;
 }
 
 article { /* Article of the section of the welcome page */
@@ -66,81 +57,69 @@ aside {  /* Aside of the section of the welcome page */
 .books {  /* Books */
   display: flex;
   justify-content: space-around;
-  color :lightgrey;
-  text-align: center;
 }
 
-.author_name {  /* First and last name of the author */
+.author_name, .author_date_born_death, .title_of_the_book, .book_year_publication, .summary_title, .book_summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
+  width: 300pt;
+}
+
+.author_name, .author_date_born_death {  /* First and last name of the author and Year of born and year of death of the author */
   font-family: 'Times New Roman', Times, serif;
+}
+
+.author_name, .title_of_the_book {  /* First and last name of the author and Title of the book */
   font-size: 40px;
-  width: 300pt;
 }
 
-.author_date_born_death {  /* Year of born and year of death of the author */
-  font-family: 'Times New Roman', Times, serif;
+.author_date_born_death, .book_year_publication {  /* Year of born and year of death of the author and Year of publication of the book */
   font-size: 20px;
-  width: 300pt;
 }
 
-.title_of_the_book {  /* Title of the book */
+.title_of_the_book, .book_year_publication {  /* Title of the book and Year of publication of the book */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 40px;
-  width: 300pt;
 }
 
-.book_year_publication {  /* Year of publication of the book */
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  width: 300pt;
+.summary_title, .contactform_rules {  /* Title : "summary" of the book and Rules for the contactform */
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .summary_title {  /* Title : "summary" of the book */
-  font-family: 'Courier New', Courier, monospace;
   font-size: 35px;
-  width: 300pt;
 }
 
 .book_summary {  /* Summary of the book */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  width: 300pt;
 }
 
-.welcome_message, .contactform_rules {
-  color: lightgrey;
-  text-align: center;
-  font-size: 35px;
-  font-family: 'Courier New', Courier, monospace;
+.contactform_rules { /* Rules for the contactform */
+  font-size: 25px;
 }
 
 #contact {  /* Contactstyle for contact.html */
-  color: lightgrey;
-  text-align: center;
-  font-size: 35pt;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 35pt;
   -webkit-text-stroke: 0.5pt black;
   line-height: 35px; /* Will be fix to have what I want */
 }
 
 #name, #email {  /* Contactstyle for contact.html */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
   width: 500px;
   height: 25px;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 #message {  /* Contactstyle for contact.html */
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   min-width: 600px;
   min-height: 300px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .story_of_my_life {  /* My biography in "who am I" file */
-  text-align: center;
-  font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
-  color: lightgrey;
+  font-size: 16px;
   padding-left: 300px;
   padding-right: 300px;
 }
