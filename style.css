@@ -21,12 +21,13 @@ ul {  /* Title of the other pages of the website by link */
   display: flex;
   justify-content: space-around;
   padding: 0px;
+  
 }
 
 ul li {  /* Title of the other pages of the website by link */
   list-style: none;
   padding: 12px;
-  border: 1px ridge rgb(29, 29, 58);
+  border: 1px ridge rgb(183, 183, 190);
 }
 
 ul li a {  /* Title of the other pages of the website by link */
@@ -98,21 +99,23 @@ aside {  /* Aside of the section of the welcome page */
 
 #contact {  /* Contactstyle for contact.html */
   font-family: 'Courier New', Courier, monospace;
+  font-weight: 550;
   font-size: 35pt;
-  -webkit-text-stroke: 0.5pt black;
-  line-height: 35px; /* Will be fix to have what I want */
+  -webkit-text-stroke: 1pt black;
+  line-height: 10px; /* Will be fix to have what I want. Will be fix correctly */
+}
+
+#name, #email, #message {  /* Contactstyle for contact.html */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 #name, #email {  /* Contactstyle for contact.html */
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
   width: 500px;
   height: 25px;
 }
 
 #message {  /* Contactstyle for contact.html */
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
   min-width: 600px;
   min-height: 300px;
 }
