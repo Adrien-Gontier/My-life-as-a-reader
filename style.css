@@ -21,18 +21,21 @@ ul {  /* Title of the other pages of the website by link */
   display: flex;
   justify-content: space-around;
   padding: 0px;
-}
-
-ul li {  /* Title of the other pages of the website by link */
   list-style: none;
-  padding: 12px;
-  border: 1px ridge rgb(183, 183, 190);
 }
 
 ul li a {  /* Title of the other pages of the website by link */
   text-decoration: none;
   font-size: 19px;
   color: white;
+  border: 1px ridge rgb(183, 183, 190);
+  padding: 12px;
+}
+
+ul li a:hover {
+  color: black;
+  border: 1px ridge rgb(52, 52, 122);
+  background-color: rgba(250, 236, 189, 0.842);
 }
 
 h2 {  /* Title of the page */
