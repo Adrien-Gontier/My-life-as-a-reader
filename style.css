@@ -44,8 +44,11 @@ ul li a:hover {
   background-color: rgba(250, 236, 189, 0.842);
 }
 
-h1 {  /* Title of the page */
-  font-family: "Courier New", Courier, monospace;
+.page_title {  /* Title of the page */
+  color: lightgrey;
+  line-height: 90px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 550;
   font-size: 40px;
   -webkit-text-stroke: 1px black;
 }
