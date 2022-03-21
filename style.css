@@ -48,7 +48,7 @@ ul li a:hover {
   color: lightgrey;
   line-height: 90px;
   font-family: 'Courier New', Courier, monospace;
-  font-weight: 550;
+  font-weight: 600;
   font-size: 40px;
   -webkit-text-stroke: 1px black;
 }
@@ -110,7 +110,7 @@ aside {  /* Aside of the section of the welcome page */
 
 #contact {  /* Contactstyle for contact.html */
   font-family: 'Courier New', Courier, monospace;
-  font-weight: 550;
+  font-weight: 600;
   font-size: 35pt;
   -webkit-text-stroke: 1pt black;  /* Will be fix because it don't work on Firefox but ok on Chrome */
   line-height: 10px; /* Will be fix to have what I want. Will be fix correctly */
