@@ -131,6 +131,16 @@ aside {  /* Aside of the section of the welcome page */
   min-height: 300px;
 }
 
+#submit {  /* Button submit */
+  font-family: cursive;
+  font-size: 40px;
+  font-weight: 500;
+  color: black;
+  background-color: whitesmoke;
+  width : 600px;
+  height: 60px;
+}
+
 .story_of_my_life {  /* My biography in "who am I" file */
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
