@@ -41,7 +41,7 @@ ul li a {  /* Title of the other pages of the website by link */
 ul li a:hover {
   color: black;
   border: 1px ridge rgb(52, 52, 122);
-  background-color: rgba(250, 236, 189, 0.842);
+  background-color: rgb(255, 255, 255);
 }
 
 .page_title {  /* Title of the page */
@@ -136,7 +136,7 @@ aside {  /* Aside of the section of the welcome page */
   font-size: 40px;
   font-weight: 500;
   color: black;
-  background-color: whitesmoke;
+  background-color: white;
   width : 600px;
   height: 60px;
 }
