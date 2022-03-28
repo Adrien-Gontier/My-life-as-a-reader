@@ -1,15 +1,19 @@
+/* All website pages */
+
 body {  /* Background image of the website */
   background-image: url("pexels-pixabay-159711.jpg");
   text-align: center;
   color: lightgrey;
 }
 
+
+/* Header */  /* All website pages */
+
 .website_title_page_index, .website_title_page {  /* Website title for index.html and other html files */
   font-family: "Times New Roman";
   color: lightgrey;
   text-decoration: none;
   padding: 0px;
-  margin: 0px;
   -webkit-text-stroke: 1px black;
 }
 
@@ -26,7 +30,7 @@ body {  /* Background image of the website */
 ul {  /* Title of the other pages of the website by link */
   display: flex;
   justify-content: space-around;
-  padding: 0px;
+  padding-top: 10px;
   list-style: none;
 }
 
@@ -44,6 +48,37 @@ ul li a:hover {
   background-color: rgb(255, 255, 255);
 }
 
+@media all and (max-width: 900px)
+{
+   .website_title_page_index, .website_title_page {
+    font-weight: bold;
+   }
+    
+  .website_title_page_index {  /* fix the "a" at the following line */
+    font-size: 70px;
+    margin: 0px;
+  }
+
+  .website_title_page {
+    font-size: 50px;
+  }
+
+  ul {  /*  !!!!   Will be finish later, from here   !!!!  */
+    flex-wrap: wrap;
+    margin: 50px;
+    line-height: 50px;
+  }
+
+  ul li a {
+
+  }
+
+}
+
+
+
+/* Page title for all website pages */
+
 .page_title {  /* Title of the page */
   color: lightgrey;
   line-height: 90px;
@@ -52,6 +87,8 @@ ul li a:hover {
   font-size: 40px;
   -webkit-text-stroke: 1px black;
 }
+
+/* For index.html */
 
 .section_welcome_page {  /* Section of the welcome page */
   display: flex;
@@ -65,6 +102,9 @@ article { /* Article of the section of the welcome page */
 aside {  /* Aside of the section of the welcome page */
   flex: 1.2;
 }
+
+
+/* For : piletoread.html readingfinished.html readinginprogress.html wishlist.html */
 
 .books {  /* Books */
   display: flex;
@@ -104,6 +144,9 @@ aside {  /* Aside of the section of the welcome page */
   font-size: 16px;
 }
 
+
+/* For : contact.html */
+
 .contactform_rules { /* Rules for the contactform */
   font-size: 25px;
 }
@@ -142,6 +185,9 @@ aside {  /* Aside of the section of the welcome page */
   width : 600px;
   height: 60px;
 }
+
+
+/* For : whoami.html */
 
 .story_of_my_life {  /* My biography in "who am I" file */
   font-family: 'Times New Roman', Times, serif;
