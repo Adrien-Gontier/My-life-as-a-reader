@@ -9,32 +9,31 @@ body {  /* Background image of the website */
 
 /* Header */  /* All website pages */
 
-.website_title_page_index, .website_title_page {  /* Website title for index.html and other html files */
+.website_title_index, .website_title {  /* Website title for index.html and other html files */
   font-family: "Times New Roman";
   color: lightgrey;
   text-decoration: none;
-  padding: 0px;
   -webkit-text-stroke: 1px black;
+  padding: 0px;
 }
 
-.website_title_page_index {  /* Website title for index.html */
+.website_title_index {  /* Website title for index.html */
   font-size: 100px;
-  margin: 60px;
 }
 
-.website_title_page {  /* Website title style for html files but index */
+.website_title {  /* Website title style for html files but index */
   font-size: 70px;
-  margin: 0px;
 }
 
-ul {  /* Title of the other pages of the website by link */
+nav {  /* Title of the other pages of the website by link */
   display: flex;
   justify-content: space-around;
-  padding-top: 10px;
+  padding-top: 25px;
+  padding-bottom: 5px;
   list-style: none;
 }
 
-ul li a {  /* Title of the other pages of the website by link */
+nav div a {  /* Title of the other pages of the website by link */
   text-decoration: none;
   font-size: 19px;
   color: white;
@@ -42,36 +41,37 @@ ul li a {  /* Title of the other pages of the website by link */
   padding: 12px;
 }
 
-ul li a:hover {
+@media all and (min-width: 901px)
+{
+  nav div a:hover {
   color: black;
   border: 1px ridge rgb(52, 52, 122);
   background-color: rgb(255, 255, 255);
+  }
 }
 
 @media all and (max-width: 900px)
 {
-   .website_title_page_index, .website_title_page {
+   .website_title_index, .website_title {
     font-weight: bold;
    }
     
-  .website_title_page_index {  /* fix the "a" at the following line */
+  .website_title_index {  /* fix the "a" at the following line */
     font-size: 70px;
     margin: 0px;
   }
 
-  .website_title_page {
+  .website_title {
     font-size: 50px;
   }
 
-  ul {  /*  !!!!   Will be finish later, from here   !!!!  */
+  nav {  /*  !!!!   Will be finish later, from here   !!!!  */
     flex-wrap: wrap;
     margin: 50px;
     line-height: 50px;
   }
 
-  ul li a {
-
-  }
+  
 
 }
 
@@ -191,7 +191,7 @@ aside {  /* Aside of the section of the welcome page */
 
 .story_of_my_life {  /* My biography in "who am I" file */
   font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
+  font-size: 20px;
   padding-left: 300px;
   padding-right: 300px;
 }
