@@ -47,9 +47,9 @@ nav div a {  /* Title of the other pages of the website by link */
   }
 
   nav div a:hover {
-  color: black;
-  border: 1px ridge rgb(52, 52, 122);
-  background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px ridge rgb(52, 52, 122);
+    background-color: rgb(255, 255, 255);
   }
 }
 
@@ -73,7 +73,6 @@ nav div a {  /* Title of the other pages of the website by link */
     line-height: 50px;
   }
 }
-
 
 
 /* Page title for all website pages */
@@ -104,11 +103,6 @@ aside {  /* Aside of the section of the welcome page */
 
 
 /* For : piletoread.html readingfinished.html readinginprogress.html wishlist.html */
-
-.books {  /* Books */
-  display: flex;
-  justify-content: space-around;
-}
 
 .author_name, .author_date_born_death, .title_of_the_book, .book_year_publication, .summary_title, .book_summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
   width: 300pt;
@@ -141,6 +135,23 @@ aside {  /* Aside of the section of the welcome page */
 .book_summary {  /* Summary of the book */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
+}
+
+@media all and (min-width: 901px)
+{
+  .books {  /* Books */
+    display: flex;
+    justify-content: space-around;
+  } 
+}
+
+@media all and (max-width: 900px)
+{
+  .books {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 
