@@ -26,8 +26,7 @@ body {  /* Background image of the website */
 }
 
 nav {  /* Title of the other pages of the website by link */
-  padding-top: 25px;
-  padding-bottom: 5px;
+
   list-style: none;
 }
 
@@ -44,6 +43,8 @@ nav div a {  /* Title of the other pages of the website by link */
   nav {
     display: flex;
     justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 5px;
   }
 
   nav div a:hover {
