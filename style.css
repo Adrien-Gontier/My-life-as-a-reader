@@ -26,8 +26,6 @@ body {  /* Background image of the website */
 }
 
 nav {  /* Title of the other pages of the website by link */
-  display: flex;
-  justify-content: space-around;
   padding-top: 25px;
   padding-bottom: 5px;
   list-style: none;
@@ -43,6 +41,11 @@ nav div a {  /* Title of the other pages of the website by link */
 
 @media all and (min-width: 901px)
 {
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
   nav div a:hover {
   color: black;
   border: 1px ridge rgb(52, 52, 122);
@@ -66,13 +69,9 @@ nav div a {  /* Title of the other pages of the website by link */
   }
 
   nav {  /*  !!!!   Will be finish later, from here   !!!!  */
-    flex-wrap: wrap;
     margin: 50px;
     line-height: 50px;
   }
-
-  
-
 }
 
 
