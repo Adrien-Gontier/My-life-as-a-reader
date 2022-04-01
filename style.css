@@ -196,6 +196,13 @@ aside {  /* Aside of the section of the welcome page */
   height: 60px;
 }
 
+@media all and (max-width: 900px)    /* For all media with a maximum of 900px width */
+{
+  .contactform_rules {  /* Rules for the contactform */
+    font-size: 15px;
+    color: white;
+  }
+}
 
 /* For : whoami.html */
 
