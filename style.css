@@ -37,38 +37,38 @@ nav div a {  /* Title of the other pages of the website by link */
   padding: 12px;
 }
 
-@media all and (min-width: 901px)
+@media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
 {
-  nav {
+  nav {  /* Title of the other pages of the website by link */
     display: flex;
     justify-content: space-around;
     padding-top: 25px;
     padding-bottom: 5px;
   }
 
-  nav div a:hover {
+  nav div a:hover {  /* Title of the other pages of the website by link and specific when it's hover */
     color: black;
     border: 1px ridge rgb(52, 52, 122);
     background-color: rgb(255, 255, 255);
   }
 }
 
-@media all and (max-width: 900px)
+@media all and (max-width: 900px)  /* For all media with a maximum of 900px width */
 {
-   .website_title_index, .website_title {
+   .website_title_index, .website_title {  /* Website title for index.html and other html files */
     font-weight: bold;
    }
     
-  .website_title_index {  /* fix the "a" at the following line */
+  .website_title_index {  /* Website title for index.html */
     font-size: 70px;
     margin: 0px;
   }
 
-  .website_title {
+  .website_title {  /* Website title style for html files but index */
     font-size: 50px;
   }
 
-  nav {  /*  !!!!   Will be finish later, from here   !!!!  */
+  nav {  /* Title of the other pages of the website by link */
     margin: 50px;
     line-height: 50px;
   }
@@ -137,7 +137,7 @@ aside {  /* Aside of the section of the welcome page */
   font-size: 16px;
 }
 
-@media all and (min-width: 901px)
+@media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
 {
   .books {  /* Books */
     display: flex;
@@ -145,9 +145,9 @@ aside {  /* Aside of the section of the welcome page */
   } 
 }
 
-@media all and (max-width: 900px)
+@media all and (max-width: 900px)    /* For all media with a maximum of 900px width */
 {
-  .books {
+  .books {  /* Books */
     display: flex;
     flex-direction: column;
     align-items: center;
