@@ -164,7 +164,7 @@ aside {  /* Aside of the section of the welcome page */
 #contact {  /* Contactstyle for contact.html */
   font-family: 'Courier New', Courier, monospace;
   font-weight: 600;
-  font-size: 35pt;
+  font-size: 45px;
   -webkit-text-stroke: 1pt black;  /* Will be fix because it don't work on Firefox but ok on Chrome */
   line-height: 10px; /* Will be fix to have what I want. Will be fix correctly */
 }
@@ -202,6 +202,13 @@ aside {  /* Aside of the section of the welcome page */
     font-size: 15px;
     color: white;
   }
+
+  #contact {  /* Contactstyle for contact.html */
+    font-size: 25px;
+    color: white;
+    line-height: 30px;  /* Will be fix to have what I want. Will be fix correctly */
+  }
+
 }
 
 /* For : whoami.html */
