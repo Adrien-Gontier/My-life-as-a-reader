@@ -221,6 +221,12 @@ aside {  /* Aside of the section of the welcome page */
     height: 20px;
   }
 
+  #message {  /* Contactstyle for contact.html */
+    min-width: 300px;
+    min-height: 150px;
+    max-width: 300px;
+    max-height: 150px;
+  }
 }
 
 /* For : whoami.html */
