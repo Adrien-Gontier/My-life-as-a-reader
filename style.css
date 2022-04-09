@@ -172,6 +172,8 @@ aside {  /* Aside of the section of the welcome page */
 #name, #email, #message {  /* Contactstyle for contact.html */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 40px;
 }
 
 #name, #email {  /* Contactstyle for contact.html */
@@ -194,6 +196,7 @@ aside {  /* Aside of the section of the welcome page */
   background-color: rgba(255, 255, 255, 0.7);
   width : 600px;
   height: 60px;
+  margin-bottom: 45px;
 }
 
 @media all and (max-width: 900px)    /* For all media with a maximum of 900px width */
@@ -206,7 +209,6 @@ aside {  /* Aside of the section of the welcome page */
   #contact {  /* Contactstyle for contact.html */
     font-size: 25px;
     color: white;
-    line-height: 30px;  /* Will be fix to have what I want. Will be fix correctly */
   }
 
   #name, #email, #message {  /* Contactstyle for contact.html */
@@ -214,6 +216,8 @@ aside {  /* Aside of the section of the welcome page */
     font-size: 20px;
     font-style: normal;
     font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
   
   #name, #email {  /* Contactstyle for contact.html */
@@ -222,10 +226,21 @@ aside {  /* Aside of the section of the welcome page */
   }
 
   #message {  /* Contactstyle for contact.html */
-    min-width: 300px;
+    min-width: 200px;
     min-height: 150px;
-    max-width: 300px;
+    max-width: 200px;
     max-height: 150px;
+  }
+
+  #submit {  /* Button submit */
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    width : 150px;
+    height: 50px;
+    margin-bottom: 20px;
   }
 }
 
@@ -236,4 +251,12 @@ aside {  /* Aside of the section of the welcome page */
   font-size: 20px;
   padding-left: 300px;
   padding-right: 300px;
+}
+
+@media all and (max-width: 900px)
+{
+  .story_of_my_life {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
