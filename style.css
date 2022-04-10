@@ -1,9 +1,8 @@
 /* All website pages */
 
 body {  /* Background image of the website */
-  background-image: url("pexels-pixabay-159711.jpg");
   text-align: center;
-  color: lightgrey;
+  color: black;
 }
 
 
@@ -11,7 +10,7 @@ body {  /* Background image of the website */
 
 .website_title_index, .website_title {  /* Website title for index.html and other html files */
   font-family: "Times New Roman";
-  color: lightgrey;
+  color: black;
   text-decoration: none;
   -webkit-text-stroke: 1px black;
   padding: 0px;
@@ -32,8 +31,7 @@ nav {  /* Title of the other pages of the website by link */
 nav div a {  /* Title of the other pages of the website by link */
   text-decoration: none;
   font-size: 19px;
-  color: white;
-  border: 1px ridge rgb(183, 183, 190);
+  color: black;
   padding: 12px;
 }
 
@@ -47,9 +45,8 @@ nav div a {  /* Title of the other pages of the website by link */
   }
 
   nav div a:hover {  /* Title of the other pages of the website by link and specific when it's hover */
-    color: black;
-    border: 1px ridge rgb(52, 52, 122);
-    background-color: rgb(255, 255, 255);
+    color: white;
+    background-color: black;
   }
 }
 
@@ -78,12 +75,11 @@ nav div a {  /* Title of the other pages of the website by link */
 /* Page title for all website pages */
 
 .page_title {  /* Title of the page */
-  color: lightgrey;
+  color: black;
   line-height: 90px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 600;
   font-size: 40px;
-  -webkit-text-stroke: 1px black;
 }
 
 /* For index.html */
@@ -203,12 +199,12 @@ aside {  /* Aside of the section of the welcome page */
 {
   .contactform_rules {  /* Rules for the contactform */
     font-size: 15px;
-    color: white;
+    color: black;
   }
 
   #contact {  /* Contactstyle for contact.html */
     font-size: 25px;
-    color: white;
+    color: black;
   }
 
   #name, #email, #message {  /* Contactstyle for contact.html */
