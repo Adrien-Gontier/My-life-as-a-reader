@@ -53,6 +53,12 @@ nav div a {  /* Title of the other pages of the website by link */
     color: black;
     background-color: white;
   }
+
+  .page_title_head {
+    display: flex;
+    justify-content: center;
+  }
+
 }
 
 @media all and (max-width: 900px)  /* For all media with a maximum of 900px width */
