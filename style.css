@@ -47,8 +47,6 @@ nav div a {  /* Title of the other pages of the website by link */
     padding-top: 17px;
     padding-bottom: 17px;
     margin-top: 30px;
-    margin-left: 0px;
-    margin-right: 0px;
   }
 
   nav div a:hover {  /* Title of the other pages of the website by link and specific when it's hover */
