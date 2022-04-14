@@ -56,7 +56,7 @@ nav div a {  /* Title of the other pages of the website by link */
 
   .page_title_head {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
 
 }
