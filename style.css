@@ -60,6 +60,16 @@ nav div a {  /* Title of the other pages of the website by link */
     justify-content: space-around;
   }
 
+  .picture_50_100_size {
+    width: 50%;
+    height: 50%;
+  }
+
+  .picture_80_100_size {
+    width: 80%;
+    height: 80%;
+  } 
+
 }
 
 @media all and (max-width: 900px)  /* For all media with a maximum of 900px width */
