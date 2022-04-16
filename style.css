@@ -43,7 +43,7 @@ nav div a {  /* Title of the other pages of the website by link */
   nav {  /* Title of the other pages of the website by link */
     display: flex;
     justify-content: space-around;
-    vertical-align: middle;
+    align-items: center;
     padding-top: 17px;
     padding-bottom: 17px;
     margin-top: 30px;
@@ -54,22 +54,6 @@ nav div a {  /* Title of the other pages of the website by link */
     color: black;
     background-color: white;
   }
-
-  .page_title_head {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .picture_50_100_size {
-    width: 50%;
-    height: 50%;
-  }
-
-  .picture_80_100_size {
-    width: 80%;
-    height: 80%;
-  } 
-
 }
 
 @media all and (max-width: 900px)  /* For all media with a maximum of 900px width */
@@ -96,13 +80,42 @@ nav div a {  /* Title of the other pages of the website by link */
 
 /* Page title for all website pages */
 
-.page_title {  /* Title of the page */
-  color: black;
-  line-height: 90px;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 600;
-  font-size: 40px;
+
+
+
+@media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
+{
+  .page_title_head {
+    display: flex;
+    justify-content:space-evenly;
+    height: fit-content;
+    align-items: center;
+  }
+
+  .page_title_area {
+    height: fit-content;
+  }
+
+  .page_title {  /* Title of the page */
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 40px;
+  }
+
+  
+  .picture_15_100_size {
+    inline-size: 15%;
+    
+  }
+
+  .picture_30_100_size {
+    inline-size: 30%;
+    
+  } 
+
 }
+
 
 /* For index.html */
 
