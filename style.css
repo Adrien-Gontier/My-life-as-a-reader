@@ -168,6 +168,13 @@ aside {  /* Aside of the section of the welcome page */
   font-size: 16px;
 }
 
+.separation_line { /* !!!! WILL BE FIX !!!! */
+  background-color: blue;
+  width: 900pt;
+  height: 1px;
+  
+}
+
 @media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
 {
   .books {  /* Books */
