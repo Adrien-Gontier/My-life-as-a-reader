@@ -80,9 +80,6 @@ nav div a {  /* Title of the other pages of the website by link */
 
 /* Page title for all website pages */
 
-
-
-
 @media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
 {
   .page_title_head {
@@ -90,6 +87,7 @@ nav div a {  /* Title of the other pages of the website by link */
     justify-content:space-evenly;
     height: fit-content;
     align-items: center;
+    margin-bottom: 5px;
   }
 
   .page_title_area {
@@ -103,17 +101,13 @@ nav div a {  /* Title of the other pages of the website by link */
     font-size: 40px;
   }
 
-  
   .picture_15_100_size {
     inline-size: 15%;
-    
   }
 
   .picture_30_100_size {
     inline-size: 30%;
-    
   } 
-
 }
 
 
@@ -145,6 +139,7 @@ aside {  /* Aside of the section of the welcome page */
 
 .author_name, .title_of_the_book {  /* First and last name of the author and Title of the book */
   font-size: 40px;
+  margin-bottom: 0px;
 }
 
 .author_date_born_death, .book_year_publication {  /* Year of born and year of death of the author and Year of publication of the book */
@@ -168,18 +163,12 @@ aside {  /* Aside of the section of the welcome page */
   font-size: 16px;
 }
 
-.separation_line { /* !!!! WILL BE FIX !!!! */
-  background-color: blue;
-  width: 900pt;
-  height: 1px;
-  
-}
-
 @media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
 {
   .books {  /* Books */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
   } 
 }
 
@@ -189,6 +178,7 @@ aside {  /* Aside of the section of the welcome page */
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-bottom: 1px solid blue;
   }
 }
 
