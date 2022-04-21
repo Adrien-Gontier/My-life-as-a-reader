@@ -110,6 +110,34 @@ nav div a {  /* Title of the other pages of the website by link */
   } 
 }
 
+@media all and (max-width: 900px)  /* For all media with a maximum of 900px width */
+{
+  .page_title_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page_title_area {
+    margin-bottom: 30px;
+  }
+
+  .page_title {  /* Title of the page */
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 40px;
+  }
+
+  .picture_15_100_size {
+    inline-size: 30%;
+  }
+
+  .picture_30_100_size {
+    inline-size: 50%;
+  } 
+}
+
 
 /* For index.html */
 
@@ -178,7 +206,6 @@ aside {  /* Aside of the section of the welcome page */
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid blue;
   }
 }
 
