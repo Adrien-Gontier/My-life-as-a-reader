@@ -191,6 +191,8 @@ aside {  /* Aside of the section of the welcome page */
   font-size: 16px;
 }
 
+
+
 @media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
 {
   .books {  /* Books */
@@ -198,6 +200,12 @@ aside {  /* Aside of the section of the welcome page */
     justify-content: space-evenly;
     margin-bottom: 20px;
   } 
+
+  .separation_line_between_books {
+    background-color: blue;
+    height: 1px;
+    width: 600pt;
+  }
 }
 
 @media all and (max-width: 900px)    /* For all media with a maximum of 900px width */
@@ -206,6 +214,13 @@ aside {  /* Aside of the section of the welcome page */
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .separation_line_between_books {
+    background-color: blue;
+    height: 1px;
+    width: 175pt;
   }
 }
 
