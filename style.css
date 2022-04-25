@@ -78,7 +78,7 @@ nav div a {  /* Title of the other pages of the website by link */
 }
 
 
-/* Page title for all website pages */
+/* Page title for all website pages but index page */
 
 @media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
 {
@@ -141,17 +141,33 @@ nav div a {  /* Title of the other pages of the website by link */
 
 /* For index.html */
 
-.section_welcome_page {  /* Section of the welcome page */
+footer {
   display: flex;
-  font-size: 20px;
+  justify-content: center;
+  background-color: blue;
+  color: white;
 }
 
-article { /* Article of the section of the welcome page */
-  flex: 3;
+footer a {
+  margin-right: 30px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
-aside {  /* Aside of the section of the welcome page */
+@media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
+{
+  .section_welcome_page {  /* Section of the welcome page */
+    display: flex;
+    font-size: 20px;
+  }
+
+  article { /* Article of the section of the welcome page */
+    flex: 3;
+  }
+
+  aside {  /* Aside of the section of the welcome page */
   flex: 1.2;
+  }
 }
 
 
