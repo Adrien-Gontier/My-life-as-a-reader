@@ -12,7 +12,7 @@ body {  /* Background image of the website */
 footer {
   display: flex;
   justify-content: center;
-  background-color: blue;
+  background-color: black;
   color: white;
 }
 
