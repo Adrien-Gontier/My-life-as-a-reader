@@ -251,7 +251,7 @@ nav div a {  /* Title of the other pages of the website by link */
 
 #contact {  /* Contactstyle for contact.html */
   font-family: 'Courier New', Courier, monospace;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 45px;
   line-height: 10px; /* Will be fix to have what I want. Will be fix correctly */
 }
@@ -283,10 +283,17 @@ nav div a {  /* Title of the other pages of the website by link */
   color: black;
   background-color: white;
   border: 1px solid black;
-  width: 600px;
+  width: 200px;
   height: 60px;
   margin-bottom: 45px;
   cursor: pointer;
+  transition: 1.5s;
+}
+
+#submit:hover {
+  box-shadow: 0px 0px 15px Blue;
+  border-radius: 30px;
+  transition: 1.5s;
 }
 
 @media all and (max-width: 900px)    /* For all media with a maximum of 900px width */
