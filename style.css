@@ -296,6 +296,11 @@ nav div a {  /* Title of the other pages of the website by link */
   transition: 1.5s;
 }
 
+#submit:active {
+  box-shadow : 0px 0px 0px;
+  transition-duration: 0s;
+}
+
 @media all and (max-width: 900px)    /* For all media with a maximum of 900px width */
 {
   .contactform_rules {  /* Rules for the contactform */
