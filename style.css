@@ -48,6 +48,7 @@ nav div a {  /* Title of the other pages of the website by link */
   font-size: 19px;
   color: white;
   padding: 12px;
+  transition-duration: 1s;
 }
 
 @media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
@@ -65,6 +66,8 @@ nav div a {  /* Title of the other pages of the website by link */
   nav div a:hover {  /* Title of the other pages of the website by link and specific when it's hover */
     color: black;
     background-color: white;
+    border-radius: 5px;
+    transition-duration: 1s;
   }
 }
 
