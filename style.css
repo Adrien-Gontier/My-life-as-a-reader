@@ -251,13 +251,19 @@ nav div a {  /* Title of the other pages of the website by link */
 
 .contactform_rules { /* Rules for the contactform */
   font-size: 25px;
+  margin-bottom: 60px;
 }
 
 #contact {  /* Contactstyle for contact.html */
   font-family: 'Courier New', Courier, monospace;
   font-weight: 400;
   font-size: 45px;
-  line-height: 10px; /* Will be fix to have what I want. Will be fix correctly */
+}
+
+#contactform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #name, #email, #message {  /* Contactstyle for contact.html */
