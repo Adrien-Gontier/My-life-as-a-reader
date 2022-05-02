@@ -240,6 +240,10 @@ nav div a {  /* Title of the other pages of the website by link */
     height: 1px;
     width: 175pt;
   }
+
+  .author_name, .author_date_born_death, .title_of_the_book, .book_year_publication, .summary_title, .book_summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
+    max-width: 200pt;
+  }
 }
 
 
