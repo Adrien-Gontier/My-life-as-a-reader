@@ -1,3 +1,20 @@
+/* STYLE FOR THE WEBSITE */
+
+/* Table of the CSS */
+
+    /* All website pages */
+    /* Footer */  /* All website pages */
+    /* Header */  /* All website pages */
+    /* Page title for all website pages but index page */
+    /* For index.html */
+    /* For : piletoread.html readingfinished.html readinginprogress.html wishlist.html */
+    /* For : contact.html */
+    /* For : whoami.html */
+
+/* End of the Table of the CSS */
+
+
+
 /* All website pages */
 
 body {  /* Background image of the website */
@@ -8,6 +25,9 @@ body {  /* Background image of the website */
   margin-left: 0px;
   margin-right: 0px;
 }
+
+
+/* Footer */  /* All website pages */
 
 footer {
   display: flex;
@@ -21,6 +41,7 @@ footer a {
   margin-top: 2px;
   margin-bottom: 2px;
 }
+
 
 /* Header */  /* All website pages */
 
@@ -205,8 +226,6 @@ nav div a {  /* Title of the other pages of the website by link */
   font-size: 16px;
 }
 
-
-
 @media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
 {
   .books {  /* Books */
@@ -355,6 +374,7 @@ nav div a {  /* Title of the other pages of the website by link */
     margin-bottom: 20px;
   }
 }
+
 
 /* For : whoami.html */
 
