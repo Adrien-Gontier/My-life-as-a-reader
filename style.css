@@ -33,13 +33,14 @@ footer {
   display: flex;
   justify-content: center;
   background-color: black;
-  color: white;
 }
 
 footer a {
   margin-right: 30px;
   margin-top: 2px;
   margin-bottom: 2px;
+  color: white;
+  text-decoration: none;
 }
 
 
@@ -278,7 +279,7 @@ nav div a {  /* Title of the other pages of the website by link */
   margin-bottom: 60px;
 }
 
-#contact {  /* Contactstyle for contact.html */
+#contact_section {  /* Contactstyle for contact.html */
   font-family: 'Courier New', Courier, monospace;
   font-weight: 400;
   font-size: 45px;
@@ -342,7 +343,7 @@ nav div a {  /* Title of the other pages of the website by link */
     color: black;
   }
 
-  #contact {  /* Contactstyle for contact.html */
+  #contact_section {  /* Contactstyle for contact.html */
     font-size: 25px;
     color: black;
   }
