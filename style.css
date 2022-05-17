@@ -7,9 +7,10 @@
     /* Header */  /* All website pages */
     /* Page title for all website pages but index page */
     /* For index.html */
-    /* For : piletoread.html readingfinished.html readinginprogress.html wishlist.html */
+    /* For : pile_to_read.html readingfinished.html readinginprogress.html wishlist.html */
     /* For : contact.html */
-    /* For : whoami.html */
+    /* For : who_am_i.html */
+    /* For : map_of_the_website.html */
 
 /* End of the Table of the CSS */
 
@@ -200,7 +201,7 @@ nav div a {  /* Title of the other pages of the website by link */
 }
 
 
-/* For : piletoread.html readingfinished.html readinginprogress.html wishlist.html */
+/* For : pile_to_read.html reading_finished.html reading_in_progress.html wishlist.html */
 
 .author_name, .author_date_born_death {  /* First and last name of the author and Year of born and year of death of the author */
   font-family: 'Times New Roman', Times, serif;
@@ -382,7 +383,7 @@ nav div a {  /* Title of the other pages of the website by link */
 }
 
 
-/* For : whoami.html */
+/* For : who_am_i.html */
 
 .story_of_my_life {  /* My biography in "who am I" file */
   font-family: 'Times New Roman', Times, serif;
@@ -398,3 +399,7 @@ nav div a {  /* Title of the other pages of the website by link */
     padding-right: 30px;
   }
 }
+
+
+/* For : map_od_the_website.html */
+
