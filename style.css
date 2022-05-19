@@ -64,6 +64,19 @@ footer a {
 nav {  /* Title of the other pages of the website by link */
   list-style: none;
   background-color: rgb(81, 158, 251);
+  animation-duration: 5s;
+  animation-name: navsidein;
+}
+
+@keyframes navsidein {  /* Animation to move the nav bar from the left */
+  0% {
+    margin-right: 300%;
+    width: 0%;
+  }
+  100% {
+    margin-right: 100%;
+    width: 100%;
+  }
 }
 
 nav div a {  /* Title of the other pages of the website by link */
