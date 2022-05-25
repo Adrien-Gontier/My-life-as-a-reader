@@ -1,5 +1,5 @@
 <div>  <!-- Title of the other pages of the website by link. It's in flex-box. -->
-    <a href="index.html">Home</a>  <!-- Link to Home page. -->
+    <a href="index.php">Home</a>  <!-- Link to Home page. -->
 </div>
  <div>
     <a href="reading_in_progress.php">Reading in progress</a>  <!-- Link to the page "Reading in progress". -->
