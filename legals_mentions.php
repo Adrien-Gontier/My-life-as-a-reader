@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-     <a href="index.html" class="website_title_index">My life as a reader</a>  <!-- Title of the website and link to index.html -->
+     <a href="index.php" class="website_title_index">My life as a reader</a>  <!-- Title of the website and link to index.html -->
     </header>
     <a class="page_title">Legals mentions</a>  <!-- Title of the page. -->
 
