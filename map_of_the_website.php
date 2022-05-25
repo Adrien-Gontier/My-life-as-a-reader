@@ -12,7 +12,7 @@
     </header>
     <a class="page_title">Map of the website</a>  <!-- Title of the page. -->
     <section class="all_pages_links">
-      <a href="index.html#home">Home</a>
+      <a href="index.php#home">Home</a>
       <a href="reading_in_progress.php#readinginprogress">Reading in progress</a>
       <a href="reading_in_progress.php#victor">Victor Hugo - Notre-Dame de Paris</a>
       <a href="reading_in_progress.php#stephen_king_the_outsider">Stephen King - The outsider</a>
