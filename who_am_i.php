@@ -14,13 +14,11 @@
         <?php include('navbar.php'); ?>
             
       </nav>
-     </header>
-     <div class="page_title_head">
-      <div class="page_title_area"> 
-        <a id="who_am_i" class="page_title">Who am I</a>  <!-- Title of the page. -->
-      </div>
-        <img class="picture_15_100_size" src="pictures/pexels-ricardo-esquivel-1907785.jpg" alt="Ninety degree shelves full of books"> 
-      </div>
+    </header>
+    <div class="page_title_head">
+      <a id="who_am_i" class="page_title">Who am I</a>  <!-- Title of the page. -->
+      <img class="picture_15_100_size" src="pictures/pexels-ricardo-esquivel-1907785.jpg" alt="Ninety degree shelves full of books"> 
+    </div>
     <section class="story_of_my_life">  <!-- My biography. -->
       <p>My name is Adrien Gontier. I read for years.</p> 
       <p>I like detective novels, romances, dramas, thrillers, adventures, ...</p>
