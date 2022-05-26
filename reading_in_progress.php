@@ -14,13 +14,11 @@
         <?php include('navbar.php'); ?>
         
       </nav>
-     </header>
-     <div class="page_title_head">
-      <div class="page_title_area"> 
-        <a id="reading_in_progress" class="page_title">Reading in progress</a>  <!-- Title of the page. -->
-      </div>
-        <img class="picture_30_100_size" src="pictures/pexels-pixabay-415071.jpg" alt="Book open in half"> 
-      </div>
+    </header>
+    <div class="page_title_head">
+      <a id="reading_in_progress" class="page_title">Reading in progress</a>  <!-- Title of the page. -->
+      <img class="picture_30_100_size" src="pictures/pexels-pixabay-415071.jpg" alt="Book open in half"> 
+    </div>
     <div id="victor_hugo_notre_dame_de_paris" class="books">  <!-- that's where I describe a book I anticipate to read. It's divide in flex-box. -->
       <div>
         <p class="author_name">Victor Hugo</p>  <!-- First name and last name of the author -->
