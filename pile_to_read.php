@@ -14,7 +14,7 @@
         <?php include('navbar.php'); ?>
         
       </nav>
-     </header>
+    </header>
     <div class="page_title_head">
       <a id="pile_to_read" class="page_title">Pile to read</a>  <!-- Title of the page -->
       <img class="picture_15_100_size" src="pictures/pexels-sharon-mccutcheon-1148399.jpg" alt="Books stacked on top of each other">
@@ -29,16 +29,16 @@
       <div>  
         <p class="summary_title">Summary</p>  <!-- Title : "summary" of the book. -->
         <section class="book_summary">  <!-- Summary of the book. From wikipedia, mostly. -->
-          <p>During her childhood, Beth learns the failures of Mister Shaibel.
-             A few months later, she is introduced to a high school teacher who runs a chess club.</p>
-          <p>At the age of 13, Beth was adopted by a couple who separated shortly afterwards.
-             At a local high school chess tournament, she wins.</p>
+          <p>During her childhood, Beth learns the failures of Mister Shaibel. A few months later, she is introduced to a high school teacher who runs a chess club.</p>
+          <p>At the age of 13, Beth was adopted by a couple who separated shortly afterwards. At a local high school chess tournament, she wins.</p>
           <p>From tournament to tournament, she is noticed as a prodigy.</p>
           <p>Finally, following an international career, she meets a group of men in a park who play for love of the game.</p>
         </section>
       </div>
     </div>
+
     <hr class="separation_line_between_books">
+
     <div id="stephen_king_night_shift" class="books">  <!-- that's where I describe a book I anticipate to read. It's divide in flex-box. -->
       <div>
         <p class="author_name">Stephen King</p>  <!-- First name and last name of the author -->
@@ -58,7 +58,9 @@
         </section>  
       </div>
     </div>
+
     <hr class="separation_line_between_books">
+
     <div id="dan_brown_angels_and_demons" class="books">  <!-- that's where I describe a book I anticipate to read. It's divide in flex-box. -->
       <div>
         <p class="author_name">Dan Brown</p>  <!-- First name and last name of the author -->
@@ -77,7 +79,9 @@
         </section>  
       </div>
     </div>
+
     <hr class="separation_line_between_books">
+
     <div id="dan_brown_the_da_vinci_code" class="books">  <!-- that's where I describe a book I anticipate to read. It's divide in flex-box. -->
       <div>
         <p class="author_name">Dan Brown</p>  <!-- First name and last name of the author -->
@@ -96,7 +100,9 @@
         </section>
       </div>
     </div>
+
     <hr class="separation_line_between_books">
+
     <div id="dan_brown_the_lost_symbol" class="books">  <!-- that's where I describe a book I anticipate to read. It's divide in flex-box. -->
       <div>
         <p class="author_name">Dan Brown</p>  <!-- First name and last name of the author -->
@@ -107,8 +113,7 @@
       <div>  
         <p class="summary_title">Summary</p>  <!-- Title : "summary" of the book. -->
         <section class="book_summary">  <!-- Summary of the book. From wikipedia, mostly. -->
-          <p>One Sunday morning, after his sports ritual in the Olympic swimming pool on the Harvard campus, Robert Langdon learns of an invitation.
-             A seminar on symbolism in architecture the same evening at the United States Capitol.</p>
+          <p>One Sunday morning, after his sports ritual in the Olympic swimming pool on the Harvard campus, Robert Langdon learns of an invitation. A seminar on symbolism in architecture the same evening at the United States Capitol.</p>
           <p>The invitation came from Peter Solomon, his mentor, who is head of the Smithsonian Institution.</p>
           <p>But, on arriving, Robert Langton discovers an empty room.</p>
           <p>Why ? Was the invitation really sent by his mentor ?</p>
@@ -116,7 +121,9 @@
         </section>
       </div>
     </div>
+
     <hr class="separation_line_between_books">
+
     <div id="dan_brown_inferno" class="books">  <!-- that's where I describe a book I anticipate to read. It's divide in flex-box. -->
       <div>
         <p class="author_name">Dan Brown</p>  <!-- First name and last name of the author -->
@@ -127,11 +134,8 @@
       <div>  
         <p class="summary_title">Summary</p>  <!-- Title : "summary" of the book. -->
         <section class="book_summary">  <!-- Summary of the book. From wikipedia, mostly. -->
-          <p>The suicide of a client of the president.
-             This client wants to be remembered as righteous.</p>
-          <p>Robert Langton wakes up in the hospital in Florence with a thirty-six hour hole.
-             He finds himself with a mysterious object in his belongings.
-             And a dream that torments his mind.</p>
+          <p>The suicide of a client of the president. This client wants to be remembered as righteous.</p>
+          <p>Robert Langton wakes up in the hospital in Florence with a thirty-six hour hole. He finds himself with a mysterious object in his belongings. And a dream that torments his mind.</p>
           <p>The English doctor Sienna Brooks explains to him that someone tried to kill him by shooting him in the head.</p>
           <p>Moments later, a young woman named Vayentha wanting to go to Robert Langton's room to kill him misses her shot and kills another doctor.</p>
           <p>Siena and Robert flee down the fire escape.</p>
@@ -140,7 +144,9 @@
         </section>
       </div>
     </div>
+
     <hr class="separation_line_between_books">
+
     <div id="dan_brown_origin" class="books">  <!-- that's where I describe a book I anticipate to read. It's divide in flex-box. -->
       <div>
         <p class="author_name">Dan Brown</p>  <!-- First name and last name of the author -->
@@ -164,7 +170,7 @@
     </div>
     <footer>
 
-    <?php include('footer.php'); ?>
+      <?php include('footer.php'); ?>
     
     </footer>
   </body>
