@@ -37,7 +37,9 @@
         </section>
       </div>
     </div>
+
     <hr class="separation_line_between_books">
+
     <div id="stephen_king_finders_keepers" class="books">  <!-- that's where I describe a book I anticipate to read. It's divide in flex-box. -->
       <div>
         <p class="author_name">Stephen King</p>  <!-- First name and last name of the author -->
@@ -52,7 +54,9 @@
         </section>
       </div>
     </div>
+
     <hr class="separation_line_between_books">
+
     <div id="stephen_king_end_of_watch" class="books">  <!-- that's where I describe a book I anticipate to read. It's divide in flex-box. -->
       <div>
         <p class="author_name">Stephen King</p>  <!-- First name and last name of the author -->
@@ -69,7 +73,7 @@
     </div>
     <footer>
 
-    <?php include('footer.php'); ?>
+      <?php include('footer.php'); ?>
     
     </footer>
   </body>
