@@ -15,10 +15,8 @@
         
       </nav>
      </header>
-     <div class="page_title_head">
-      <div class="page_title_area"> 
-    <a id="reading_finished" class="page_title">Reading finished</a>  <!-- Title of the page. -->
-  </div>
+    <div class="page_title_head">
+      <a id="reading_finished" class="page_title">Reading finished</a>  <!-- Title of the page. -->
       <img class="picture_30_100_size" src="pictures/pexels-pixabay-159711.jpg" alt="Shelves full of books">
     </div>
     <div id="stephen_king_storm_of_the_century" class="books">  <!-- that's where I describe a book I anticipate to read. It's divide in flex-box. -->
