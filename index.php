@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome - My life as a reader</title>  <!-- Thumb index of the page. -->
-    <link href="style.css" rel="stylesheet" type="text/css" />  <!-- This file is connect to the file "style.css" for the stylesheet. -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style_index.css" rel="stylesheet" type="text/css"/>  <!-- This file is connect to the file "style.css" for the stylesheet. -->
   </head>
   <body>
     <header>
