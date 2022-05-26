@@ -14,7 +14,7 @@
         <?php include('navbar.php'); ?>
         
       </nav>
-     </header>
+    </header>
     <a id="home" class="page_title">Welcome Home</a>  <!-- Title of the page. -->
     <section class="section_welcome_page">
       <article>
@@ -30,7 +30,7 @@
     </section>
     <footer>
 
-    <?php include('footer.php'); ?>
+      <?php include('footer.php'); ?>
     
     </footer>
   </body>
