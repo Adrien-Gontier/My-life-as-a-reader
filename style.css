@@ -84,6 +84,8 @@ nav div a {  /* Title of the other pages of the website by link */
   font-size: 19px;
   color: white;
   padding: 12px;
+  white-space: nowrap;
+  
   transition-duration: 1s;
 }
 
@@ -109,9 +111,9 @@ nav div a {  /* Title of the other pages of the website by link */
 
 @media all and (max-width: 900px)  /* For all media with a maximum of 900px width */
 {
-   .website_title_index, .website_title {  /* Website title for index.html and other html files */
+  .website_title_index, .website_title {  /* Website title for index.html and other html files */
     font-weight: bold;
-   }
+  }
     
   .website_title_index {  /* Website title for index.html */
     font-size: 70px;
@@ -141,10 +143,6 @@ nav div a {  /* Title of the other pages of the website by link */
     margin-bottom: 5px;
   }
 
-  .page_title_area {
-    height: fit-content;
-  }
-
   .page_title {  /* Title of the page */
     color: black;
     font-family: 'Courier New', Courier, monospace;
@@ -167,10 +165,6 @@ nav div a {  /* Title of the other pages of the website by link */
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .page_title_area {
-    margin-bottom: 30px;
   }
 
   .page_title {  /* Title of the page */
