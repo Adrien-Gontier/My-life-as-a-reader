@@ -14,7 +14,7 @@
         <?php include('navbar.php'); ?>
         
       </nav>
-     </header>
+    </header>
     <div class="page_title_head">
       <a id="reading_finished" class="page_title">Reading finished</a>  <!-- Title of the page. -->
       <img class="picture_30_100_size" src="pictures/pexels-pixabay-159711.jpg" alt="Shelves full of books">
@@ -39,7 +39,9 @@
         </section>
       </div>
     </div>
+
     <hr class="separation_line_between_books">
+
     <div id="harry_harrison_make_room_make_room" class="books">  <!-- that's where I describe a book I anticipate to read. It's divide in flex-box. -->
       <div>
         <p class="author_name">Harry Harrison</p>  <!-- First name and last name of the author -->
@@ -64,7 +66,7 @@
     </div>
     <footer>
 
-    <?php include('footer.php'); ?>
+      <?php include('footer.php'); ?>
     
     </footer>
   </body>
