@@ -14,13 +14,11 @@
         <?php include('navbar.php'); ?>
         
       </nav>
-     </header>
-     <div class="page_title_head">
-      <div> 
-        <a id="contact" class="page_title">Contact</a>  <!-- Title of the page -->
-      </div>
-        <img src="" alt=""> 
-      </div>
+    </header>
+    <div class="page_title_head">
+      <a id="contact" class="page_title">Contact</a>  <!-- Title of the page -->
+      <img src="" alt=""> 
+    </div>
     <section class="contactform_rules">  <!-- Like the class' name this is the rules for the contact form -->
       <p>If you have some questions or suggestions you want to send me ? Please send me a message.</p>
       <p>You're message mustn't include : insult, racism, homophoby, ...</p>
