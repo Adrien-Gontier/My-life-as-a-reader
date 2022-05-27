@@ -17,7 +17,31 @@
     }
   }
 
-  .navbutton {
+  .navbuttonopacity {
+    animation-duration: 5.7s;
+    animation-iteration-count: 1;
+    animation-name: navbuttonopacity;
+  }
+
+  @keyframes navbuttonopacity {
+    0% {
+      opacity: 0;
+    }
+    98% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      color:rgb(81, 158, 251);
+    }
+  }
+
+
+
+
+
+
+  .navbutton_encore {
     animation-duration: 15s;
     animation-iteration-count: 1;
     animation-name: navbutton;
@@ -55,6 +79,9 @@
       background-color: rgb(81, 158, 251);
     }
   }
+
+
+
 
 
 }
