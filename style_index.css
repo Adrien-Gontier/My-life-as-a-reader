@@ -1,7 +1,7 @@
 @media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
 {
   nav {  /* Title of the other pages of the website by link */    
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: 1;
     animation-name: navsidein;
   }
@@ -17,32 +17,8 @@
     }
   }
 
-  .navbuttonopacity {
-    animation-duration: 5.7s;
-    animation-iteration-count: 1;
-    animation-name: navbuttonopacity;
-  }
-
-  @keyframes navbuttonopacity {
-    0% {
-      opacity: 0;
-    }
-    98% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-      color:rgb(81, 158, 251);
-    }
-  }
-
-
-
-
-
-
-  .navbutton_encore {
-    animation-duration: 15s;
+  .navbutton {
+    animation-duration: 9s;
     animation-iteration-count: 1;
     animation-name: navbutton;
   }
@@ -51,28 +27,28 @@
     0% {
       opacity: 0;
     }
-    37% {
+    50% {     
       opacity: 0;
-      color:rgb(81, 158, 251);
+      color:rgb(81, 158, 251);              
       background-color: rgb(81, 158, 251);
     }
-    38% {
+    51% {     
       opacity: 1;
-    }
-    45% {
+    }                                        
+    60% {     
       color: white;
-      background-color: white;
+      background-color: white;             
     }
-    51% {
+    70% {     
       color: white;
-      background-color: white;
+      background-color: white;              
     }
-    70% {
+    77% {     
       color: black;
-    }
-    90% {
+    }                                          
+    91% {     
       color: black;
-      background-color: white;
+      background-color: white;  
     }
     100% {
       color: white;
