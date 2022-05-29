@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Who am I - My life as a reader</title>  <!-- Thumb index of the page. -->
     <link href="style.css" rel="stylesheet" type="text/css" />  <!-- This file is connect to the file "style.css" for the stylesheet. -->
+    <link href="style_footer.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
     <header>
-      <a href="index.php" class="website_title">My life as a reader</a>  <!-- Title of the website and link to index.html -->
+
+      <?php include('website_title.php'); ?>
+
       <nav>
 
         <?php include('navbar.php'); ?>
