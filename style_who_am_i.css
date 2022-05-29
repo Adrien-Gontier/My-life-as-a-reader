@@ -1,0 +1,20 @@
+/* STYLE FOR WHO AM I */
+
+/* For : who_am_i.html */
+
+
+
+.story_of_my_life {  /* My biography in "who am I" file */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+@media all and (max-width: 900px)
+{
+  .story_of_my_life {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
