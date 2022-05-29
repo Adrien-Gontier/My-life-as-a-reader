@@ -8,8 +8,11 @@
   </head>
   <body>
     <header>
-     <a href="index.php" class="website_title_index">My life as a reader</a>  <!-- Title of the website and link to index.html -->
+
+      <?php include('website_title.php'); ?>
+
     </header>
+    
     <a class="page_title">Legals mentions</a>  <!-- Title of the page. -->
 
   </body>
