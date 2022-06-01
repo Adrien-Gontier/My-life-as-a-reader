@@ -33,7 +33,7 @@
         <p>In short, I miss reading.</p>
       </article>
       <aside>
-        <p>My name is Adrien Gontier. I'm a reader. And actually I'm a further web developer.</p>
+        <p>My name is Adrien Gontier. I'm a reader. And actually I'm a further IT worker.</p>
       </aside>
     </section>
     <footer>
