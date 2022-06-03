@@ -26,6 +26,7 @@
       <a id="wishlist" class="page_title">Wishlist</a>  <!-- Title of the page. -->
       <img class="picture_30_100_size" src="pictures/pexels-abby-chung-1106468.jpg" alt="Women in front of shelves full of books"> 
     </div>
+    <!-- Put here the links for each book on this page. -->
     <div id="stephen_king_mr_mercedes" class="books">  <!-- that's where I describe a book I anticipate to read. It's divide in flex-box. -->
       <div>
         <p class="author_name">Stephen King</p>  <!-- First name and last name of the author -->
