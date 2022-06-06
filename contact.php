@@ -27,9 +27,12 @@
       <img src="" alt=""> 
     </div>
     <section class="contactform_rules">  <!-- Like the class' name this is the rules for the contact form -->
-      <p>If you have some questions or suggestions you want to send me ? Please send me a message.</p>
-      <p>You're message mustn't include : insult, racism, homophoby, ...</p>
-      <p>Be polite. That's all !</p>
+      <div>
+        <p>If you have some questions or suggestions you want to send me ?</p>
+        <p>Please send me a message.</p>
+        <p>You're message mustn't include : insult, racism, homophoby, ...</p>
+        <p>Be polite. That's all !</p>
+      </div>
     </section> 
     
     <!-- !!! Check every code line of this form !!! -->
