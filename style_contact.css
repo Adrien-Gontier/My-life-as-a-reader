@@ -6,6 +6,9 @@
 .contactform_rules { /* Rules for the contactform */
   font-size: 25px;
   margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #contact_section {  /* Contactstyle for contact.html */
