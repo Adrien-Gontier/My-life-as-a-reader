@@ -3,4 +3,6 @@
 /* For : map_of_the_website.html */
 
 
-
+.all_pages_links {
+    text-decoration: none;
+}
