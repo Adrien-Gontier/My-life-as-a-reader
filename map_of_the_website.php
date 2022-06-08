@@ -17,6 +17,9 @@
       <?php include('website_title.php'); ?>
 
     </header>
+
+    <main>
+
     <a class="page_title">Map of the website</a>  <!-- Title of the page. -->
     <section class="all_pages_links">
       <a href="index.php#home">Home</a>
@@ -41,5 +44,8 @@
       <a href="contact.php#contact">Contact</a>
       <a href="who_am_i.php#who_am_i">Who am I</a>
     </section>
+
+    </main>
+    
   </body>
 </html>     
