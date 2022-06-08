@@ -22,6 +22,9 @@
         
       </nav>
     </header>
+
+    <main>
+      
     <div class="page_title_head">
       <a id="contact" class="page_title">Contact</a>  <!-- Title of the page -->
       <img src="" alt=""> 
@@ -47,6 +50,9 @@
         <input id="submit" type="submit" value="Send" />  <!-- Submit button -->
       </form>
     </section>
+
+    </main>
+
     <footer>
 
       <?php include('footer.php'); ?>
