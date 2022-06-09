@@ -22,6 +22,9 @@
         
       </nav>
     </header>
+
+    <main>
+
     <div class="page_title_head">
       <a id="reading_finished" class="page_title">Reading finished</a>  <!-- Title of the page. -->
       <img class="picture_30_100_size" src="pictures/pexels-pixabay-159711.jpg" alt="Shelves full of books">
@@ -76,6 +79,9 @@
         </section>
       </div>
     </div>
+
+    </main>
+
     <footer>
 
       <?php include('footer.php'); ?>
