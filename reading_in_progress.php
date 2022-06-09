@@ -22,6 +22,9 @@
         
       </nav>
     </header>
+
+    <main>
+
     <div class="page_title_head">
       <a id="reading_in_progress" class="page_title">Reading in progress</a>  <!-- Title of the page. -->
       <img class="picture_30_100_size" src="pictures/pexels-pixabay-415071.jpg" alt="Book open in half"> 
@@ -66,6 +69,9 @@
         </section>  <!-- Summary of the book. From wikipedia, mostly. -->
       </div>
     </div>
+
+    </main>
+
     <footer>
 
       <?php include('footer.php'); ?>
