@@ -21,6 +21,7 @@
             
       </nav>
     </header>
+    <main>
     <div class="page_title_head">
       <a id="who_am_i" class="page_title">Who am I</a>  <!-- Title of the page. -->
       <img class="picture_15_100_size" src="pictures/pexels-ricardo-esquivel-1907785.jpg" alt="Ninety degree shelves full of books"> 
@@ -33,7 +34,8 @@
       <p>When I read, I really like to listen to the soundtracks of the films and TV series from which the adaptations are taken. It puts me in a certain mood, a certain atmosphere that I like.</p>
       <p>However, I have a code. I never spoil the plots of the works I read. Because I hate when people do that to me.</p>
       <p>If I can give you any advice. Only one. For anyone who wants to start reading. It is to begin.</p>
-    </section>  
+    </section>
+    </main>
     <footer>
 
       <?php include('footer.php'); ?>
