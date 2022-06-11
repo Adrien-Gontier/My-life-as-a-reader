@@ -30,7 +30,7 @@
         <img class="picture_30_100_size" src="pictures/pexels-pixabay-415071.jpg" alt="Book open in half"> 
       </div> 
 
-      <!-- Put here the links for each book on this page. -->
+      <!-- Put here the links for each book on this page, with a dropdown list. -->
 
       <!-- Find a animation (possible in JavaScript) for the books get definitive appear when I scroll the page. -->
     
