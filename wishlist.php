@@ -27,7 +27,7 @@
       <img class="picture_30_100_size" src="pictures/pexels-abby-chung-1106468.jpg" alt="Women in front of shelves full of books"> 
     </div> 
 
-    <!-- Put here the links for each book on this page. -->
+    <!-- Put here the links for each book on this page, with a dropdown list. -->
 
     <!-- Find a animation (possible in JavaScript) for the books get definitive appear when I scroll the page. -->
     
