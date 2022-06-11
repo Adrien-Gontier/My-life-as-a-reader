@@ -1,0 +1,355 @@
+/* STYLE FOR THE NAVBAR WEBSITE but index.html */
+
+
+/* !!!!! FIX THE CODE FOR AMINATION OTHERS PAGES BUT INDEX !!!!! */
+
+@media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
+{
+  nav {  /* Title of the other pages of the website by link */    
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-name: navsidein;
+  }
+
+  @keyframes navsidein {  /* Animation to move the nav bar from the left */
+    0% {
+      margin-right: 300%;
+      margin-left: -90px;
+      width: 0%;
+    }
+    100% {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+
+  nav div {
+    animation-duration: 3.2s;
+    animation-iteration-count: 1;
+    animation-name: animnavbutton;
+  }
+
+  @keyframes animnavbutton {
+    0% {
+      opacity: 0;
+    }
+    99% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+  .animnavbuttona {
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-name: animnavbuttona;
+  }
+
+  @keyframes animnavbuttona {
+    0% {
+      color:rgb(81, 158, 251);
+      background-color: rgb(81, 158, 251);
+    }
+    5% {
+      color:rgb(81, 158, 251);
+      background-color: rgb(81, 158, 251);
+      box-shadow: inset 0 0 0px black;
+    }
+    10% {
+      color: white;
+      background-color: white;
+      box-shadow: inset 0 0 15px black;
+    }
+    50% {
+      color: white;
+      background-color: white;
+    }
+    55% {
+      color: black;
+    }
+    95% {
+      color: black;
+      background-color: white;
+      box-shadow: inset 0 0 15px black;
+    }
+    100% {
+      color: white;
+      background-color: rgb(81, 158, 251);
+      box-shadow: inset 0 0 0px black;
+    }
+  }
+
+
+  .animnavbuttonb {
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-name: animnavbuttonb;
+  }
+
+  @keyframes animnavbuttonb {
+    0% {
+      color:rgb(81, 158, 251);
+      background-color: rgb(81, 158, 251);
+    }
+    10% {
+      color:rgb(81, 158, 251);
+      background-color: rgb(81, 158, 251);
+      box-shadow: inset 0 0 0px black;
+    }
+    15% {
+      color: white;
+      background-color: white;
+      box-shadow: inset 0 0 15px black;
+    }
+    50% {
+      color: white;
+      background-color: white;
+    }
+    55% {
+      color: white;
+    }
+    60% {
+      color: black;
+    }
+    95% {
+      color: black;
+      background-color: white;
+      box-shadow: inset 0 0 15px black;
+    }
+    100% {
+      color: white;
+      background-color: rgb(81, 158, 251);
+      box-shadow: inset 0 0 0px black;
+    }
+  }
+
+
+  .animnavbuttonc {
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-name: animnavbuttonc;
+  }
+
+  @keyframes animnavbuttonc {
+    0% {
+      color:rgb(81, 158, 251);
+      background-color: rgb(81, 158, 251);
+    }
+    15% {
+      color:rgb(81, 158, 251);
+      background-color: rgb(81, 158, 251);
+      box-shadow: inset 0 0 0px black;
+    }
+    20% {
+      color: white;
+      background-color: white;
+      box-shadow: inset 0 0 15px black;
+    }
+    50% {
+      color: white;
+      background-color: white;
+    }
+    60% {
+      color: white;
+    }
+    65% {
+      color: black;
+    }
+    95% {
+      color: black;
+      background-color: white;
+      box-shadow: inset 0 0 15px black;
+    }
+    100% {
+      color: white;
+      background-color: rgb(81, 158, 251);
+      box-shadow: inset 0 0 0px black;
+    }
+  }
+
+
+  .animnavbuttond {
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-name: animnavbuttond;
+  }
+
+  @keyframes animnavbuttond {
+    0% {
+      color:rgb(81, 158, 251);
+      background-color: rgb(81, 158, 251);
+    }
+    20% {
+      color:rgb(81, 158, 251);
+      background-color: rgb(81, 158, 251);
+      box-shadow: inset 0 0 0px black;
+    }
+    25% {
+      color: white;
+      background-color: white;
+      box-shadow: inset 0 0 15px black;
+    }
+    50% {
+      color: white;
+      background-color: white;
+    }
+    65% {
+      color: white;
+    }
+    70% {
+      color: black;
+    }
+    95% {
+      color: black;
+      background-color: white;
+      box-shadow: inset 0 0 15px black;
+    }
+    100% {
+      color: white;
+      background-color: rgb(81, 158, 251);
+      box-shadow: inset 0 0 0px black;
+    }
+  }
+
+
+  .animnavbuttone {
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-name: animnavbuttone;
+  }
+
+  @keyframes animnavbuttone {
+    0% {
+      color:rgb(81, 158, 251);
+      background-color: rgb(81, 158, 251);
+    }
+    25% {
+      color:rgb(81, 158, 251);
+      background-color: rgb(81, 158, 251);
+      box-shadow: inset 0 0 0px black;
+    }
+    30% {
+      color: white;
+      background-color: white;
+      box-shadow: inset 0 0 15px black;
+    }
+    50% {
+      color: white;
+      background-color: white;
+    }
+    70% {
+      color: white;
+    }
+    75% {
+      color: black;
+    }
+    95% {
+      color: black;
+      background-color: white;
+      box-shadow: inset 0 0 15px black;
+    }
+    100% {
+      color: white;
+      background-color: rgb(81, 158, 251);
+      box-shadow: inset 0 0 0px black;
+    }
+  }
+
+
+  .animnavbuttonf {
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-name: animnavbuttonf;
+  }
+
+  @keyframes animnavbuttonf {
+    0% {
+      color:rgb(81, 158, 251);
+      background-color: rgb(81, 158, 251);
+    }
+    30% {
+      color:rgb(81, 158, 251);
+      background-color: rgb(81, 158, 251);
+      box-shadow: inset 0 0 0px black;
+    }
+    35% {
+      color: white;
+      background-color: white;
+      box-shadow: inset 0 0 15px black;
+    }
+    50% {
+      color: white;
+      background-color: white;
+    }
+    75% {
+      color: white;
+    }
+    80% {
+      color: black;
+    }
+    95% {
+      color: black;
+      background-color: white;
+      box-shadow: inset 0 0 15px black;
+    }
+    100% {
+      color: white;
+      background-color: rgb(81, 158, 251);
+      box-shadow: inset 0 0 0px black;
+    }
+  }
+
+
+  .animnavbuttong {
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-name: animnavbuttong;
+  }
+
+  @keyframes animnavbuttong {
+    0% {
+      color:rgb(81, 158, 251);
+      background-color: rgb(81, 158, 251);
+    }
+    35% {
+      color:rgb(81, 158, 251);
+      background-color: rgb(81, 158, 251);
+      box-shadow: inset 0 0 0px black;
+    }
+    40% {
+      color: white;
+      background-color: white;
+      box-shadow: inset 0 0 15px black;
+    }
+    50% {
+      color: white;
+      background-color: white;
+    }
+    80% {
+      color: white;
+    }
+    85% {
+      color: black;
+    }
+    95% {
+      color: black;
+      background-color: white;
+      box-shadow: inset 0 0 15px black;
+    }
+    100% {
+      color: white;
+      background-color: rgb(81, 158, 251);
+      box-shadow: inset 0 0 0px black;
+    }
+  }
+}
