@@ -17,7 +17,7 @@
 @media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
 {
   nav {  /* Title of the other pages of the website by link */    
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: 1;
     animation-name: navsidein;
   }
@@ -35,7 +35,7 @@
   }
 
   nav div {
-    animation-duration: 4.2s;
+    animation-duration: 3.2s;
     animation-iteration-count: 1;
     animation-name: animnavbutton;
   }
@@ -54,8 +54,8 @@
 
 
   .animnavbuttona {
-    animation-delay: 4s;
-    animation-duration: 15s;
+    animation-delay: 3s;
+    animation-duration: 10s;
     animation-iteration-count: 1;
     animation-name: animnavbuttona;
   }
@@ -96,8 +96,8 @@
 
 
   .animnavbuttonb {
-    animation-delay: 4s;
-    animation-duration: 15s;
+    animation-delay: 3s;
+    animation-duration: 10s;
     animation-iteration-count: 1;
     animation-name: animnavbuttonb;
   }
@@ -141,8 +141,8 @@
 
 
   .animnavbuttonc {
-    animation-delay: 4s;
-    animation-duration: 15s;
+    animation-delay: 3s;
+    animation-duration: 10s;
     animation-iteration-count: 1;
     animation-name: animnavbuttonc;
   }
@@ -186,8 +186,8 @@
 
 
   .animnavbuttond {
-    animation-delay: 4s;
-    animation-duration: 15s;
+    animation-delay: 3s;
+    animation-duration: 10s;
     animation-iteration-count: 1;
     animation-name: animnavbuttond;
   }
@@ -231,8 +231,8 @@
 
 
   .animnavbuttone {
-    animation-delay: 4s;
-    animation-duration: 15s;
+    animation-delay: 3s;
+    animation-duration: 10s;
     animation-iteration-count: 1;
     animation-name: animnavbuttone;
   }
@@ -276,8 +276,8 @@
 
 
   .animnavbuttonf {
-    animation-delay: 4s;
-    animation-duration: 15s;
+    animation-delay: 3s;
+    animation-duration: 10s;
     animation-iteration-count: 1;
     animation-name: animnavbuttonf;
   }
@@ -321,8 +321,8 @@
 
 
   .animnavbuttong {
-    animation-delay: 4s;
-    animation-duration: 15s;
+    animation-delay: 3s;
+    animation-duration: 10s;
     animation-iteration-count: 1;
     animation-name: animnavbuttong;
   }
