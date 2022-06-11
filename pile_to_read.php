@@ -30,7 +30,7 @@
         <img class="picture_15_100_size" src="pictures/pexels-sharon-mccutcheon-1148399.jpg" alt="Books stacked on top of each other">
       </div> 
 
-      <!-- Put here the links for each book on this page. -->
+      <!-- Put here the links for each book on this page, with a dropdown list. -->
 
       <!-- Find a animation (possible in JavaScript) for the books get definitive appear when I scroll the page. -->
     
