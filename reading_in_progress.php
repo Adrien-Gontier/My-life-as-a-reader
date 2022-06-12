@@ -30,8 +30,16 @@
         <img class="picture_30_100_size" src="pictures/pexels-pixabay-415071.jpg" alt="Book open in half"> 
       </div> 
 
-      <!-- Put here the links for each book on this page, with a dropdown list. -->
+<!-- Put here the links for each book on this page, with a dropdown list. Will be adapt and finish 
 
+      <select name="Choose books" onChange="location = this.options[this.selectedIndex].value;">
+        <option value="">Select a book</option>
+        <option value="#walter_tevis_the_queen_s_gambit">Walter Tevis - The Queen's Gambit</option>
+        <option value="#stephen_king_night_shift">Stephen King - Night Shift</option>
+        <option value="#dan_brown_angels_and_demons">Dan Brown - Angels and démons</option>
+      </select> 
+
+      -->
       <!-- Find a animation (possible in JavaScript) for the books get definitive appear when I scroll the page. -->
     
       <div id="victor_hugo_notre_dame_de_paris" class="books">  <!-- that's where I describe a book I anticipate to read. It's divide in flex-box. -->
