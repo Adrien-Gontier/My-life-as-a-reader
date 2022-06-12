@@ -30,7 +30,16 @@
         <img class="picture_30_100_size" src="pictures/pexels-pixabay-159711.jpg" alt="Shelves full of books">
       </div> 
 
-      <!-- Put here the links for each book on this page, with a dropdown list. -->
+      <!-- Put here the links for each book on this page, with a dropdown list. Will be adapt and finish 
+
+      <select name="Choose books" onChange="location = this.options[this.selectedIndex].value;">
+        <option value="">Select a book</option>
+        <option value="#walter_tevis_the_queen_s_gambit">Walter Tevis - The Queen's Gambit</option>
+        <option value="#stephen_king_night_shift">Stephen King - Night Shift</option>
+        <option value="#dan_brown_angels_and_demons">Dan Brown - Angels and démons</option>
+      </select> 
+
+      -->
 
       <!-- Find a animation (possible in JavaScript) for the books get definitive appear when I scroll the page. -->
     
