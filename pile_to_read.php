@@ -30,13 +30,17 @@
         <img class="picture_15_100_size" src="pictures/pexels-sharon-mccutcheon-1148399.jpg" alt="Books stacked on top of each other">
       </div> 
 
-      <!-- Put here the links for each book on this page, with a dropdown list. Will be finish -->
+      <!-- Put here the links for each book on this page, with a dropdown list. Will be test -->
 
       <select name="Choose books" onChange="location = this.options[this.selectedIndex].value;">
         <option value="">Select a book</option>
         <option value="#walter_tevis_the_queen_s_gambit">Walter Tevis - The Queen's Gambit</option>
         <option value="#stephen_king_night_shift">Stephen King - Night Shift</option>
         <option value="#dan_brown_angels_and_demons">Dan Brown - Angels and démons</option>
+        <option value="#dan_brown_the_da_vinci_code">Dan Brown - The Da Vinci Code</option>
+        <option value="#dan_brown_the_lost_symbol">Dan Brown - The lost symbol</option>
+        <option value="#dan_brown_inferno">Dan Brown - Inferno</option>
+        <option value="#dan_brown_origin">Dan Brown - Origin</option>
       </select> 
 
 
