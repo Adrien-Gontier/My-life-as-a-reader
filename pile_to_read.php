@@ -30,8 +30,6 @@
         <img class="picture_15_100_size" src="pictures/pexels-sharon-mccutcheon-1148399.jpg" alt="Books stacked on top of each other">
       </div> 
 
-      <!-- Put here the links for each book on this page, with a dropdown list. Will be test -->
-
       <select name="Choose books" onChange="location = this.options[this.selectedIndex].value;">
         <option value="">Select a book</option>
         <option value="#walter_tevis_the_queen_s_gambit">Walter Tevis - The Queen's Gambit</option>
