@@ -30,8 +30,6 @@
         <img class="picture_30_100_size" src="pictures/pexels-pixabay-159711.jpg" alt="Shelves full of books">
       </div> 
 
-      <!-- Put here the links for each book on this page, with a dropdown list. Will be test -->
-
       <select name="Choose books" onChange="location = this.options[this.selectedIndex].value;">
         <option value="">Select a book</option>
         <option value="#stephen_king_storm_of_the_century">Stephen King - Storm of the century</option>
