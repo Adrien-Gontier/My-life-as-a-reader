@@ -4,6 +4,9 @@
 
 
 
+/* !!!! WRITE STYLE FOR DROPDOWN LIST !!!! */
+
+
 .author_name, .author_date_born_death {  /* First and last name of the author and Year of born and year of death of the author */
   font-family: 'Times New Roman', Times, serif;
 }
