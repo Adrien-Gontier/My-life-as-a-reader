@@ -30,8 +30,6 @@
         <img class="picture_30_100_size" src="pictures/pexels-pixabay-415071.jpg" alt="Book open in half"> 
       </div> 
 
-<!-- Put here the links for each book on this page, with a dropdown list. Will be test -->
-
       <select name="Choose books" onChange="location = this.options[this.selectedIndex].value;">
         <option value="">Select a book</option>
         <option value="#victor_hugo_notre_dame_de_paris">Victor Hugo - Notre-Dame de Paris</option>
