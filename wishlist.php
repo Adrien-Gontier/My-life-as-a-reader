@@ -27,8 +27,6 @@
       <img class="picture_30_100_size" src="pictures/pexels-abby-chung-1106468.jpg" alt="Women in front of shelves full of books"> 
     </div> 
 
-<!-- Put here the links for each book on this page, with a dropdown list. Will be test   -->
-
       <select name="Choose books" onChange="location = this.options[this.selectedIndex].value;">
         <option value="">Select a book</option>
         <option value="#stephen_king_mr_mercedes">Stephen King - Mr Mercedes</option>
@@ -36,7 +34,6 @@
         <option value="#stephen_king_end_of_watch">Stephen King - End of watch</option>
       </select> 
 
-      -->
       
     <!-- Find a animation (possible in JavaScript) for the books get definitive appear when I scroll the page. -->
     
