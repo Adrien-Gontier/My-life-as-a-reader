@@ -7,6 +7,7 @@
     <link href="style_all_website.css" rel="stylesheet" type="text/css" />
     <link href="style_website_title.css" rel="stylesheet" type="text/css" />
     <link href="style_navbar.css" rel="stylesheet" type="text/css" />
+    <link href="style_but_index_navbar.css" rel="stylesheet" type="text/css" />
     <link href="style_page_title_and_picture.css" rel="stylesheet" type="text/css" />
     <link href="style_contact.css" rel="stylesheet" type="text/css" />
     <link href="style_footer.css" rel="stylesheet" type="text/css" />
@@ -27,7 +28,7 @@
       
     <div class="page_title_head">
       <a id="contact" class="page_title">Contact</a>  <!-- Title of the page -->
-      <img src="" alt=""> 
+      <img class="picture_15_100_size" src="pictures/pexels-min-an-1638515.jpg" alt="Desk with what we need to write"> 
     </div>
     <section class="contactform_rules">  <!-- Like the class' name this is the rules for the contact form -->
       <div>
