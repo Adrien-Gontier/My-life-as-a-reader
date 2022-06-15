@@ -7,6 +7,7 @@
     <link href="style_all_website.css" rel="stylesheet" type="text/css" />
     <link href="style_website_title.css" rel="stylesheet" type="text/css" />
     <link href="style_navbar.css" rel="stylesheet" type="text/css" />
+    <link href="style_but_index_navbar.css" rel="stylesheet" type="text/css" />
     <link href="style_page_title_and_picture.css" rel="stylesheet" type="text/css" />
     <link href="style_footer.css" rel="stylesheet" type="text/css" />
   </head>
