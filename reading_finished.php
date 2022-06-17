@@ -29,10 +29,11 @@
       <div class="page_title_head">
         <a id="reading_finished" class="page_title">Reading finished</a>  <!-- Title of the page. -->
         <img class="picture_30_100_size" src="pictures/pexels-pixabay-159711.jpg" alt="Shelves full of books">
-      </div> 
+      </div>
 
+      <p>Choose a book</p>
       <select name="Choose books" onChange="location = this.options[this.selectedIndex].value;">
-        <option value="">Select a book</option>
+        <option value=""></option>
         <option value="#stephen_king_storm_of_the_century">Stephen King - Storm of the century</option>
         <option value="#harry_harrison_make_room_make_room">Harry Harrison - Make Room ! Make Room !</option>
       </select> 
