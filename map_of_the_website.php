@@ -16,11 +16,18 @@
 
       <?php include('website_title.php'); ?>
 
+      <nav>
+        
+        <?php include('navbar.php'); ?>
+        
+      </nav>
     </header>
 
     <main>
 
     <a class="page_title">Map of the website</a>  <!-- Title of the page. -->
+    
+
     <section class="all_pages_links">
       <a href="index.php#home">Home</a>
       <a href="reading_in_progress.php#readinginprogress">Reading in progress</a>
@@ -46,6 +53,12 @@
     </section>
 
     </main>
+
+    <footer>
+
+      <?php include('footer.php'); ?>
+    
+    </footer>
     
   </body>
 </html>     
