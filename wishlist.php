@@ -28,7 +28,7 @@
       <img class="picture_30_100_size" src="pictures/pexels-abby-chung-1106468.jpg" alt="Women in front of shelves full of books"> 
     </div> 
 
-    <p>Choose a book</p>
+    <p class="dropdown_list_title">Choose a book</p>
       <select name="Choose books" onChange="location = this.options[this.selectedIndex].value;">
         <option value=""></option>
         <option value="#stephen_king_mr_mercedes">Stephen King - Mr Mercedes</option>
