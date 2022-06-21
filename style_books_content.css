@@ -3,21 +3,17 @@
 /* For : pile_to_read.html reading_finished.html reading_in_progress.html wishlist.html */
 
 
-
-/* !!!! STYLE FOR DROPDOWN LIST WILL BE TESTED !!!! */
+.dropdown_list_title {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
 
 select {
   color: black;
   background-color: white;
-  border: 0;
+  border: 1px solid black;
 }
-
-select {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 12px;
-}
-
-
 
 .author_name, .author_date_born_death {  /* First and last name of the author and Year of born and year of death of the author */
   font-family: 'Times New Roman', Times, serif;
