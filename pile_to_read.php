@@ -32,6 +32,7 @@
       </div> 
 
       
+      <!-- Not exactly what I want. Will try with JavaScript -->
       <p class="dropdown_list_title">Choose a book</p>
       <select name="Choose books" onChange="location = this.options[this.selectedIndex].value;">
         <option value=""></option>
