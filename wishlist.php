@@ -23,6 +23,9 @@
         
       </nav>
     </header>
+
+    <main>
+
     <div class="page_title_head">
       <a id="wishlist" class="page_title">Wishlist</a>  <!-- Title of the page. -->
       <img class="picture_30_100_size" src="pictures/pexels-abby-chung-1106468.jpg" alt="Women in front of shelves full of books"> 
@@ -93,6 +96,9 @@
         </section>
       </div>
     </div>
+
+    </main>
+
     <footer>
 
       <?php include('footer.php'); ?>
