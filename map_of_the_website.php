@@ -32,7 +32,7 @@
     <section class="all_pages_links">
       <a href="index.php#home">Home</a>
       <a href="reading_in_progress.php#readinginprogress">Reading in progress</a>
-      <a href="reading_in_progress.php#victor">Victor Hugo - Notre-Dame de Paris</a>
+      <a href="reading_in_progress.php#victor_hugo_notre_dame_de_paris">Victor Hugo - Notre-Dame de Paris</a>
       <a href="reading_in_progress.php#stephen_king_the_outsider">Stephen King - The outsider</a>
       <a href="reading_finished.php#reading_finished">Reading finished</a>
       <a href="reading_finished.php#stephen_king_storm_of_the_century">Stephen King - Storm of the century</a>
