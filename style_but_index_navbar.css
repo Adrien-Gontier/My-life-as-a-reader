@@ -8,6 +8,7 @@
   nav {  /* Title of the other pages of the website by link */    
     animation-duration: 1s;
     animation-iteration-count: 1;
+    animation-timing-function: linear;
     animation-name: navsidein;
   }
 
@@ -23,6 +24,7 @@
   nav div {  /* Title of the other pages of the website by link */    
     animation-duration: 1s;
     animation-iteration-count: 1;
+    animation-timing-function: linear;
     animation-name: animdivbutton;
   }
 
@@ -39,6 +41,7 @@
     animation-delay: 1s;
     animation-duration: 3s;
     animation-iteration-count: 1;
+    animation-timing-function: linear;
     animation-name: animnavbutton;
   }
 
