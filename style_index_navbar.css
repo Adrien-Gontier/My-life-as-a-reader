@@ -19,6 +19,7 @@
   nav {  /* Title of the other pages of the website by link */    
     animation-duration: 3s;
     animation-iteration-count: 1;
+    animation-timing-function: linear;
     animation-name: navsidein;
   }
 
@@ -37,6 +38,7 @@
   nav div {
     animation-duration: 3.2s;
     animation-iteration-count: 1;
+    animation-timing-function: linear;
     animation-name: animnavbutton;
   }
 
@@ -57,6 +59,7 @@
     animation-delay: 3s;
     animation-duration: 10s;
     animation-iteration-count: 1;
+    animation-timing-function: linear;
     animation-name: animnavbuttona;
   }
 
@@ -99,6 +102,7 @@
     animation-delay: 3s;
     animation-duration: 10s;
     animation-iteration-count: 1;
+    animation-timing-function: linear;
     animation-name: animnavbuttonb;
   }
 
@@ -144,6 +148,7 @@
     animation-delay: 3s;
     animation-duration: 10s;
     animation-iteration-count: 1;
+    animation-timing-function: linear;
     animation-name: animnavbuttonc;
   }
 
@@ -189,6 +194,7 @@
     animation-delay: 3s;
     animation-duration: 10s;
     animation-iteration-count: 1;
+    animation-timing-function: linear;
     animation-name: animnavbuttond;
   }
 
@@ -234,6 +240,7 @@
     animation-delay: 3s;
     animation-duration: 10s;
     animation-iteration-count: 1;
+    animation-timing-function: linear;
     animation-name: animnavbuttone;
   }
 
@@ -279,6 +286,7 @@
     animation-delay: 3s;
     animation-duration: 10s;
     animation-iteration-count: 1;
+    animation-timing-function: linear;
     animation-name: animnavbuttonf;
   }
 
@@ -324,6 +332,7 @@
     animation-delay: 3s;
     animation-duration: 10s;
     animation-iteration-count: 1;
+    animation-timing-function: linear;
     animation-name: animnavbuttong;
   }
 
