@@ -28,7 +28,15 @@ const books = [
         "author_date_born_death": "1925 - 2012",
         "title_of_the_book": "Make Room ! Make Room !",
         "book_year_publication": "1966",
-        "book_summary": "<p>New York 1999, overcrowded city, Andy Rush, then a police inspector, lives in a half-room with Sol, a retired engineer.Following a riot, Billy, who stole some meat, sells some of it to get a job as a messenger.Following his first delivery, he kills a wealthy racketeer, Mike. Andy takes charge of the investigation. During the latter, he falls in love with Shirl and enjoys Mike's luxurious apartment. But the lease coming to an end, they move in together. Sol cannot remain passive in the face of overpopulation and decides to join the march against the cancellation of a bill that aims to control the population. Following an injury, Sol dies. A family will take its place. Billy will eventually die, killed by Andy. The story ends with the screen in Times Square announcing that the United States census is 344 million citizens.",
+        "book_summary": "New York 1999, overcrowded city, Andy Rush, then a police inspector, lives in a half-room with Sol, a retired engineer.Following a riot, Billy, who stole some meat, sells some of it to get a job as a messenger.Following his first delivery, he kills a wealthy racketeer, Mike. Andy takes charge of the investigation. During the latter, he falls in love with Shirl and enjoys Mike's luxurious apartment. But the lease coming to an end, they move in together. Sol cannot remain passive in the face of overpopulation and decides to join the march against the cancellation of a bill that aims to control the population. Following an injury, Sol dies. A family will take its place. Billy will eventually die, killed by Andy. The story ends with the screen in Times Square announcing that the United States census is 344 million citizens.",
         "status": "RF"
+    },
+    "walter_tevis_the_queen_s_gambit" = {
+        "author_name": "Walter Tevis",
+        "author_date_born_death": "1928 - 1984",
+        "title_of_the_book": "The Queen's Gambit",
+        "book_year_publication": "1983",
+        "book_summary": "During her childhood, Beth learns the failures of Mister Shaibel. A few months later, she is introduced to a high school teacher who runs a chess club. At the age of 13, Beth was adopted by a couple who separated shortly afterwards. At a local high school chess tournament, she wins. From tournament to tournament, she is noticed as a prodigy. Finally, following an international career, she meets a group of men in a park who play for love of the game.",
+        "status": "PTR"
     }
 ]
