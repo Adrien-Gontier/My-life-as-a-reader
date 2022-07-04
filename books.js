@@ -38,5 +38,13 @@ const books = [
         "book_year_publication": "1983",
         "book_summary": "During her childhood, Beth learns the failures of Mister Shaibel. A few months later, she is introduced to a high school teacher who runs a chess club. At the age of 13, Beth was adopted by a couple who separated shortly afterwards. At a local high school chess tournament, she wins. From tournament to tournament, she is noticed as a prodigy. Finally, following an international career, she meets a group of men in a park who play for love of the game.",
         "status": "PTR"
+    },
+    "stephen_king_night_shift" = {
+        "author_name": "Stephen King",
+        "author_date_born_death": "1947 - ",
+        "title_of_the_book": "Night Shift",
+        "book_year_publication": "1978",
+        "book_summary": "<p>A museum guide discovers a strange curse weighing on his family. A police inspector investigates a series of deaths in a laundry. A contract killer receives a package with toy soldiers who start attacking him. A man approaches a company to mow his lawn. A young man euthanizes his mother who has cancer. Such are, among other things, the adventures of collecting short stories.",
+        "status": "PTR"
     }
 ]
