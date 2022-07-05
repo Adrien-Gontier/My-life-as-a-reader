@@ -46,5 +46,13 @@ const books = [
         "book_year_publication": "1978",
         "book_summary": "<p>A museum guide discovers a strange curse weighing on his family. A police inspector investigates a series of deaths in a laundry. A contract killer receives a package with toy soldiers who start attacking him. A man approaches a company to mow his lawn. A young man euthanizes his mother who has cancer. Such are, among other things, the adventures of collecting short stories.",
         "status": "PTR"
+    },
+    "dan_brown_angels_and_demons" = {
+        "author_name": "Dan Brown",
+        "author_date_born_death": "1964 -", 
+        "title_of_the_book": "Angels and démons",
+        "book_year_publication": "2000",
+        "book_summary": "A prominent person in the CERN lab is murdered and one of the capsules containing antimatter is stolen. The pope dies. A video, showing the four favorites to his estate, is sent to the attention of the Vatican by a killer. The director of CERN calls on Robert Langdon, a professor at Harvard University. Favorites are run one after another through Rome. Discover Robert Langton in this first adventure. The famous specialist of the religious symbology.",
+        "status": "PTR"
     }
 ]
