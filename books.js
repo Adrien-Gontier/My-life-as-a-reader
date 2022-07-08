@@ -25,17 +25,23 @@ const books = [  // Check test with loop if it's work
     "status": "RIP"
 },
 {
-    "stephen_king_storm_of_the_century" = {
-        "author_name": "Stephen King",
-        "author_date_born_death": "1947 -",
-        "title_of_the_book": "Storm of the century",
-        "book_year_publication": "1999",
-        "book_summary": "A powerful storm hits the fictional small island town of Little Tall Island. So powerful that all access to the island is cut off and no one can get out. Martha Clarendon, an elderly resident is brutally killed. Robbie Beals, city manager, investigates. Linoge, who claims to know the repetitive inner workings of Hell, is arrested. Later that evening, Linoge escapes and causes the same dream to all the sleeping townspeople. The next day, Linoge makes three inhabitants disappear. Who are its three inhabitants ?",
-        "status": "RF"
-    },
+    idBook: "stephen_king_storm_of_the_century",
+    author_name: "Stephen King",
+    author_date_born_death: "1947 -",
+    title_of_the_book: "Storm of the century",
+    book_year_publication: "1999",
+    book_summary: {
+        P: "A powerful storm hits the fictional small island town of Little Tall Island. So powerful that all access to the island is cut off and no one can get out.",
+        P: "Martha Clarendon, an elderly resident is brutally killed. Robbie Beals, city manager, investigates.",
+        P: "Linoge, who claims to know the repetitive inner workings of Hell, is arrested.",
+        P: "Later that evening, Linoge escapes and causes the same dream to all the sleeping townspeople.",
+        P: "The next day, Linoge makes three inhabitants disappear.",
+        P: "Who are its three inhabitants ?"
+    }, 
+    "status": "RF"
 },
 {
-    "harry_harrison_make_room_make_room" = {
+    "harry_harrison_make_room_make_room": {
         "author_name": "Harry Harrison",
         "author_date_born_death": "1925 - 2012",
         "title_of_the_book": "Make Room ! Make Room !",
@@ -45,7 +51,7 @@ const books = [  // Check test with loop if it's work
     },
 },
 {
-    "walter_tevis_the_queen_s_gambit" = {
+    "walter_tevis_the_queen_s_gambit": {
         "author_name": "Walter Tevis",
         "author_date_born_death": "1928 - 1984",
         "title_of_the_book": "The Queen's Gambit",
@@ -55,7 +61,7 @@ const books = [  // Check test with loop if it's work
     },
 },
 {
-    "stephen_king_night_shift" = {
+    "stephen_king_night_shift": {
         "author_name": "Stephen King",
         "author_date_born_death": "1947 - ",
         "title_of_the_book": "Night Shift",
@@ -65,7 +71,7 @@ const books = [  // Check test with loop if it's work
     },
 },
 {
-    "dan_brown_angels_and_demons" = {
+    "dan_brown_angels_and_demons": {
         "author_name": "Dan Brown",
         "author_date_born_death": "1964 -", 
         "title_of_the_book": "Angels and démons",
