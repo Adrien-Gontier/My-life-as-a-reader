@@ -41,14 +41,20 @@ const books = [  // Check test with loop if it's work
     "status": "RF"
 },
 {
-    "harry_harrison_make_room_make_room": {
-        "author_name": "Harry Harrison",
-        "author_date_born_death": "1925 - 2012",
-        "title_of_the_book": "Make Room ! Make Room !",
-        "book_year_publication": "1966",
-        "book_summary": "New York 1999, overcrowded city, Andy Rush, then a police inspector, lives in a half-room with Sol, a retired engineer.Following a riot, Billy, who stole some meat, sells some of it to get a job as a messenger.Following his first delivery, he kills a wealthy racketeer, Mike. Andy takes charge of the investigation. During the latter, he falls in love with Shirl and enjoys Mike's luxurious apartment. But the lease coming to an end, they move in together. Sol cannot remain passive in the face of overpopulation and decides to join the march against the cancellation of a bill that aims to control the population. Following an injury, Sol dies. A family will take its place. Billy will eventually die, killed by Andy. The story ends with the screen in Times Square announcing that the United States census is 344 million citizens.",
-        "status": "RF"
+    idBook: "harry_harrison_make_room_make_room",
+    author_name: "Harry Harrison",
+    author_date_born_death: "1925 - 2012",
+    title_of_the_book: "Make Room ! Make Room !",
+    book_year_publication: "1966",
+    book_summary: { 
+        P: "New York 1999, overcrowded city, Andy Rush, then a police inspector, lives in a half-room with Sol, a retired engineer.Following a riot, Billy, who stole some meat, sells some of it to get a job as a messenger.",
+        P: "Following his first delivery, he kills a wealthy racketeer, Mike.",
+        P: "Andy takes charge of the investigation. During the latter, he falls in love with Shirl and enjoys Mike's luxurious apartment. But the lease coming to an end, they move in together.",
+        P: "Sol cannot remain passive in the face of overpopulation and decides to join the march against the cancellation of a bill that aims to control the population. Following an injury, Sol dies. A family will take its place.",
+        P: "Billy will eventually die, killed by Andy.",
+        P: "The story ends with the screen in Times Square announcing that the United States census is 344 million citizens."
     },
+    "status": "RF"
 },
 {
     "walter_tevis_the_queen_s_gambit": {
