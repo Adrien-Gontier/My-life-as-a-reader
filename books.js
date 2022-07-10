@@ -57,14 +57,18 @@ const books = [  // Check test with loop if it's work
     "status": "RF"
 },
 {
-    "walter_tevis_the_queen_s_gambit": {
-        "author_name": "Walter Tevis",
-        "author_date_born_death": "1928 - 1984",
-        "title_of_the_book": "The Queen's Gambit",
-        "book_year_publication": "1983",
-        "book_summary": "During her childhood, Beth learns the failures of Mister Shaibel. A few months later, she is introduced to a high school teacher who runs a chess club. At the age of 13, Beth was adopted by a couple who separated shortly afterwards. At a local high school chess tournament, she wins. From tournament to tournament, she is noticed as a prodigy. Finally, following an international career, she meets a group of men in a park who play for love of the game.",
-        "status": "PTR"
+    idBook: "walter_tevis_the_queen_s_gambit",
+    author_name: "Walter Tevis",
+    author_date_born_death: "1928 - 1984",
+    title_of_the_book: "The Queen's Gambit",
+    book_year_publication: "1983",
+    book_summary: {
+        P: "During her childhood, Beth learns the failures of Mister Shaibel. A few months later, she is introduced to a high school teacher who runs a chess club.",
+        P: "At the age of 13, Beth was adopted by a couple who separated shortly afterwards. At a local high school chess tournament, she wins.",
+        P: "From tournament to tournament, she is noticed as a prodigy.",
+        P: "Finally, following an international career, she meets a group of men in a park who play for love of the game."
     },
+    "status": "PTR"
 },
 {
     "stephen_king_night_shift": {
