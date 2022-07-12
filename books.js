@@ -87,13 +87,18 @@ const books = [  // Check test with loop if it's work
     "status": "PTR"
 },
 {
-    "dan_brown_angels_and_demons": {
-        "author_name": "Dan Brown",
-        "author_date_born_death": "1964 -", 
-        "title_of_the_book": "Angels and démons",
-        "book_year_publication": "2000",
-        "book_summary": "A prominent person in the CERN lab is murdered and one of the capsules containing antimatter is stolen. The pope dies. A video, showing the four favorites to his estate, is sent to the attention of the Vatican by a killer. The director of CERN calls on Robert Langdon, a professor at Harvard University. Favorites are run one after another through Rome. Discover Robert Langton in this first adventure. The famous specialist of the religious symbology.",
-        "status": "PTR"
-    }
+    idBook: "dan_brown_angels_and_demons",
+    author_name: "Dan Brown",
+    author_date_born_death: "1964 -",
+    title_of_the_book: "Angels and démons",
+    book_year_publication: "2000",
+    book_summary: {
+        P: "A prominent person in the CERN lab is murdered and one of the capsules containing antimatter is stolen. The pope dies.",
+        P: "A video, showing the four favorites to his estate, is sent to the attention of the Vatican by a killer.",
+        P: "The director of CERN calls on Robert Langdon, a professor at Harvard University.",
+        P: "Favorites are run one after another through Rome.",
+        P: "Discover Robert Langton in this first adventure. The famous specialist of the religious symbology."
+    },
+    "status": "PTR"
 }
 ]
