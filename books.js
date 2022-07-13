@@ -100,5 +100,19 @@ const books = [  // Check test with loop if it's work
         P: "Discover Robert Langton in this first adventure. The famous specialist of the religious symbology."
     },
     "status": "PTR"
+},
+{
+    idBook: "dan_brown_the_da_vinci_code",
+    author_name: "Dan Brown",
+    author_date_born_death: "1964 -",
+    title_of_the_book: "Tha Da Vinci Code",
+    book_year_publication: "2003",
+    book_summary: {
+        P: "Robert Langdon is implicated despite himself, during a trip to Paris, in the case of the murder of Jacques Saunière, curator at the Louvre Museum.",
+        P: "Suspected of the murder, Langton escapes the police.",
+        P: "Sophie Neveu, cryptologist, asks Langdon to help her understand the message left by the curator of the Louvre.",
+        P: "Langdon and Neveu later discover that Saunière was in charge of the Priory of Sion.",
+        P: "But what is the Da Vinci Code ? And what is the secret linked to the latter ?"
+    },"status": "PTR"
 }
 ]
