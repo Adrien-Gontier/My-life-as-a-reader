@@ -114,5 +114,19 @@ const books = [  // Check test with loop if it's work
         P: "Langdon and Neveu later discover that Saunière was in charge of the Priory of Sion.",
         P: "But what is the Da Vinci Code ? And what is the secret linked to the latter ?"
     },"status": "PTR"
+},
+{
+    idBook: "dan_brown_the_lost_symbol",
+    author_name: "Dan Brown",
+    author_date_born_death: "1964 -",
+    title_of_the_book: "Tha lost symbol",
+    book_year_publication: "2009",
+    book_summary: {
+        P: "One Sunday morning, after his sports ritual in the Olympic swimming pool on the Harvard campus, Robert Langdon learns of an invitation. A seminar on symbolism in architecture the same evening at the United States Capitol.",
+        P: "The invitation came from Peter Solomon, his mentor, who is head of the Smithsonian Institution.",
+        P: "But, on arriving, Robert Langton discovers an empty room.",
+        P: "Why ? Was the invitation really sent by his mentor ?",
+        P: "Find out by reading the third adventure of the famous specialist in religious symbology."
+    },"status": "PTR"
 }
 ]
