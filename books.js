@@ -128,5 +128,21 @@ const books = [  // Check test with loop if it's work
         P: "Why ? Was the invitation really sent by his mentor ?",
         P: "Find out by reading the third adventure of the famous specialist in religious symbology."
     },"status": "PTR"
+},
+{
+    idBook: "dan_brown_inferno",
+    author_name: "Dan Brown",
+    author_date_born_death: "1964 -",
+    title_of_the_book: "Inferno",
+    book_year_publication: "2013",
+    book_summary: {
+        P: "The suicide of a client of the president. This client wants to be remembered as righteous.",
+        P: "Robert Langton wakes up in the hospital in Florence with a thirty-six hour hole. He finds himself with a mysterious object in his belongings. And a dream that torments his mind.",
+        P: "The English doctor Sienna Brooks explains to him that someone tried to kill him by shooting him in the head.",
+        P: "Moments later, a young woman named Vayentha wanting to go to Robert Langton's room to kill him misses her shot and kills another doctor.",
+        P: "Siena and Robert flee down the fire escape.",
+        P: "Where are they going to go? Where will Sienna take Robert ?",
+        P: "Discover without delay the fourth adventure of the famous expert in religious symbolism."
+    },"status": "PTR"
 }
 ]
