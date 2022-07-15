@@ -169,7 +169,7 @@
             <p>Moments later, a young woman named Vayentha wanting to go to Robert Langton's room to kill him misses her shot and kills another doctor.</p>
             <p>Siena and Robert flee down the fire escape.</p>
             <p>Where are they going to go? Where will Sienna take Robert ?</p>
-            <p>Discover without delay the fourth adventure of the famous expert in religious symbolism..</p>
+            <p>Discover without delay the fourth adventure of the famous expert in religious symbolism.</p>
           </section>
         </div>
       </div>
