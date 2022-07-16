@@ -144,5 +144,17 @@ const books = [  // Check test with loop if it's work
         P: "Where are they going to go? Where will Sienna take Robert ?",
         P: "Discover without delay the fourth adventure of the famous expert in religious symbolism."
     },"status": "PTR"
+},
+{
+    idBook: "dan_brown_origin",
+    author_name: "Dan Brown",
+    author_date_born_death: "1964 -",
+    title_of_the_book: "Origin",
+    book_year_publication: "2017",
+    book_summary: {
+        P: "Robert Langdon, famous professor of religious symbology, arrives at the Guggenheim Museum in Bilbao to attend a historic ceremony. The host of the evening, Edmond Kirsch, a forty-year-old billionaire whose high-tech inventions and audacious predictions have given him worldwide fame.",
+        P: "Kirsch, a former student of Langdon at Harvard, is about to lay out the results of his research that promises to finally provide an answer to the two fundamental questions of humanity : where did man come from? where is he going ? But he is murdered.",
+        P: "Find out what happens next as you follow Robert Langton's fifth adventure."
+    },"status": "PTR"
 }
 ]
