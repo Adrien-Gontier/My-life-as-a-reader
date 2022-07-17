@@ -156,5 +156,20 @@ const books = [  // Check test with loop if it's work
         P: "Kirsch, a former student of Langdon at Harvard, is about to lay out the results of his research that promises to finally provide an answer to the two fundamental questions of humanity : where did man come from? where is he going ? But he is murdered.",
         P: "Find out what happens next as you follow Robert Langton's fifth adventure."
     },"status": "PTR"
-}
+},
+{   
+    idBook: "stephen_king_mr_mercedes",
+    author_name: "Stephen King",
+    author_date_born_death: "1947 -",
+    title_of_the_book: "Mr Mercedes",
+    book_year_publication: "2014",
+    book_summary: {
+        P: "A Mercedes drives into the crowd, killing sixteen people and seriously injuring several.",
+        P: "Bill Hodges, a recently retired detective, receives a letter from an individual claiming to be responsible for the job fair incident, calling himself \"Mr. Mercedes\".",
+        P: "The incident had taken place late in Hodges' career and was still unresolved when he retired.",
+        P: "Hodges is intrigued and begins to investigate the case instead of delivering the letter to his former police colleague, Pete Huntley.",
+        P: "But there is the existence of Brady Hartsfield. who is he ? How is he related to this case ?"
+    }, 
+    "status": "WL"
+}    
 ]
