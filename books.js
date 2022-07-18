@@ -171,5 +171,16 @@ const books = [  // Check test with loop if it's work
         P: "But there is the existence of Brady Hartsfield. who is he ? How is he related to this case ?"
     }, 
     "status": "WL"
+},
+{
+    idBook: "stephen_king_mr_mercedes",
+    author_name: "Stephen King",
+    author_date_born_death: "1947 -",
+    title_of_the_book: "Finders Keepers",
+    book_year_publication: "2015",
+    book_summary: {
+        P: "Coming soon ..."
+    }, 
+    "status": "WL"
 }    
 ]
