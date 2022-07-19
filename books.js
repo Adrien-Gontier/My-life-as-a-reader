@@ -182,5 +182,16 @@ const books = [  // Check test with loop if it's work
         P: "Coming soon ..."
     }, 
     "status": "WL"
-}    
+},
+{
+    idBook: "stephen_king_mr_mercedes",
+    author_name: "Stephen King",
+    author_date_born_death: "1947 -",
+    title_of_the_book: "End of watch",
+    book_year_publication: "2016",
+    book_summary: {
+        P: "Coming soon ..."
+    }, 
+    "status": "WL"
+}
 ]
