@@ -198,3 +198,4 @@ const books = [  // Check test with loop if it's work
 
 // what to do next :
 //  1. create files
+//  2. create loops
