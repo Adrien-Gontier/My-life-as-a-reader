@@ -11,7 +11,7 @@ const books = [  // Check test with loop if it's work
         P: "Grégoire is a penniless poet. Quasimodo is tried for an attempted kidnapping. Esmeralda is arrested for a murder. And she's under the influence of witchcraft. The cathedral is obviously a special place in the unfolding of history.",
         P: "The novel is too large to be summarized is a few lines. So much that I can only recommend that you read it."
     },
-    "status": "RIP"
+    category: "RIP"
 },
 {
     idBook: "stephen_king_the_outsider",
@@ -22,7 +22,7 @@ const books = [  // Check test with loop if it's work
     book_summary: {
         P: "Coming soon . . ."
     },
-    "status": "RIP"
+    category: "RIP"
 },
 {
     idBook: "stephen_king_storm_of_the_century",
@@ -38,7 +38,7 @@ const books = [  // Check test with loop if it's work
         P: "The next day, Linoge makes three inhabitants disappear.",
         P: "Who are its three inhabitants ?"
     }, 
-    "status": "RF"
+    category: "RF"
 },
 {
     idBook: "harry_harrison_make_room_make_room",
@@ -54,7 +54,7 @@ const books = [  // Check test with loop if it's work
         P: "Billy will eventually die, killed by Andy.",
         P: "The story ends with the screen in Times Square announcing that the United States census is 344 million citizens."
     },
-    "status": "RF"
+    category: "RF"
 },
 {
     idBook: "walter_tevis_the_queen_s_gambit",
@@ -68,7 +68,7 @@ const books = [  // Check test with loop if it's work
         P: "From tournament to tournament, she is noticed as a prodigy.",
         P: "Finally, following an international career, she meets a group of men in a park who play for love of the game."
     },
-    "status": "PTR"
+    category: "PTR"
 },
 {
     idBook: "stephen_king_night_shift",
@@ -84,7 +84,7 @@ const books = [  // Check test with loop if it's work
         P: "A young man euthanizes his mother who has cancer.",
         P: "Such are, among other things, the adventures of collecting short stories."
     },
-    "status": "PTR"
+    category: "PTR"
 },
 {
     idBook: "dan_brown_angels_and_demons",
@@ -99,7 +99,7 @@ const books = [  // Check test with loop if it's work
         P: "Favorites are run one after another through Rome.",
         P: "Discover Robert Langton in this first adventure. The famous specialist of the religious symbology."
     },
-    "status": "PTR"
+    category: "PTR"
 },
 {
     idBook: "dan_brown_the_da_vinci_code",
@@ -113,7 +113,8 @@ const books = [  // Check test with loop if it's work
         P: "Sophie Neveu, cryptologist, asks Langdon to help her understand the message left by the curator of the Louvre.",
         P: "Langdon and Neveu later discover that Saunière was in charge of the Priory of Sion.",
         P: "But what is the Da Vinci Code ? And what is the secret linked to the latter ?"
-    },"status": "PTR"
+    },
+    category: "PTR"
 },
 {
     idBook: "dan_brown_the_lost_symbol",
@@ -127,7 +128,8 @@ const books = [  // Check test with loop if it's work
         P: "But, on arriving, Robert Langton discovers an empty room.",
         P: "Why ? Was the invitation really sent by his mentor ?",
         P: "Find out by reading the third adventure of the famous specialist in religious symbology."
-    },"status": "PTR"
+    },
+    category: "PTR"
 },
 {
     idBook: "dan_brown_inferno",
@@ -143,7 +145,8 @@ const books = [  // Check test with loop if it's work
         P: "Siena and Robert flee down the fire escape.",
         P: "Where are they going to go? Where will Sienna take Robert ?",
         P: "Discover without delay the fourth adventure of the famous expert in religious symbolism."
-    },"status": "PTR"
+    },
+    category: "PTR"
 },
 {
     idBook: "dan_brown_origin",
@@ -155,7 +158,8 @@ const books = [  // Check test with loop if it's work
         P: "Robert Langdon, famous professor of religious symbology, arrives at the Guggenheim Museum in Bilbao to attend a historic ceremony. The host of the evening, Edmond Kirsch, a forty-year-old billionaire whose high-tech inventions and audacious predictions have given him worldwide fame.",
         P: "Kirsch, a former student of Langdon at Harvard, is about to lay out the results of his research that promises to finally provide an answer to the two fundamental questions of humanity : where did man come from? where is he going ? But he is murdered.",
         P: "Find out what happens next as you follow Robert Langton's fifth adventure."
-    },"status": "PTR"
+    },
+    category: "PTR"
 },
 {   
     idBook: "stephen_king_mr_mercedes",
@@ -170,7 +174,7 @@ const books = [  // Check test with loop if it's work
         P: "Hodges is intrigued and begins to investigate the case instead of delivering the letter to his former police colleague, Pete Huntley.",
         P: "But there is the existence of Brady Hartsfield. who is he ? How is he related to this case ?"
     }, 
-    "status": "WL"
+    category: "WL"
 },
 {
     idBook: "stephen_king_mr_mercedes",
@@ -181,7 +185,7 @@ const books = [  // Check test with loop if it's work
     book_summary: {
         P: "Coming soon ..."
     }, 
-    "status": "WL"
+    category: "WL"
 },
 {
     idBook: "stephen_king_mr_mercedes",
@@ -192,7 +196,7 @@ const books = [  // Check test with loop if it's work
     book_summary: {
         P: "Coming soon ..."
     }, 
-    "status": "WL"
+    category: "WL"
 }
 ]
 
