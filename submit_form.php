@@ -8,6 +8,18 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 ?>
 
+
+<!-- 
+
+Create a function in JavaScript to get the values or in PHP.
+But I prefer in JavaScript.
+Stockage in JSON file, I think.
+And a JavaScript and PHP or HTML file to display the content.
+
+-->
+
+
+
 <!-- !!! Chek every code line of this page !!! -->
 
 <!DOCTYPE html>
