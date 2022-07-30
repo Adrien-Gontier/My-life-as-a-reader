@@ -48,7 +48,7 @@
 
       <!-- Find a animation (possible in JavaScript) for the books get definitive appear when I scroll the page. -->
     
-      <section></section> <!-- where books will be after when DOM is manipulated -->
+      <section id="books-list"></section> <!-- where books will be after when DOM is manipulated -->
       
       <script src="books.js"></script>
       <script src="pile_to_read.js"></script>
