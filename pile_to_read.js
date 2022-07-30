@@ -13,6 +13,11 @@ for (let i = 0 ; 0 < books.length ; i++) {
         booksList.appendChild(div);
         
         // will be continuing
+
+        // create some functions et files :
+        // - one function for the loop with file A
+        // - one for the conditional with a file for each conditional with files B, C, D, E
+        // - one for the loop content with the file A
         
         
         
