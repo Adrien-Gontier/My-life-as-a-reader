@@ -1,15 +1,19 @@
-// import {books} from "./module/books.js";
+// import {books} from "./books";
 
 console.log(books);
 
 const booksList = document.getElementById('books-list');
 
+const newBooks = books
+
+
 for (let i = 0 ; 0 < books.length ; i++) {
     
-    if (books[i].category === 'PTR') {
+    if (books[i].category === "PTR") {
         
         let div = document.createElement('div');
         div.id = `${books[i].idBook}`;
+        div.className = 'books';
         booksList.appendChild(div);
         
         // will be continuing
@@ -23,7 +27,7 @@ for (let i = 0 ; 0 < books.length ; i++) {
         
         
     }
-    
+
 }
 
 
