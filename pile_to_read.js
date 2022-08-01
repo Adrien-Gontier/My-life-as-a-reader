@@ -16,10 +16,17 @@ function afficherActivite( idActivite )
         {
             console.log(books[i].idBook);
             
-            let div = document.createElement('div');
-            div.id = `${books[i].idBook}`;
-            div.className = 'books';
-            booksList.appendChild(div);
+            let divPerBook = document.createElement('div');
+            divPerBook.id = `${books[i].idBook}`;
+            divPerBook.className = 'books';
+            booksList.appendChild(divPerBook);
+            
+            let div1 = document.createElement('div');
+            divPerBook.appendChild(div1);
+            
+            
+            
+            
         }
         
     }
