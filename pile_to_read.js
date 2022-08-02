@@ -6,8 +6,6 @@ console.log(books);
 const booksList = document.getElementById('books-list');
 
 
-
-
 function afficherActivite( idActivite )
 {
     for(let i=0; i< books.length ; i++)
@@ -24,7 +22,10 @@ function afficherActivite( idActivite )
             let div1 = document.createElement('div');
             divPerBook.appendChild(div1);
             
-            
+            let pAuthorName = document.createElement('p');
+            pAuthorName.className = 'author_name';
+            pAuthorName.innerText = `${books[i].author_name}`;
+            div1.appendChild(pAuthorName);
             
             
         }
