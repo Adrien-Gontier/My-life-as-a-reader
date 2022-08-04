@@ -31,6 +31,11 @@ function afficherActivite( idActivite )
             pAuthorDateBD.className = 'author_date_born_death';
             pAuthorDateBD.innerText = `${books[i].author_date_born_death}`;
             div1.appendChild(pAuthorDateBD);
+
+            let pTitleOfTheBook = document.createElement('p');
+            pTitleOfTheBook.className = 'title_of_the_book';
+            pTitleOfTheBook.innerText = `${books[i].title_of_the_book}`;
+            div1.appendChild(pTitleOfTheBook);
             
             
         }
