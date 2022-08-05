@@ -36,6 +36,11 @@ function afficherActivite( idActivite )
             pTitleOfTheBook.className = 'title_of_the_book';
             pTitleOfTheBook.innerText = `${books[i].title_of_the_book}`;
             div1.appendChild(pTitleOfTheBook);
+
+            let pBookYearPublication = document.createElement('p');
+            pBookYearPublication.className = 'book_year_publication';
+            pBookYearPublication.innerText = `${books[i].book_year_publication}`;
+            div1.appendChild(pBookYearPublication);
             
             
         }
