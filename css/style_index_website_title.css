@@ -1,0 +1,32 @@
+/* STYLE FOR THE TITLE WEBSITE special index.html */
+
+
+.website_title {
+  font-family: "Times New Roman";
+  text-decoration: none;
+  color: black;
+  font-size: 100px;
+}
+
+
+@media all and (max-width: 901px) {
+  .website_title {
+    animation-name: website_title_anim;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+  }
+
+  /* !!! Animation wil be finish !!! */
+  
+}
+
+
+@media all and (max-width: 900px) {
+  .website_title {
+    font-weight: bold;
+    font-size: 70px;
+    margin: 0px;
+  }
+}
