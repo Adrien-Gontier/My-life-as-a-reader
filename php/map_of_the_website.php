@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Map of the website - My life as a reader</title>  <!-- Thumb index of the page. -->
-    <link href="style_all_website.css" rel="stylesheet" type="text/css" />
-    <link href="style_website_title.css" rel="stylesheet" type="text/css" />
-    <link href="style_navbar.css" rel="stylesheet" type="text/css" />
-    <link href="style_but_index_navbar.css" rel="stylesheet" type="text/css" />
-    <link href="style_page_title_and_picture.css" rel="stylesheet" type="text/css" />
-    <link href="style_map_of_the_website.css" rel="stylesheet" type="text/css" />
-    <link href="style_footer.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style_all_website.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style_website_title.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style_navbar.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style_but_index_navbar.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style_page_title_and_picture.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style_map_of_the_website.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style_footer.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
@@ -30,7 +30,7 @@
     
 
     <section class="all_pages_links">
-      <a href="index.php#home">Home</a>
+      <a href="index.php#home">Home</a> <!-- Manipulate with DOM js -->
       <a href="reading_in_progress.php#readinginprogress">Reading in progress</a>
       <a href="reading_in_progress.php#victor_hugo_notre_dame_de_paris">Victor Hugo - Notre-Dame de Paris</a>
       <a href="reading_in_progress.php#stephen_king_the_outsider">Stephen King - The outsider</a>
