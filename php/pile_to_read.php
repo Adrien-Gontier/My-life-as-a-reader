@@ -28,7 +28,7 @@
 
       <div class="page_title_head">
         <a id="pile_to_read" class="page_title">Pile to read</a>  <!-- Title of the page -->
-        <img class="picture_15_100_size" src="../pictures/pictures/pexels-sharon-mccutcheon-1148399.jpg" alt="Books stacked on top of each other">
+        <img class="picture_15_100_size" src="../pictures/pexels-sharon-mccutcheon-1148399.jpg" alt="Books stacked on top of each other">
       </div> 
 
       
