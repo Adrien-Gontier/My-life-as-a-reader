@@ -1,4 +1,4 @@
-const books = [  // Check test with loop if it's work
+const books = [  
 {
     idBook: "victor_hugo_notre_dame_de_paris",
     author_name: "Victor Hugo",
@@ -127,14 +127,3 @@ const books = [  // Check test with loop if it's work
 }
 ];
 
-// what to do next :
-//  1. create files
-//  2. create loops and code line to import the data from other file
-//  3. test the code
-
-
-
-// wishlist = 1 = WL
-// Pile to read = 2 = PTR
-// reading in progress = 3 = RIP
-// reading finished = 4 = RF
