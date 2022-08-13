@@ -5,10 +5,26 @@ const booksList = document.getElementById('books-list');
 
 function afficherActivite( idActivite )
 {
-    for(let i=0; i< books.length ; i++)
+
+    let j = 0
+
+    let d = 0
+
+    for(let i=0; i < books.length ; i++)
     {
+        
         if( books[i].inProgress === idActivite )
         {
+
+            if (d < j) {
+
+                let hrBeetweenBook = document.createElement('hr');
+                hrBeetweenBook.className = 'separation_line_between_books';
+                booksList.appendChild(hrBeetweenBook);
+    
+                d++;
+    
+            }
             
             let divPerBook = document.createElement('div');
             divPerBook.id = `${books[i].idBook}`;
@@ -55,9 +71,11 @@ function afficherActivite( idActivite )
                 pBookSummary.innerText = `${books[i].book_summary[k]}`;
                 sectionBookSummary.appendChild(pBookSummary);
             }
-            
+
+            j++
+
         }
-        
+
     }
 }
 
