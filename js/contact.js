@@ -1,4 +1,4 @@
-// let nameValue = document.getElementById('name');
+let nameValue = "";
 // let emailValue = document.getElementById('email');
 // let messageValue = document.getElementById('message');
 // let valueName = nameValue.value;
@@ -9,20 +9,23 @@
 
 function message() {
 
-    let formulaireName = document.forms['formul'].elements['name'].value;
+    // let formulaireName = document.forms['formul'].elements['name'].value;
 
-    let formulaireMail = document.forms['formul'].elements['email'].value;
+    // let formulaireMail = document.forms['formul'].elements['email'].value;
 
-    let formulaireMessage = document.forms['formul'].elements['message'].value;
+    // let formulaireMessage = document.forms['formul'].elements['message'].value;
 
 
 
-    console.log(formulaireName);
-    console.log(formulaireMail);
-    console.log(formulaireMessage);
+    // console.log(formulaireName);
+    // console.log(formulaireMail);
+    // console.log(formulaireMessage);
 
     // it's working !!!!!!
 
+    nameValue = document.getElementById('name').value;
+
+    console.log(nameValue);
 
     // console.log(valueName);
     // console.log(valueMail);
