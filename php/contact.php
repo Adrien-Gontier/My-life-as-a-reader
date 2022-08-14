@@ -38,18 +38,18 @@
         <p>Be polite. That's all !</p>
       </div>
     </section> 
-    
-    <!-- !!! Check every code line of this form !!! -->
+    <!-- method="post" action="contact_form.php --> <!--  Will be decide what method -->
+    <!-- will be continue --> 
     <section id="contact_section">
-      <form id="contactform" method="post" action="submit_form.php">
+      <div id="contactform">
         <label for="name">First and last name</label>
         <input type="text" id="name" name="name" value=""/>  <!-- Text area for the first name and the last name -->
         <label for="email">Email</label>
         <input type="email" id="email" name="email" value=""/>  <!-- Text area for the email -->
         <label for="message">Message</label>
         <textarea id="message" name="message"></textarea>  <!-- Text area for the message content -->  <!-- Put a charactere count with a style will change when arrive to 501. And we cannot go over 501. With a limit to send at 500. -->
-        <input id="submit" type="submit" value="Send" />  <!-- Submit button -->
-      </form>
+        <button id="submit" type="submit">Send</button>  <!-- Submit button -->
+      </div>
     </section>
 
     </main>
@@ -59,5 +59,8 @@
       <?php include('footer.php'); ?>
     
     </footer>
+
+    <script src="../js/contact.js"></script>
+
   </body>
 </html>
