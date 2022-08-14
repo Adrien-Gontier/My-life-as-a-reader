@@ -1,20 +1,32 @@
-const nameValue = document.getElementById('name');
-const emailValue = document.getElementById('email');
-const messageValue = document.getElementById('message');
-
-const valueName = nameValue.value;
-const valueMail = emailValue.value;
-const valueMessage = messageValue.value;
+// let nameValue = document.getElementById('name');
+// let emailValue = document.getElementById('email');
+// let messageValue = document.getElementById('message');
+// let valueName = nameValue.value;
+// let valueMail = emailValue.value;
+// let valueMessage = messageValue.value;
 
 
 
 function message() {
 
-    console.log(valueName);
-    console.log(valueMail);
-    console.log(valueMessage);
+    let formulaireName = document.forms['formul'].elements['name'].value;
 
-  
+    let formulaireMail = document.forms['formul'].elements['email'].value;
+
+    let formulaireMessage = document.forms['formul'].elements['message'].value;
+
+
+
+    console.log(formulaireName);
+    console.log(formulaireMail);
+    console.log(formulaireMessage);
+
+    // it's working !!!!!!
+
+
+    // console.log(valueName);
+    // console.log(valueMail);
+    // console.log(valueMessage);
 
 }
 
