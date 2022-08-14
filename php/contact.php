@@ -47,7 +47,7 @@
         <label for="email">Email</label>
         <input type="email" id="email" name="email" value=""/>  <!-- Text area for the email -->
         <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>  <!-- Text area for the message content -->  <!-- Put a charactere count with a style will change when arrive to 501. And we cannot go over 501. With a limit to send at 500. -->
+        <textarea id="message" name="message" value=""></textarea>  <!-- Text area for the message content -->  <!-- Put a charactere count with a style will change when arrive to 501. And we cannot go over 501. With a limit to send at 500. -->
         <button id="submit" type="submit">Send</button>  <!-- Submit button -->
       </div>
     </section>
