@@ -38,7 +38,7 @@
         <p>Be polite. That's all !</p>
       </div>
     </section> 
-    <!-- method="post" action="contact_form.php --> <!--  Will be decide what method -->
+    <!-- method="post" action="contact_form.php --> <!-- what method ? SQL DataBase -->
     <!-- will be continue --> 
     <section id="contact_section">
       <div id="contactform">
