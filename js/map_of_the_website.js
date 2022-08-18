@@ -9,7 +9,7 @@ function afficherMapOfTheWebsite() {
 
 
 
-
+// Will concatenate the author's name and the book's name for what to display.
 
 
 
