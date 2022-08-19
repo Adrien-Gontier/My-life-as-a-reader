@@ -28,6 +28,7 @@
 
     <a class="page_title">Map of the website</a>  <!-- Title of the page. -->
     
+    <section id="all_pages_links"></section>
 
     <section class="all_pages_links">
       <a href="index.php#home">Home</a> <!-- Manipulate with DOM js -->
@@ -61,5 +62,10 @@
     
     </footer>
     
+
+    <script src="../js/map_of_the_website.js"></script>
+
+
+
   </body>
 </html>     
