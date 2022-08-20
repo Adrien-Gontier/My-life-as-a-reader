@@ -8,6 +8,10 @@ function afficherMapOfTheWebsite() {
     home.innerText = 'Home';
     websiteMap.appendChild(home);
 
+    let readingInProgress = document.createElement('a');
+    readingInProgress.href = 'reading_in_progress.php#readinginprogress';
+    readingInProgress.innerText = 'Reading in progress';
+    websiteMap.appendChild(readingInProgress);
 
 }
 
