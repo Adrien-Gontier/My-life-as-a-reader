@@ -127,3 +127,7 @@ const books = [
 }
 ];
 
+// wishlist = 1 = WL
+// Pile to read = 2 = PTR
+// reading in progress = 3 = RIP
+// reading finished = 4 = RF
