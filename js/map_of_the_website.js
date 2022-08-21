@@ -13,6 +13,21 @@ function afficherMapOfTheWebsite() {
     readingInProgress.innerText = 'Reading in progress';
     websiteMap.appendChild(readingInProgress);
 
+    for( let i = 0 ; i < books.length ; i ++) {
+
+        if (books[i].inProgress === 3) {
+
+            let booksReadingInProgress = document.createElement('a');
+            booksReadingInProgress.href = `reading_in_progress.php#${books[i].idBook}`;
+            booksReadingInProgress.innerText = `${books[i].author_name} - ${books[i].title_of_the_book}`;
+            websiteMap.appendChild(booksReadingInProgress);
+
+        }
+
+    }
+
+
+
 }
 
 
