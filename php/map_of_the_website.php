@@ -62,7 +62,7 @@
     
     </footer>
     
-
+    <script src="../js/books.js"></script>
     <script src="../js/map_of_the_website.js"></script>
 
 
