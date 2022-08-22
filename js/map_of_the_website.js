@@ -26,7 +26,10 @@ function afficherMapOfTheWebsite() {
 
     }
 
-
+    let readingFinished = document.createElement('a');
+    readingFinished.href = 'reading_finished.php#reading_finished';
+    readingFinished.innerText = 'Reading finished';
+    websiteMap.appendChild(readingFinished);
 
 }
 
