@@ -31,6 +31,19 @@ function afficherMapOfTheWebsite() {
     readingFinished.innerText = 'Reading finished';
     websiteMap.appendChild(readingFinished);
 
+    for( let i = 0 ; i < books.length ; i ++) {
+
+        if (books[i].inProgress === 4) {
+
+            let booksReadingFinished = document.createElement('a');
+            booksReadingFinished.href = `reading_finished.php#${books[i].idBook}`;
+            booksReadingFinished.innerText = `${books[i].author_name} - ${books[i].title_of_the_book}`;
+            websiteMap.appendChild(booksReadingFinished);
+
+        }
+
+    }
+
 }
 
 
