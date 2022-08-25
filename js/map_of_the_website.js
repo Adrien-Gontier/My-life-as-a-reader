@@ -44,6 +44,11 @@ function afficherMapOfTheWebsite() {
 
     }
 
+    let pileToRead = document.createElement('a');
+    pileToRead.href = 'pile_to_read.php#pile_to_read';
+    pileToRead.innerText = 'Pile to read';
+    websiteMap.appendChild(pileToRead);
+
 }
 
 
