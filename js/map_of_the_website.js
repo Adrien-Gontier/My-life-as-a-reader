@@ -49,6 +49,19 @@ function afficherMapOfTheWebsite() {
     pileToRead.innerText = 'Pile to read';
     websiteMap.appendChild(pileToRead);
 
+    for( let i = 0 ; i < books.length ; i ++) {
+
+        if (books[i].inProgress === 2) {
+
+            let booksPileToRead = document.createElement('a');
+            booksPileToRead.href = `pile_to_read.php#${books[i].idBook}`;
+            booksPileToRead.innerText = `${books[i].author_name} - ${books[i].title_of_the_book}`;
+            websiteMap.appendChild(booksPileToRead);
+
+        }
+
+    }
+
 }
 
 
@@ -57,6 +70,7 @@ function afficherMapOfTheWebsite() {
 
 // Will be continu
 
+// Code will be test
 
 
 afficherMapOfTheWebsite();
