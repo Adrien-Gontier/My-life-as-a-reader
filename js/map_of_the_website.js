@@ -72,6 +72,8 @@ function afficherMapOfTheWebsite() {
 
 // Code will be test
 
+// Code will be write by order
+
 
 afficherMapOfTheWebsite();
 
