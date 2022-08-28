@@ -74,6 +74,8 @@ function afficherMapOfTheWebsite() {
 
 // Code will be write by order
 
+// Style will be doing
+
 
 afficherMapOfTheWebsite();
 
