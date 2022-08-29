@@ -30,7 +30,7 @@
     
     <section id="all_pages_links"></section>
 
-    <section class="all_pages_links">
+    <section class="all_pages_links"> <!-- WILL BE REMOVED WHEN THE MANIPULATION OF DOM IS READY -->
       <a href="index.php#home">Home</a> <!-- Manipulate with DOM js -->
       <a href="reading_in_progress.php#readinginprogress">Reading in progress</a>
       <a href="reading_in_progress.php#victor_hugo_notre_dame_de_paris">Victor Hugo - Notre-Dame de Paris</a>
