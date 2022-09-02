@@ -62,6 +62,11 @@ function afficherMapOfTheWebsite() {
 
     }
 
+    let wishlist = document.createElement('a');
+    wishlist.href = 'wishlist.php#wishlist';
+    wishlist.innerText = 'Wishlist';
+    websiteMap.appendChild(wishlist);
+
 }
 
 
