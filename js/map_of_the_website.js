@@ -67,6 +67,19 @@ function afficherMapOfTheWebsite() {
     wishlist.innerText = 'Wishlist';
     websiteMap.appendChild(wishlist);
 
+    for( let i = 0 ; i < books.length ; i ++) {
+
+        if (books[i].inProgress === 1) {
+
+            let booksWishlist = document.createElement('a');
+            booksWishlist.href = `wishlist.php#${books[i].idBook}`;
+            booksWishlist.innerText = `${books[i].author_name} - ${books[i].title_of_the_book}`;
+            websiteMap.appendChild(booksWishlist);
+
+        }
+
+    }
+
 }
 
 
