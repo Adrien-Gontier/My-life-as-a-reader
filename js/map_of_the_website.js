@@ -80,6 +80,11 @@ function afficherMapOfTheWebsite() {
 
     }
 
+    let contact = document.createElement('a');
+    contact.href = 'contact.php#contact';
+    contact.innerText = 'Contact';
+    websiteMap.appendChild(contact);
+
 }
 
 
