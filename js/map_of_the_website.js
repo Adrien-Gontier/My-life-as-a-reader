@@ -85,6 +85,11 @@ function afficherMapOfTheWebsite() {
     contact.innerText = 'Contact';
     websiteMap.appendChild(contact);
 
+    let whoAmI = document.createElement('a');
+    whoAmI.href = 'contact.php#contact';
+    whoAmI.innerText = 'Who am I';
+    websiteMap.appendChild(whoAmI);
+
 }
 
 
