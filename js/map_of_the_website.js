@@ -102,8 +102,11 @@ function afficherMapOfTheWebsite() {
 
 // Code will be write by order
 
+// Code will be test
+
 // Style will be doing
 
+// Code will be test
 
 afficherMapOfTheWebsite();
 
