@@ -98,7 +98,7 @@ function afficherMapOfTheWebsite() {
 
 // Will be continu
 
-// Code will be test
+// Code will be test. TEST : OK !
 
 // Code will be write by order
 
