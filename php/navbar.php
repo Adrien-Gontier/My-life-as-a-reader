@@ -1,7 +1,7 @@
 <div>  <!-- Title of the other pages of the website by link. It's in flex-box. -->
     <a class="animnavbuttona" href="index.php">Home</a>  <!-- Link to Home page. -->
 </div>
-<div>
+<div> <!-- Order of the links will be change -->
     <a class="animnavbuttonb" href="reading_in_progress.php">Reading in progress</a>  <!-- Link to the page "Reading in progress". -->
 </div>
 <div>
