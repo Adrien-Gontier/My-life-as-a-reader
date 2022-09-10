@@ -8,6 +8,42 @@ function afficherMapOfTheWebsite() {
     home.innerText = 'Home';
     websiteMap.appendChild(home);
 
+    let wishlist = document.createElement('a');
+    wishlist.href = 'wishlist.php#wishlist';
+    wishlist.innerText = 'Wishlist';
+    websiteMap.appendChild(wishlist);
+
+    for( let i = 0 ; i < books.length ; i ++) {
+
+        if (books[i].inProgress === 1) {
+
+            let booksWishlist = document.createElement('a');
+            booksWishlist.href = `wishlist.php#${books[i].idBook}`;
+            booksWishlist.innerText = `${books[i].author_name} - ${books[i].title_of_the_book}`;
+            websiteMap.appendChild(booksWishlist);
+
+        }
+
+    }
+
+    let pileToRead = document.createElement('a');
+    pileToRead.href = 'pile_to_read.php#pile_to_read';
+    pileToRead.innerText = 'Pile to read';
+    websiteMap.appendChild(pileToRead);
+
+    for( let i = 0 ; i < books.length ; i ++) {
+
+        if (books[i].inProgress === 2) {
+
+            let booksPileToRead = document.createElement('a');
+            booksPileToRead.href = `pile_to_read.php#${books[i].idBook}`;
+            booksPileToRead.innerText = `${books[i].author_name} - ${books[i].title_of_the_book}`;
+            websiteMap.appendChild(booksPileToRead);
+
+        }
+
+    }
+
     let readingInProgress = document.createElement('a');
     readingInProgress.href = 'reading_in_progress.php#readinginprogress';
     readingInProgress.innerText = 'Reading in progress';
@@ -44,42 +80,6 @@ function afficherMapOfTheWebsite() {
 
     }
 
-    let pileToRead = document.createElement('a');
-    pileToRead.href = 'pile_to_read.php#pile_to_read';
-    pileToRead.innerText = 'Pile to read';
-    websiteMap.appendChild(pileToRead);
-
-    for( let i = 0 ; i < books.length ; i ++) {
-
-        if (books[i].inProgress === 2) {
-
-            let booksPileToRead = document.createElement('a');
-            booksPileToRead.href = `pile_to_read.php#${books[i].idBook}`;
-            booksPileToRead.innerText = `${books[i].author_name} - ${books[i].title_of_the_book}`;
-            websiteMap.appendChild(booksPileToRead);
-
-        }
-
-    }
-
-    let wishlist = document.createElement('a');
-    wishlist.href = 'wishlist.php#wishlist';
-    wishlist.innerText = 'Wishlist';
-    websiteMap.appendChild(wishlist);
-
-    for( let i = 0 ; i < books.length ; i ++) {
-
-        if (books[i].inProgress === 1) {
-
-            let booksWishlist = document.createElement('a');
-            booksWishlist.href = `wishlist.php#${books[i].idBook}`;
-            booksWishlist.innerText = `${books[i].author_name} - ${books[i].title_of_the_book}`;
-            websiteMap.appendChild(booksWishlist);
-
-        }
-
-    }
-
     let contact = document.createElement('a');
     contact.href = 'contact.php#contact';
     contact.innerText = 'Contact';
@@ -100,7 +100,7 @@ function afficherMapOfTheWebsite() {
 
 // Code will be test. TEST : OK !
 
-// Code will be write by order
+// Code will be write by order. TEST : OK !
 
 // Code will be test
 
