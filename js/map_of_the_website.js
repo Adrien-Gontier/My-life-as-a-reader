@@ -102,7 +102,7 @@ function afficherMapOfTheWebsite() {
 
 // Code will be write by order. TEST : OK !
 
-// Code will be test
+// Code will be test. TEST : OK !
 
 // Style will be doing
 
