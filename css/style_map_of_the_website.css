@@ -4,35 +4,21 @@
 
 /* WILL BE CHANGE */
 
+/* WILL BE CONTINUED */
+
 /* WILL BE TESTED */
 
 #all_pages_links {
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    text-align: left;
+    justify-content: center;
 }
 
 #all_pages_links a {
     text-decoration: none;
     color: black;
-    font-size: 13px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-/* WHAT IS BELOW WILL BE REMOVED */
-
-.all_pages_links {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.all_pages_links a {
-    text-decoration: none;
-    color: black;
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-}
