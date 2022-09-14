@@ -92,22 +92,6 @@ function afficherMapOfTheWebsite() {
 
 }
 
-
-
-// Will concatenate the author's name and the book's name for what to display.
-
-// Will be continu
-
-// Code will be test. TEST : OK !
-
-// Code will be write by order. TEST : OK !
-
-// Code will be test. TEST : OK !
-
-// Style will be doing
-
-// Code will be test
-
 afficherMapOfTheWebsite();
 
 // wishlist = 1 = WL
