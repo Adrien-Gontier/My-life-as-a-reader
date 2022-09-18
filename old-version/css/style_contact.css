@@ -1,0 +1,114 @@
+/* STYLE FOR CONTACT */
+
+
+/* For : contact.html */
+
+.contactform_rules { /* Rules for the contactform */
+  font-size: 25px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact_section {  /* Contactstyle for contact.html */
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  font-size: 45px;
+}
+
+#contactform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#name, #email, #message {  /* Contactstyle for contact.html */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+}
+
+#name, #email {  /* Contactstyle for contact.html */
+  width: 500px;
+  height: 25px;
+}
+
+#message {  /* Contactstyle for contact.html */
+  min-width: 600px;
+  min-height: 300px;
+  max-width: 600px;
+  max-height: 300px;
+}
+
+#submit {  /* Button submit */
+  font-family: cursive;
+  font-size: 40px;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  width: 200px;
+  height: 60px;
+  margin-bottom: 45px;
+  cursor: pointer;
+  transition: 1.5s;
+}
+
+#submit:hover {
+  box-shadow: 0px 0px 15px Blue;
+  border-radius: 30px;
+  transition: 1.5s;
+}
+
+#submit:active {
+  box-shadow : 0px 0px 0px;
+  transition-duration: 0s;
+}
+
+@media all and (max-width: 900px)    /* For all media with a maximum of 900px width */
+{
+  .contactform_rules {  /* Rules for the contactform */
+    font-size: 15px;
+    color: black;
+  }
+
+  #contact_section {  /* Contactstyle for contact.html */
+    font-size: 25px;
+    color: black;
+  }
+
+  #name, #email, #message {  /* Contactstyle for contact.html */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  #name, #email {  /* Contactstyle for contact.html */
+    width: 200px;
+    height: 20px;
+  }
+
+  #message {  /* Contactstyle for contact.html */
+    min-width: 200px;
+    min-height: 150px;
+    max-width: 200px;
+    max-height: 150px;
+  }
+
+  #submit {  /* Button submit */
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    background-color: white;
+    width : 150px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+}
