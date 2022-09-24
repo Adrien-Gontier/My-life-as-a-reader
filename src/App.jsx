@@ -1,5 +1,5 @@
 import Title from './components/Title'
-
+import Wishlist from './components/Wishlist';
 import './App.css'
 
 export default function App() {
@@ -11,7 +11,8 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
-          
+        <Wishlist />
+        
       </Routes>
       <Footer />
     </BrowserRouter>
