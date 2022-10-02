@@ -3,25 +3,25 @@ import { Link } from "react-router-dom";
 export default function Navbar() { // TODO : will be continue
     <div>
         <div> 
-            <Link>Home</Link>
+            <Link to="/home">Home</Link>
         </div>
         <div>
-            <Link>Wishlist</Link>
+            <Link to="/wishlist">Wishlist</Link>
         </div>
         <div>
-            <Link>Pile to read</Link>
+            <Link to="/piletoread">Pile to read</Link>
         </div>
         <div>
-            <Link>Reading in progress</Link>
+            <Link to="/piletoread">Reading in progress</Link>
         </div>
         <div>
-            <Link>Reading finished</Link> 
+            <Link to="/readinginprogress">Reading finished</Link> 
         </div>
         <div>
-            <Link>Contact</Link>
+            <Link to="/readingfinished">Contact</Link>
         </div>
         <div>
-            <Link>Who am I</Link>
+            <Link to="/whoami">Who am I</Link>
         </div>
     </div>
 }
