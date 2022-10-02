@@ -4,6 +4,8 @@ import './App.css'
 import PileToRead from './components/PileToRead';
 import ReadingInProgress from './components/ReadingInProgress';
 import ReadingFinished from './components/ReadingFinished';
+import WhoAmI from './components/WhoAmI';
+import Footer from './components/Footer';
 
 export default function App() {
   
@@ -14,12 +16,15 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
-        <Wishlist path="/wishlist" />
-        <PileToRead path="piletoread" />
-        <ReadingInProgress path="/readinginprogress" />
-        <ReadingFinished path="readingfinished" />
+        <Route path="/wishlist" element={<Wishlist  />} />
+        <Route path="/piletoread" element={<PileToRead  />} />
+        <Route path="/readinginprogress" element={<ReadingInProgress />} />
+        <Route path="/readingfinished" element={<ReadingFinished />} />
+        <Route path="/whoami" element={<WhoAmI />} />
       </Routes>
       <Footer />
     </BrowserRouter>
   )
 }
+
+// TODO : test my code!!
