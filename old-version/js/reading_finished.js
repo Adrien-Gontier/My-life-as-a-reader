@@ -1,1 +1,0 @@
-afficherActivite(4);
