@@ -6,6 +6,7 @@ import ReadingInProgress from './components/ReadingInProgress';
 import ReadingFinished from './components/ReadingFinished';
 import WhoAmI from './components/WhoAmI';
 import Footer from './components/Footer';
+import MapOfTheWebsite from './components/MapOfTheWebsite';
 
 export default function App() {
   
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/readinginprogress" element={<ReadingInProgress />} />
         <Route path="/readingfinished" element={<ReadingFinished />} />
         <Route path="/whoami" element={<WhoAmI />} />
+        <Route path="/mapofthewebsite" element={<MapOfTheWebsite />} />
       </Routes>
       <Footer />
     </BrowserRouter>
