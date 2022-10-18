@@ -1,5 +1,5 @@
 export default function Home() {
     <div>
-        <p>My life as a reader Home !</p>
+        <p className="page-title">Home</p>
     </div>
 }
