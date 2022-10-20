@@ -1,5 +1,11 @@
+import React from 'react';
+
 export default function Home() {
-    <div>
-        <p className="page-title">Home</p>
-    </div>
+    return (
+        <div>
+            <p className="page-title">Home</p>
+        </div>
+    )
 }
+    
+    
