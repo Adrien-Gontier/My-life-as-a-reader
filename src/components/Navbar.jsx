@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
+import React from 'react';
 
 export default function Navbar() { // TODO : will be continue
-    <div>
+    return (
+        <div>
         <div> 
             <Link to="/home">Home</Link>
         </div>
@@ -24,4 +26,5 @@ export default function Navbar() { // TODO : will be continue
             <Link to="/whoami">Who am I</Link>
         </div>
     </div>
+    )
 }
