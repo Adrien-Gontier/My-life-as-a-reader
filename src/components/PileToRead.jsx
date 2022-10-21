@@ -1,10 +1,14 @@
-import PileOfBooks from "../assets/pexels-sharon-mccutcheon-1148399.jpg";
-import Books from "../assets/books.json";
+import React from 'react';
 import EachBook from './EachBook';
-
+import PileOfBooks from "../assets/pexels-sharon-mccutcheon-1148399.jpg";
 
 export default function PileToRead() {
-    <div>
-        <p >Hello world Pile To Read !</p>
-    </div>
+    return (
+        <div>
+            <p >Hello world Pile To Read !</p>
+            <div><EachBook /></div>
+        </div>
+
+    )
+    
 }
