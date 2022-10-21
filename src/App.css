@@ -4,12 +4,12 @@
 
 
 body {  /* Background image of the website */
-    text-align: center;
-    color: black;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
   
 
@@ -18,21 +18,21 @@ body {  /* Background image of the website */
 /* STYLE FOR THE WEBSITE TITLE */
 
 
-.website_title {
-    font-family: "Times New Roman";
-    text-decoration: none;
-    color: black;
-    font-size: 70px;
+.website-title {
+  font-family: "Times New Roman";
+  text-decoration: none;
+  color: black;
+  font-size: 70px;
 }
     
   
   
 @media all and (max-width: 900px)  /* For all media with a maximum of 900px width */
 {
-    .website_title {
-      font-weight: bold;
-      font-size: 50px;
-    }
+  .website_title {
+    font-weight: bold;
+    font-size: 50px;
+  }
 }
 
 
@@ -40,12 +40,12 @@ body {  /* Background image of the website */
 /* STYLE FOR WEBSITE NAVBAR */
 
 
-nav {  /* Title of the other pages of the website by link */
+.nav {  /* Title of the other pages of the website by link */
   list-style: none;
   background-color: rgb(81, 158, 251);
 }
   
-nav div a {  /* Title of the other pages of the website by link */
+.nav div a {  /* Title of the other pages of the website by link */
   text-decoration: none;
   font-size: 19px;
   color: white;
@@ -57,7 +57,7 @@ nav div a {  /* Title of the other pages of the website by link */
   
 @media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
 {
-  nav {  /* Title of the other pages of the website by link */
+  .nav {  /* Title of the other pages of the website by link */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -71,7 +71,7 @@ nav div a {  /* Title of the other pages of the website by link */
     border-radius: 22px;
   }
   
-  nav div a:hover {  /* Title of the other pages of the website by link and specific when it's hover */
+  .nav div a:hover {  /* Title of the other pages of the website by link and specific when it's hover */
     color: black;
     background-color: white;
     border-radius: 5px;
@@ -82,7 +82,7 @@ nav div a {  /* Title of the other pages of the website by link */
   
 @media all and (max-width: 900px)  /* For all media with a maximum of 900px width */
 {
-  nav {  /* Title of the other pages of the website by link */
+  .nav {  /* Title of the other pages of the website by link */
     margin-left: 0;
     margin-right: 0;
     margin-top: 50px;
@@ -95,7 +95,7 @@ nav div a {  /* Title of the other pages of the website by link */
 
 @media all and (max-width: 900px)
 {
-  nav {
+  .nav {
     margin-left: 0;
     margin-right: 0;
     margin-top: 50px;
@@ -107,7 +107,7 @@ nav div a {  /* Title of the other pages of the website by link */
 
 @media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
 {
-  nav {  /* Title of the other pages of the website by link */    
+  .nav {  /* Title of the other pages of the website by link */    
     animation-duration: 3s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
@@ -126,7 +126,7 @@ nav div a {  /* Title of the other pages of the website by link */
     }
   }
 
-  nav div {
+  .nav div {
     animation-duration: 3.2s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
@@ -467,89 +467,85 @@ nav div a {  /* Title of the other pages of the website by link */
 
 
 
-
-
-
 /* STYLE FOR BOOKS CONTENT */
 
 .dropdown_list_title {
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+  
+select {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+  
+.author_name, .author_date_born_death {  /* First and last name of the author and Year of born and year of death of the author */
+  font-family: 'Times New Roman', Times, serif;
+}
+  
+.author_name, .title_of_the_book {  /* First and last name of the author and Title of the book */
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+  
+.author_date_born_death, .book_year_publication {  /* Year of born and year of death of the author and Year of publication of the book */
+  font-size: 20px;
+}
+  
+.title_of_the_book, .book_year_publication {  /* Title of the book and Year of publication of the book */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+.summary_title, .contactform_rules {  /* Title : "summary" of the book and Rules for the contactform */
+  font-family: 'Courier New', Courier, monospace;
+}
+  
+.summary_title {  /* Title : "summary" of the book */
+  font-size: 35px;
+}
+  
+.book_summary {  /* Summary of the book */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+@media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
+{
+  .books {  /* Books */
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  } 
+
+  .separation_line_between_books {
+    background-color: blue;
+    height: 1px;
+    width: 600pt;
   }
-  
-  select {
-    color: black;
-    background-color: white;
-    border: 1px solid black;
+
+  .author_name, .author_date_born_death, .title_of_the_book, .book_year_publication, .summary_title, .book_summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
+    width: 300pt;
   }
-  
-  .author_name, .author_date_born_death {  /* First and last name of the author and Year of born and year of death of the author */
-    font-family: 'Times New Roman', Times, serif;
+}
+
+@media all and (max-width: 900px)    /* For all media with a maximum of 900px width */
+{
+  .books {  /* Books */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
   }
-  
-  .author_name, .title_of_the_book {  /* First and last name of the author and Title of the book */
-    font-size: 40px;
-    margin-bottom: 0px;
+
+  .separation_line_between_books {
+    background-color: blue;
+    height: 1px;
+    width: 175pt;
   }
-  
-  .author_date_born_death, .book_year_publication {  /* Year of born and year of death of the author and Year of publication of the book */
-    font-size: 20px;
+
+  .author_name, .author_date_born_death, .title_of_the_book, .book_year_publication, .summary_title, .book_summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
+    max-width: 200pt;
   }
-  
-  .title_of_the_book, .book_year_publication {  /* Title of the book and Year of publication of the book */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  .summary_title, .contactform_rules {  /* Title : "summary" of the book and Rules for the contactform */
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .summary_title {  /* Title : "summary" of the book */
-    font-size: 35px;
-  }
-  
-  .book_summary {  /* Summary of the book */
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-  }
-  
-  @media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
-  {
-    .books {  /* Books */
-      display: flex;
-      justify-content: space-evenly;
-      margin-bottom: 20px;
-    } 
-  
-    .separation_line_between_books {
-      background-color: blue;
-      height: 1px;
-      width: 600pt;
-    }
-  
-    .author_name, .author_date_born_death, .title_of_the_book, .book_year_publication, .summary_title, .book_summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
-      width: 300pt;
-    }
-  }
-  
-  @media all and (max-width: 900px)    /* For all media with a maximum of 900px width */
-  {
-    .books {  /* Books */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 30px;
-    }
-  
-    .separation_line_between_books {
-      background-color: blue;
-      height: 1px;
-      width: 175pt;
-    }
-  
-    .author_name, .author_date_born_death, .title_of_the_book, .book_year_publication, .summary_title, .book_summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
-      max-width: 200pt;
-    }
-  }
-  
+}
