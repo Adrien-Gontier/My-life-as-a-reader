@@ -1,9 +1,15 @@
+import React from "react";
 import BookOpen from "../assets/pexels-pixabay-415071.jpg"
 import Books from "../assets/books.json";
 import EachBook from './EachBook';
 
 export default function ReadingInProgress() {
-    <div>
-        <p>Hello world Reading in Progress !</p>
-    </div>
+
+    return (
+        <div>
+            <p >Hello world Reading in progress !</p>
+            <div><EachBook /></div>
+        </div>
+
+    )
 }
