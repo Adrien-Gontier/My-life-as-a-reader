@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 
 
@@ -6,12 +6,9 @@ import React from 'react'
 export default function EachBook() {
 
 
-
-
-
     
   return (
-    <>
+    
         <div id="walter_tevis_the_queen_s_gambit" class="books">  {/* that's where I describe a book I anticipate to read. It's divide in flex-box. */}
         <div>
           <p class="author_name">Walter Tevis</p>  {/* First name and last name of the author */}
@@ -29,6 +26,6 @@ export default function EachBook() {
           </section>
         </div>
       </div>
-    </>
+    
   )
 }
