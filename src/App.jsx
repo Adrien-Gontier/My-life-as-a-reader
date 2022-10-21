@@ -11,6 +11,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import React from 'react';
+import Contact from './components/Contact';
 
 export default function App() {
   
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="/readingfinished" element={<ReadingFinished />} />
         <Route path="/whoami" element={<WhoAmI />} />
         <Route path="/mapofthewebsite" element={<MapOfTheWebsite />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>
