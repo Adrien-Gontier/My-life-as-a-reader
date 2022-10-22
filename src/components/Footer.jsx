@@ -3,7 +3,7 @@ import MapOfTheWebsite from './MapOfTheWebsite'
 
 export default function Footer() {
   return (
-    <div>
+    <div className="footer">
         <p>Hello world Footer !</p>
         <div><MapOfTheWebsite /></div>
     </div>
