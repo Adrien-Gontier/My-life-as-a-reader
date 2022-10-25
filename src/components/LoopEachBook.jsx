@@ -1,12 +1,14 @@
 import React from 'react';
+import BooksList from '../assets/books.json';
 import EachBook from './EachBook';
 
 export default function LoopEachBook() {
 
-    // UseState will be here for the loop
-
-
   return (
-    <div><EachBook /></div>
+    <div>  
+      {BooksList?.map((eachBook) => <div key={eachBook.idBook}><EachBook props={eachBook} /></div>)}
+    </div>
   )
 }
+
+// WILL BE CONTINUE
