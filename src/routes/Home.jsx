@@ -1,9 +1,11 @@
 import React from 'react';
+import RoutesTitles from '../components/RoutesTitles';
 
 export default function Home() {
     return (
         <div>
-            <p className="page-title">Home</p>
+            <p>Home</p>
+            <RoutesTitles />
         </div>
     )
 }
