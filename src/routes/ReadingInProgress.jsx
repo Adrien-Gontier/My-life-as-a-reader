@@ -8,7 +8,7 @@ export default function ReadingInProgress() {
     return (
         <div>
             <p >Hello world Reading in progress !</p>
-            <RoutesTitles />
+            <RoutesTitles props={BookOpen} />
             <div><LoopEachBook /></div>
         </div>
 
