@@ -7,7 +7,7 @@ export default function ReadingFinished() {
     return (
         <div>
             <p>Hello world Reading Finished !</p>
-            <RoutesTitles />
+            <RoutesTitles props={BooksInLibrary} />
         </div> 
     )
     
