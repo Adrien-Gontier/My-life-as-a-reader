@@ -6,7 +6,6 @@ import ReadingInProgress from './routes/ReadingInProgress';
 import ReadingFinished from './routes/ReadingFinished';
 import WhoAmI from './routes/WhoAmI';
 import Footer from './components/Footer';
-import MapOfTheWebsite from './routes/MapOfTheWebsite';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './routes/Home';
@@ -28,7 +27,6 @@ export default function App() {
         <Route path="/readinginprogress" element={<ReadingInProgress />} />
         <Route path="/readingfinished" element={<ReadingFinished />} />
         <Route path="/whoami" element={<WhoAmI />} />
-        <Route path="/mapofthewebsite" element={<MapOfTheWebsite />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
