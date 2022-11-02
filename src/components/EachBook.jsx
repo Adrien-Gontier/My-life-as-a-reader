@@ -9,6 +9,8 @@ export default function EachBook(props) {
 
   useEffect(() => {
 
+    console.log(bookData);
+
     bookData?.inProgress === "RIP" ? null : setDataBook(bookData);
 
     console.log(dataBook);
@@ -21,7 +23,7 @@ export default function EachBook(props) {
 
     <div id="" className="books">  {/* that's where I describe a book I anticipate to read. It's divide in flex-box. */}
       <div>
-        <p className="author-name">Walter Tevis</p>  {/* First name and last name of the author */}
+        <p className="author-name">{bookData.title_of_the_book}</p>  {/* First name and last name of the author */}
         <p className="author-date-born-death">1928 - 1984</p>  {/* Year of born and year of death of the author. */}
         <p className="title-of-the-book">The Queen's Gambit</p>  {/* Title of the book. */}
         <p className="book-year-publication">1983</p>  {/* Year of the publication of the book. If it's more than one year : choose the most relevant year. */}
