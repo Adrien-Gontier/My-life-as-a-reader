@@ -17,7 +17,8 @@ export default function EachBook(props) {
 
   }, []);
 
-  // WILL BE CONITNUE
+  // WILL BE CONITNUE 
+  // TODO each book will be link to another component wich display one book only
 
   return (
 
