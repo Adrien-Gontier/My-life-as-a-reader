@@ -14,7 +14,7 @@ export default function PileToRead() {
         <div>
             <p>Hello world Pile To Read !</p>
             <RoutesTitles props={titlePictures} />
-            <LoopEachBook />
+            <LoopEachBook props={"PTR"} />
         </div>
 
     )
