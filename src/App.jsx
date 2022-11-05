@@ -11,25 +11,33 @@ import Navbar from './components/Navbar';
 import Home from './routes/Home';
 import React from 'react';
 import Contact from './routes/Contact';
+import BooksList from './assets/books.json';
+import { useState } from 'react';
+import BookDataContext from './context/BookDataContext';
 
 export default function App() {
-  
+
+
+  const [bookData, setBookData] = useState(BooksList)
+
 
   return (
     <BrowserRouter>
-      <Title />
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Navigate to="/home" />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/wishlist" element={<Wishlist  />} />
-        <Route path="/piletoread" element={<PileToRead  />} />
-        <Route path="/readinginprogress" element={<ReadingInProgress />} />
-        <Route path="/readingfinished" element={<ReadingFinished />} />
-        <Route path="/whoami" element={<WhoAmI />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
+      <BookDataContext.Provider value={{ bookData, setBookData }}>
+        <Title />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/wishlist" element={<Wishlist />} />
+          <Route path="/piletoread" element={<PileToRead />} />
+          <Route path="/readinginprogress" element={<ReadingInProgress />} />
+          <Route path="/readingfinished" element={<ReadingFinished />} />
+          <Route path="/whoami" element={<WhoAmI />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </BookDataContext.Provider>
     </BrowserRouter>
   )
 }
