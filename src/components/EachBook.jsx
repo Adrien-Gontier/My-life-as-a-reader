@@ -5,17 +5,40 @@ export default function EachBook(props) {
 
   const [dataBook, setDataBook] = useState(null);
 
+  // console.log(props.propsEncore);
+
   const bookData = props.props;
 
-  useEffect(() => {
 
-    console.log(bookData);
 
-    bookData?.inProgress === "RIP" ? null : setDataBook(bookData);
+  // console.log(bookData);
 
-    console.log(dataBook);
+  // let oneBookData;
 
-  }, []);
+  // let oneBookTitle
+
+  // useEffect(() => {
+
+  //   if(bookData.inProgress == props.propsEncore) {
+  //     // console.log(bookData.inProgress + " " + props.propsEncore);
+  //     oneBookData = bookData;
+  //     // setDataBook(bookData);
+  //     // console.log(oneBookData.title_of_the_book);
+
+  //     oneBookTitle = oneBookData.title_of_the_book;
+
+  //     console.log(oneBookTitle);
+  //   }
+
+
+  // }, []);
+
+
+  const oneBookTitleTest = bookData.inProgress == props.propsEncore ? bookData.title_of_the_book : null;
+
+  
+
+
 
   // WILL BE CONITNUE 
   // TODO each book will be link to another component wich display one book only
@@ -24,9 +47,9 @@ export default function EachBook(props) {
 
     <div id="" className="books">  {/* that's where I describe a book I anticipate to read. It's divide in flex-box. */}
       <div>
-        <p className="author-name">{bookData.title_of_the_book}</p>  {/* First name and last name of the author */}
+        <p className="author-name"></p>  {/* First name and last name of the author */}
         <p className="author-date-born-death">1928 - 1984</p>  {/* Year of born and year of death of the author. */}
-        <p className="title-of-the-book">The Queen's Gambit</p>  {/* Title of the book. */}
+        <p className="title-of-the-book">{oneBookTitleTest}</p>  {/* Title of the book. */}
         <p className="book-year-publication">1983</p>  {/* Year of the publication of the book. If it's more than one year : choose the most relevant year. */}
       </div>
       <div>
