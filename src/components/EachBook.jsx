@@ -42,6 +42,7 @@ export default function EachBook(props) {
 
   // WILL BE CONITNUE 
   // TODO each book will be link to another component wich display one book only
+  // TODO do conditional for each book to be dixplay or not
 
   return (
 
