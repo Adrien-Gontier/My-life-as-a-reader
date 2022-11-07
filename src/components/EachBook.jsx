@@ -1,45 +1,31 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 
 export default function EachBook(props) {
-
-  const [dataBook, setDataBook] = useState(null);
 
   // console.log(props.propsEncore);
 
   const bookData = props.props;
 
 
+  const authorName = <p className="author-name"></p>;
+  const authorDateBornDeath = <p className="author-date-born-death"></p>
+  const titleOfTheBook = <p className="title-of-the-book"></p>;
+  const bookYearPublication = <p className="book-year-publication"></p>;
 
-  // console.log(bookData);
-
-  // let oneBookData;
-
-  // let oneBookTitle
-
-  // useEffect(() => {
-
-  //   if(bookData.inProgress == props.propsEncore) {
-  //     // console.log(bookData.inProgress + " " + props.propsEncore);
-  //     oneBookData = bookData;
-  //     // setDataBook(bookData);
-  //     // console.log(oneBookData.title_of_the_book);
-
-  //     oneBookTitle = oneBookData.title_of_the_book;
-
-  //     console.log(oneBookTitle);
-  //   }
+  const divTagOne = <div>{authorName + authorDateBornDeath + titleOfTheBook + bookYearPublication}</div>;
 
 
-  // }, []);
+  const summaryTitle = <p className="summary-title">Summary</p>;
+  const bookSummary = <section className="book-summary"></section>; // fix the book summary with .map
 
-
-  const oneBookTitleTest = bookData.inProgress == props.propsEncore ? bookData.title_of_the_book : null;
-
+  const divTagTwo = <div>{summaryTitle + bookSummary}</div>
   
 
 
+  const oneBookTitleTest = bookData.inProgress == props.propsEncore ? <div id="" className="books">{divTagOne + divTagTwo}</div> : null;
 
+  
   // WILL BE CONITNUE 
   // TODO each book will be link to another component wich display one book only
   // TODO do conditional for each book to be dixplay or not
