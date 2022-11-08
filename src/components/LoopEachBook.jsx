@@ -7,16 +7,9 @@ export default function LoopEachBook(props) {
 
   const { bookData, setBookData } = useContext(BookDataContext);
 
-  // console.log(bookData);
-
-
-  // do some conditional thing to fix the problem
-
   return (
     <div>  
-      {bookData.map((eachBook) => <div key={eachBook.idBook}><EachBook props={eachBook} propsEncore={props.props}/></div>)}
+      {bookData.map((eachBook) => <EachBook key={eachBook.idBook} props={eachBook} propsEncore={props.props}/>)}
     </div>
   )
 }
-
-// WILL BE CONTINUE
