@@ -14,6 +14,7 @@ import Contact from './routes/Contact';
 import BooksList from './assets/books.json';
 import { useState } from 'react';
 import BookDataContext from './context/BookDataContext';
+import MapOfTheWebsite from './routes/MapOfTheWebsite';
 
 export default function App() {
 
@@ -35,6 +36,7 @@ export default function App() {
           <Route path="/readingfinished" element={<ReadingFinished />} />
           <Route path="/whoami" element={<WhoAmI />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/mapofthewebsite" element={<MapOfTheWebsite />} />
         </Routes>
         <Footer />
       </BookDataContext.Provider>
