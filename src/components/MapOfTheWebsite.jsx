@@ -5,7 +5,7 @@ import BookList from "../assets/books.json";
 export default function MapOfTheWebsite() {
 
 
-  const idBooks = BookList.map((eachIdBook => <p key={eachIdBook.id}>{eachIdBook.author_name} {eachIdBook.title_of_the_book}</p> ));
+  const idBooks = BookList.map((eachIdBook => <div key={eachIdBook.id}><p>{eachIdBook.author_name}</p><p>{eachIdBook.title_of_the_book}</p></div> ));
 
 
   // will be continu
@@ -13,7 +13,7 @@ export default function MapOfTheWebsite() {
   return (
     <div className="all-pages-links">
         <p>Hello world MapOfTheWebsite !</p>
-        {/* TODO put the links here */}
+        {/* TODO put the links here with each routes of the website */}
         <div>{idBooks}</div>
     </div>
   )
