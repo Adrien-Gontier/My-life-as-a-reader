@@ -12,7 +12,6 @@ export default function PileToRead() {
 
     return (
         <div>
-            <p>Hello world Pile To Read !</p>
             <RoutesTitles props={titlePictures} />
             <LoopEachBook props={"PTR"} />
         </div>
