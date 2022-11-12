@@ -9,7 +9,6 @@ export default function ReadingInProgress() {
 
     return (
         <div>
-            <p >Hello world Reading in progress !</p>
             <RoutesTitles props={titlePictures} />
             
             
