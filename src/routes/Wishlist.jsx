@@ -5,12 +5,11 @@ import RoutesTitles from '../components/RoutesTitles';
 
 export default function Wishlist() {
 
-    const titlePictures = {title: "Reading finished", pictureSrc: WomanInFrontOfLibrary}
+    const titlePictures = {title: "Wishlist", pictureSrc: WomanInFrontOfLibrary}
 
 
     return (
         <div>
-            <p>Hello world Wishlist !</p>
             <RoutesTitles props={titlePictures} />
         </div>
     )
