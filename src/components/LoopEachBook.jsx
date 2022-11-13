@@ -9,7 +9,7 @@ export default function LoopEachBook(props) {
 
   return (
     <div>  
-      {bookData.map((eachBook) => <EachBook key={eachBook.idBook} props={eachBook} propsEncore={props.props}/>)}
+      {bookData.map((eachBookData) => <EachBook key={eachBookData.idBook} props={eachBookData} propsInProgress={props.props}/>)}
     </div>
   )
 }
