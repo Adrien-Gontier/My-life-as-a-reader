@@ -10,8 +10,7 @@ export default function ReadingInProgress() {
     return (
         <div>
             <RoutesTitles props={titlePictures} />
-            
-            
+            <LoopEachBook props={"RIP"} />
         </div>
 
     )
