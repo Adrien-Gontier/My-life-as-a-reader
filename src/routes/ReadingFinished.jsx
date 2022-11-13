@@ -1,5 +1,6 @@
 import React from 'react';
 import BooksInLibrary from "../assets/pexels-pixabay-159711.jpg";
+import LoopEachBook from '../components/LoopEachBook';
 import RoutesTitles from '../components/RoutesTitles';
 
 
@@ -12,6 +13,7 @@ export default function ReadingFinished() {
     return (
         <div>
             <RoutesTitles props={titlePictures} />
+            <LoopEachBook props={"RF"} />
         </div> 
     )
     
