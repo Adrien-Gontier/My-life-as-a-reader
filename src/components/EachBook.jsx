@@ -4,6 +4,7 @@ import React from 'react';
 export default function EachBook(props) {
 
   const bookData = props.props;
+  const inProgressBook = props.propsInProgress;
 
   const authorName = <p className="author-name">{bookData.author_name}</p>;
   const authorDateBornDeath = <p className="author-date-born-death">{bookData.author_date_born_death}</p>
@@ -18,7 +19,7 @@ export default function EachBook(props) {
 
   const divTagTwo = <div>{summaryTitle}{bookSummary}</div>
   
-  const oneBookTitleTest = bookData.inProgress == props.propsEncore ? <div id="" className="books">{divTagOne}{divTagTwo}</div> : null;
+  const oneBookTitleTest = bookData.inProgress == inProgressBook ? <div id="" className="books">{divTagOne}{divTagTwo}</div> : null;
 
   return (
 
