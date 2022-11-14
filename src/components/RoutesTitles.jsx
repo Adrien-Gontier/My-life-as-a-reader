@@ -7,7 +7,7 @@ export default function RoutesTitles(props) {
     return (
         <div className="page_title_head">
             <p id="" className="page-title">{titlePicture.title}</p>
-            <img className="" src={titlePicture.pictureSrc} alt="" />
+            <img className="picture_15_100_size" src={titlePicture.pictureSrc} alt="" />
         </div>
     )
 }
