@@ -30,7 +30,7 @@ body {  /* Background image of the website */
   
 @media all and (max-width: 900px)  /* For all media with a maximum of 900px width */
 {
-  .website_title {
+  .website-title {
     font-weight: bold;
     font-size: 50px;
   }
@@ -143,32 +143,32 @@ select {
   border: 1px solid black;
 }
   
-.author_name, .author_date_born_death {  /* First and last name of the author and Year of born and year of death of the author */
+.author-name, .author-date-born-death {  /* First and last name of the author and Year of born and year of death of the author */
   font-family: 'Times New Roman', Times, serif;
 }
   
-.author_name, .title_of_the_book {  /* First and last name of the author and Title of the book */
+.author-name, .title-of-the-book {  /* First and last name of the author and Title of the book */
   font-size: 40px;
   margin-bottom: 0px;
 }
   
-.author_date_born_death, .book_year_publication {  /* Year of born and year of death of the author and Year of publication of the book */
+.author-date-born-death, .book-year-publication {  /* Year of born and year of death of the author and Year of publication of the book */
   font-size: 20px;
 }
   
-.title_of_the_book, .book_year_publication {  /* Title of the book and Year of publication of the book */
+.title-of-the-book, .book-year-publication {  /* Title of the book and Year of publication of the book */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
   
-.summary_title, .contactform_rules {  /* Title : "summary" of the book and Rules for the contactform */
+.summary-title, .contactform-rules {  /* Title : "summary" of the book and Rules for the contactform */
   font-family: 'Courier New', Courier, monospace;
 }
   
-.summary_title {  /* Title : "summary" of the book */
+.summary-title {  /* Title : "summary" of the book */
   font-size: 35px;
 }
   
-.book_summary {  /* Summary of the book */
+.book-summary {  /* Summary of the book */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
@@ -181,13 +181,13 @@ select {
     margin-bottom: 20px;
   } 
 
-  .separation_line_between_books {
+  .separation-line-between-books {
     background-color: blue;
     height: 1px;
     width: 600pt;
   }
 
-  .author_name, .author_date_born_death, .title_of_the_book, .book_year_publication, .summary_title, .book_summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
+  .author-name, .author-date-born-death, .title-of-the-book, .book-year-publication, .summary-title, .book-summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
     width: 300pt;
   }
 }
@@ -201,13 +201,13 @@ select {
     margin-bottom: 30px;
   }
 
-  .separation_line_between_books {
+  .separation-line-between-books {
     background-color: blue;
     height: 1px;
     width: 175pt;
   }
 
-  .author_name, .author_date_born_death, .title_of_the_book, .book_year_publication, .summary_title, .book_summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
+  .author-name, .author-date-born-death, .title-of-the-book, .book_year_publication, .summary-title, .book-summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
     max-width: 200pt;
   }
 }
@@ -265,7 +265,7 @@ select {
 
 @media all and (min-width: 901px)  /* For all media with a minimum of 901px width */
 {
-  .page_title_head {
+  .page-title-head {
     display: flex;
     justify-content:space-evenly;
     height: fit-content;
@@ -273,14 +273,14 @@ select {
     margin-bottom: 5px;
   }
 
-  .page_title {  /* Title of the page */
+  .page-title {  /* Title of the page */
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
     font-size: 40px;
   }
 
-  .picture_15_100_size {
+  .picture-15-100-size {
     inline-size: 15%;
   }
 
