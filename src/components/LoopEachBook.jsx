@@ -13,3 +13,4 @@ export default function LoopEachBook(props) {
     </div>
   )
 }
+// TODO improving className of each book will be done
