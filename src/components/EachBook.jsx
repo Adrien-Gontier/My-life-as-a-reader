@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// TODO improving className of each book will be done
 export default function EachBook(props) {
 
   const bookData = props.props;
