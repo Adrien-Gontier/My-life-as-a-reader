@@ -143,20 +143,20 @@ select {
   border: 1px solid black;
 }
   
-.author-name, .author-date-born-death {  /* First and last name of the author and Year of born and year of death of the author */
+.books__author-name, .books__author-date-born-death {  /* First and last name of the author and Year of born and year of death of the author */
   font-family: 'Times New Roman', Times, serif;
 }
   
-.author-name, .title-of-the-book {  /* First and last name of the author and Title of the book */
+.books__author-name, .books__title-of-the-book {  /* First and last name of the author and Title of the book */
   font-size: 40px;
   margin-bottom: 0px;
 }
   
-.author-date-born-death, .book-year-publication {  /* Year of born and year of death of the author and Year of publication of the book */
+.books__author-date-born-death, .books__book-year-publication {  /* Year of born and year of death of the author and Year of publication of the book */
   font-size: 20px;
 }
   
-.title-of-the-book, .book-year-publication {  /* Title of the book and Year of publication of the book */
+.books__title-of-the-book, .books__book-year-publication {  /* Title of the book and Year of publication of the book */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
   
@@ -187,7 +187,7 @@ select {
     width: 600pt;
   }
 
-  .author-name, .author-date-born-death, .title-of-the-book, .book-year-publication, .summary-title, .book-summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
+  .books__author-name, .books__author-date-born-death, .books__title-of-the-book, .books__book-year-publication, .summary-title, .book-summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
     width: 300pt;
   }
 }
@@ -207,7 +207,7 @@ select {
     width: 175pt;
   }
 
-  .author-name, .author-date-born-death, .title-of-the-book, .book_year_publication, .summary-title, .book-summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
+  .books__author-name, .author-date-born-death, .title-of-the-book, .book_year_publication, .summary-title, .book-summary {  /* First and last name of the author, Year of born and year of death of the author, Title of the book, Year of publication of the book, Title : "summary" of the book and Summary of the book */
     max-width: 200pt;
   }
 }
