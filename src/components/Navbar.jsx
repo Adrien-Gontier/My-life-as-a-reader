@@ -20,9 +20,6 @@ export default function Navbar() { // TODO : will be continue
                 <Link to="/readingfinished">Reading finished</Link> 
             </div>
             <div>
-                <Link to="/contact">Contact</Link>
-            </div>
-            <div>
                 <Link to="/whoami">Who am I</Link>
             </div>
          </div>
