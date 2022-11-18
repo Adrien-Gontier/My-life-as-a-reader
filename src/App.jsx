@@ -10,7 +10,6 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './routes/Home';
 import React from 'react';
-import Contact from './routes/Contact';
 import BooksList from './assets/books.json';
 import { useState } from 'react';
 import BookDataContext from './context/BookDataContext';
@@ -35,7 +34,6 @@ export default function App() {
           <Route path="/readinginprogress" element={<ReadingInProgress />} />
           <Route path="/readingfinished" element={<ReadingFinished />} />
           <Route path="/whoami" element={<WhoAmI />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/mapofthewebsite" element={<MapOfTheWebsite />} />
         </Routes>
         <Footer />
