@@ -1,0 +1,22 @@
+/* STYLE FOR HOMEPAGE */
+
+
+@media all and (min-width: 901px) {
+    .section_welcome_page {
+        display: flex;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    article {
+        flex: 3;
+        max-width: 500pt;
+        margin-left: 150px;
+        margin-right: 50px;
+        text-align: justify;
+    }
+
+    aside {
+        flex: 1.2;
+    }
+}
