@@ -1,0 +1,51 @@
+/* STYLE FOR THE PAGE TITLE and PICTURES */
+
+
+
+@media all and (min-width: 901px) {
+    .page-title-head {
+        display: flex;
+        justify-content: space-evenly;
+        height: fit-content;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .page-title {
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    .picture-15-100-size {
+        inline-size: 15%;
+    }
+
+    .picture_30_100_size {
+        inline-size: 30%;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .page_title_head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page_title {
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    .picture_15_100_size {
+        inline-size: 30%;
+    }
+
+    .picture_30_100_size {
+        inline-size: 50%;
+    }
+}
