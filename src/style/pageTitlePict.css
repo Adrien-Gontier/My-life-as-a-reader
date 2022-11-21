@@ -18,34 +18,26 @@
         font-size: 40px;
     }
 
-    .picture-15-100-size {
+    .picture {
         inline-size: 15%;
-    }
-
-    .picture_30_100_size {
-        inline-size: 30%;
     }
 }
 
 @media all and (max-width: 900px) {
-    .page_title_head {
+    .page-title-head {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .page_title {
+    .page-title {
         color: black;
         font-family: 'Courier New', Courier, monospace;
         font-weight: 600;
         font-size: 40px;
     }
 
-    .picture_15_100_size {
+    .picture {
         inline-size: 30%;
-    }
-
-    .picture_30_100_size {
-        inline-size: 50%;
     }
 }
