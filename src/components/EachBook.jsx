@@ -14,8 +14,8 @@ export default function EachBook(props) {
   const divTagOne = <div>{authorName}{authorDateBornDeath}{titleOfTheBook}{bookYearPublication}</div>;
 
   const bookSummaryParagraph = bookData.book_summary.map((eachSummaryParagraph) => <p key={bookData.book_summary.indexOf(eachSummaryParagraph)}>{eachSummaryParagraph}</p>);
-  const summaryTitle = <p className="summary-title">Summary</p>;
-  const bookSummary = <section className="book-summary">{bookSummaryParagraph}</section>; // fix the book summary with .map
+  const summaryTitle = <p className="books__summary-title">Summary</p>;
+  const bookSummary = <section className="books__book-summary">{bookSummaryParagraph}</section>; // fix the book summary with .map
 
   const divTagTwo = <div>{summaryTitle}{bookSummary}</div>
   
