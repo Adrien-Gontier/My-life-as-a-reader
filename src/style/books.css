@@ -1,18 +1,6 @@
 /* STYLE FOR BOOKS CONTENT */
 
 
-.dropdown_list_title {
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-}
-
-select {
-    color: black;
-    background-color: white;
-    border: 1px solid black;
-}
-
 .books__author-name,
 .books__author-date-born-death {
     font-family: 'Times New Roman', Times, serif;
@@ -20,13 +8,13 @@ select {
 
 .books__author-name,
 .books__title-of-the-book {
-    font-size: 40px;
-    margin-bottom: 0px;
+    font-size: 3rem;
+    margin-bottom: 0;
 }
 
 .books__author-date-born-death,
 .books__book-year-publication {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .books__title-of-the-book,
@@ -34,18 +22,17 @@ select {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.summary-title,
-.contactform-rules {
+.books__summary-title {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.summary-title {
-    font-size: 35px;
+.books__summary-title {
+    font-size: 3rem;
 }
 
-.book-summary {
+.books__book-summary {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 @media all and (min-width: 901px) {
@@ -53,22 +40,16 @@ select {
 
         display: flex;
         justify-content: space-evenly;
-        margin-bottom: 20px;
-    }
-
-    .separation-line-between-books {
-        background-color: blue;
-        height: 1px;
-        width: 600pt;
+        margin-bottom: 5rem;
     }
 
     .books__author-name,
     .books__author-date-born-death,
     .books__title-of-the-book,
     .books__book-year-publication,
-    .summary-title,
-    .book-summary {
-        width: 300pt;
+    .books__summary-title,
+    .books__book-summary {
+        width: 30rem;
     }
 }
 
@@ -77,21 +58,15 @@ select {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 30px;
-    }
-
-    .separation-line-between-books {
-        background-color: blue;
-        height: 1px;
-        width: 175pt;
+        margin-bottom: 5rem;
     }
 
     .books__author-name,
-    .author-date-born-death,
-    .title-of-the-book,
-    .book_year_publication,
-    .summary-title,
-    .book-summary {
+    .books__author-date-born-death,
+    .books__title-of-the-book,
+    .books__book_year_publication,
+    .books__summary-title,
+    .books__book-summary {
         max-width: 200pt;
     }
 }
