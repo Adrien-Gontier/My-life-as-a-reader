@@ -8,17 +8,17 @@
         justify-content: space-evenly;
         height: fit-content;
         align-items: center;
-        margin-bottom: 5px;
+        margin-bottom: 5rem;
     }
 
-    .page-title {
+    .page-title-head__page-title {
         color: black;
         font-family: 'Courier New', Courier, monospace;
         font-weight: 600;
         font-size: 40px;
     }
 
-    .picture {
+    .page-title-head__picture {
         inline-size: 15%;
     }
 }
@@ -28,16 +28,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 5rem;
     }
 
-    .page-title {
+    .page-title-head__page-title {
         color: black;
         font-family: 'Courier New', Courier, monospace;
         font-weight: 600;
         font-size: 40px;
     }
 
-    .picture {
+    .page-title-head__picture {
         inline-size: 30%;
     }
 }
