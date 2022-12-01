@@ -17,6 +17,7 @@ export default function Home() {
                     <p>My name is Adrien Gontier. I'm a reader. I'm also in a training programm where my purpuse is to learning coding.</p>
                     <p>I learn coding since the beginning of the year. The stack I learn is HTML, CSS, JavaScript, ReactJS, JAVA, ...</p>
                     <p>I like what I learn and I enjoy my self. Sometimes it's hard, sometimes not.</p>
+                    {/* put a link to the routes : whoami */}
                 </aside>
             </section>
 
