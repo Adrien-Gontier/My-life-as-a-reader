@@ -1,40 +1,10 @@
 # My life as a reader
 C'est un projet de site internet s'inspirant des influenceurs littéraires sur youtube.
 
+You need to have node.js on your computer.
 
+If you want do run the website, you have to open a terminal from the directory : My-life-as-a-reader
 
-### Ce projet sera entierement refait avec react et reat-router.
+And tape : npm install
 
-### This project will entierely rebuild with react and reat-router.
-
-
-
-
-1. Home
-
-2. Reading in progress
-
-3. Reading finished
-
-4. Pile to read
-
-5. Whishlist
-
-6. Contact
-
-7. Who am I
-
-
-## 1. Home
-
-## 2. Reading in progress
-
-## 3. Reading finished
-
-## 4. Pile to read
-
-## 5. Whishlist
-
-## 6. Contact
-
-## 7. Who am I
+And finally : npm run dev
