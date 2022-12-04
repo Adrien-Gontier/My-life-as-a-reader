@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Home() {
     return (
         <div>
-            <p className="page-title-head__page-title">Home</p>
+            <h2 className="page-title-head__page-title">Home</h2>
             <section class="section_welcome_page">
                 <article>
                     <p>The last book I read is, honestly ? I don't remenber because it's was so far.</p>
