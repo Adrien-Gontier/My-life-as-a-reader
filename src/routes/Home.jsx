@@ -12,7 +12,7 @@ export default function Home() {
                     <p>I spend all my time learning code.</p>
                     <p>In early 2000's, I read several books from John Grisham.</p>
                     <p>In the last decade, I read all Harry Potter's books.</p>
-                    <p></p>
+                    <p>I have a lot of Stephen King's books to read in my personal library.</p>
                 </article>
                 <aside>
                     <p>My name is Adrien Gontier. I'm a reader. I'm also in a training programm where my purpuse is to learning coding.</p>
