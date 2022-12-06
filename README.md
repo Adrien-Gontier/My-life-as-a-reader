@@ -8,3 +8,7 @@ If you want do run the website, you have to open a terminal from the directory :
 And tape : npm install
 
 And finally : npm run dev
+
+You'll have an URL address to put on your favorite browser.
+
+And here it is : the website is on !
