@@ -10,7 +10,6 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './routes/Home';
 import React from 'react';
-import BooksList from './assets/books.json';
 import { useState } from 'react';
 import BookDataContext from './context/BookDataContext';
 import MapOfTheWebsite from './routes/MapOfTheWebsite';
@@ -19,8 +18,21 @@ export default function App() {
 
 
   const [bookData, setBookData] = useState(BooksList)
+   // TODO : context
 
-  // TODO : Set Axios : done
+  const API_URL = "https://raw.githubusercontent.com/Adrien-Gontier/My-life-as-a-reader/main/src/assets/books.json";
+
+    useEffect(() => {
+            axios.get(API_URL)
+                .then(
+                    res => {
+                        const occurrence = res.data;
+                        setBookData(occurrence);
+  
+                    })
+ 
+    }, []);
+
 
 
   return (
