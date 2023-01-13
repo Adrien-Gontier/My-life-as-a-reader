@@ -27,7 +27,6 @@ export default function App() {
         res => {
           const occurrence = res.data;
           setBookData(occurrence);
-          console.log(bookData);
         })
 
   }, []);
