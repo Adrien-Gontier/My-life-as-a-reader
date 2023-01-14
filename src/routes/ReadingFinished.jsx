@@ -7,14 +7,14 @@ import RoutesTitles from '../components/RoutesTitles';
 export default function ReadingFinished() {
 
 
-    const titlePictures = {title: "Reading finished", pictureSrc: BooksInLibrary}
+    const titlePictures = { title: "Reading finished", pictureSrc: BooksInLibrary }
 
 
     return (
         <div>
             <RoutesTitles props={titlePictures} />
             <LoopEachBook props={"RF"} />
-        </div> 
+        </div>
     )
-    
+
 }
