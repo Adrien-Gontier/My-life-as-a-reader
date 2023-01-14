@@ -6,8 +6,7 @@ import RoutesTitles from '../components/RoutesTitles';
 
 export default function Wishlist() {
 
-    const titlePictures = {title: "Wishlist", pictureSrc: WomanInFrontOfLibrary}
-
+    const titlePictures = { title: "Wishlist", pictureSrc: WomanInFrontOfLibrary }
 
     return (
         <div>
@@ -15,5 +14,5 @@ export default function Wishlist() {
             <LoopEachBook props={"WL"} />
         </div>
     )
-    
+
 }
