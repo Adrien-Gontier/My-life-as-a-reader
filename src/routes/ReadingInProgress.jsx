@@ -5,7 +5,7 @@ import RoutesTitles from "../components/RoutesTitles";
 
 export default function ReadingInProgress() {
 
-    const titlePictures = {title: "Reading in progress", pictureSrc: BookOpen}
+    const titlePictures = { title: "Reading in progress", pictureSrc: BookOpen }
 
     return (
         <div>
