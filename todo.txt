@@ -1,0 +1,1 @@
+Improving the API call for each page of th website
