@@ -6,9 +6,9 @@ import RoutesTitles from '../components/RoutesTitles';
 
 export default function PileToRead() {
 
-    
-    const titlePictures = {title: "Pile to read", pictureSrc: PileOfBooks}
-  
+
+    const titlePictures = { title: "Pile to read", pictureSrc: PileOfBooks }
+
 
     return (
         <div>
@@ -17,5 +17,5 @@ export default function PileToRead() {
         </div>
 
     )
-    
+
 }
