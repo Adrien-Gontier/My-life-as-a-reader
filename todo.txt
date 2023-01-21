@@ -1,1 +1,3 @@
-Improving the API call for each page of th website
+- Improving the API call for each page of th website
+- With Sass
+- With DataBase
