@@ -1,3 +1,4 @@
 - Improving the API call for each page of the website
 - With Sass
 - With DataBase : PostgreREst and PostgreSQL ?
+- Install ESLint and Prettier
