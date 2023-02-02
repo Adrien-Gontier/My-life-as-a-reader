@@ -1,9 +1,9 @@
 import React from 'react';
 
 // TODO improving className of each book will be done
-export default function EachBook(props) {
+export default function EachBook({props}) {
 
-  const bookData = props.props;
+  const bookData = props;
   const inProgressBook = props.propsInProgress;
 
   const authorName = <p className="books__author-name">{bookData.author_name}</p>;
