@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function RoutesTitles(props) {
+export default function RoutesTitles({props}) {
 
-    const titlePicture = props.props;
+    const titlePicture = props;
 
     return (
         <div className="page-title-head">
