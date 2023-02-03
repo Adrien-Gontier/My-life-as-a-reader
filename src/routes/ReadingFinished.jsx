@@ -1,5 +1,5 @@
 import React from 'react';
-import BooksInLibrary from "../assets/pexels-pixabay-159711.jpg";
+import BooksInLibrary from "../assets/pictures/pexels-pixabay-159711.jpg";
 import LoopEachBook from '../components/LoopEachBook';
 import RoutesTitles from '../components/RoutesTitles';
 
