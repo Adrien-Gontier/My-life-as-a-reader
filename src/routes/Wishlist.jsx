@@ -1,5 +1,5 @@
 import React from 'react';
-import WomanInFrontOfLibrary from "../assets/pexels-abby-chung-1106468.jpg";
+import WomanInFrontOfLibrary from "../assets/pictures/pexels-abby-chung-1106468.jpg";
 import LoopEachBook from '../components/LoopEachBook';
 import RoutesTitles from '../components/RoutesTitles';
 
