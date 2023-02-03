@@ -1,5 +1,5 @@
 import React from 'react';
-import PileOfBooks from "../assets/pexels-sharon-mccutcheon-1148399.jpg";
+import PileOfBooks from "../assets/pictures/pexels-sharon-mccutcheon-1148399.jpg";
 import LoopEachBook from '../components/LoopEachBook';
 import RoutesTitles from '../components/RoutesTitles';
 
