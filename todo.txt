@@ -1,5 +1,5 @@
 - Improving the API call for each page of the website
 - With Sass
-- With DataBase : PostgreREst and PostgreSQL ?
+- With DataBase : Python
 - Install ESLint and Prettier
 - Look for improve my code
