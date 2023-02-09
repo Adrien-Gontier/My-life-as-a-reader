@@ -1,5 +1,7 @@
 - Improving the API call for each page of the website
-- With Sass
 - With DataBase : Python (DjangoRest)
 - Install ESLint and Prettier
 - Look for improve my code
+
+
+Command line Sass :
