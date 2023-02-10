@@ -2,6 +2,6 @@
 - With DataBase : Python (DjangoRest)
 - Install ESLint and Prettier
 - Look for improve my code
-
+- Think about fonts family
 
 Command line Sass :
