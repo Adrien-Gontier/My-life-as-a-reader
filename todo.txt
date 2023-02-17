@@ -1,6 +1,6 @@
 - Improving the API call for each page of the website
 - With DataBase : Python (DjangoRest and another)
-- Install ESLint and Prettier
+- Install ESLint and Prettier (with config files)
 - Look for improve my code
 - Think about fonts family (and the files in the tree)
 
