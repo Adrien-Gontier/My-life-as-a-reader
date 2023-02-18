@@ -12,15 +12,3 @@
 /* import font style from google fonts */
 
 /* TODO improved code with BEM convention */
-
-
-/* All website pages */
-
-body {
-  text-align: center;
-  color: black;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-  margin-left: 0;
-  margin-right: 0;
-}
