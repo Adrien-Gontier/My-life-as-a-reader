@@ -1,8 +1,7 @@
-import React from "react"
+import React from "react";
 
 export default function WhoAmI() {
-    <div>
-        <p>Hello world Who Am I</p>
-
-    </div>
+  <div>
+    <p>Hello world Who Am I</p>
+  </div>;
 }
