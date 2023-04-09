@@ -7,15 +7,15 @@
 /* WILL BE TESTED */
 
 .all-pages-links {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .all-pages-links div p {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
