@@ -1,12 +1,12 @@
 /* STYLE FOR THE WEBSITE */
 
-@import url("./style/websiteTitle.css");
-@import url("./style/navbar.css");
-@import url("./style/home.css");
-@import url("./style/books.css");
-@import url("./style/footer.css");
-@import url("./style/mapOfTheWebsite.css");
-@import url("./style/pageTitlePict.css");
+@import url('./style/websiteTitle.css');
+@import url('./style/navbar.css');
+@import url('./style/home.css');
+@import url('./style/books.css');
+@import url('./style/footer.css');
+@import url('./style/mapOfTheWebsite.css');
+@import url('./style/pageTitlePict.css');
 
 /* import font style from google fonts */
 
