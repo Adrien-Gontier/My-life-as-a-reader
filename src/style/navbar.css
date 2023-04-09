@@ -1,58 +1,58 @@
 /* STYLE FOR WEBSITE NAVBAR */
 
 .nav {
-  list-style: none;
-  background-color: rgb(81, 158, 251);
+    list-style: none;
+    background-color: rgb(81, 158, 251);
 }
 
 .nav div a {
-  text-decoration: none;
-  font-size: 19px;
-  color: white;
-  border-radius: 5px;
-  padding: 12px;
-  white-space: nowrap;
-  transition-duration: 1s;
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+    white-space: nowrap;
+    transition-duration: 1s;
 }
 
 @media all and (min-width: 901px) {
-  .nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 22px;
-  }
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 22px;
+    }
 
-  .nav div a:hover {
-    color: black;
-    background-color: white;
-    border-radius: 5px;
-    transition-duration: 1s;
-  }
+    .nav div a:hover {
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+        transition-duration: 1s;
+    }
 }
 
 @media all and (max-width: 900px) {
-  .nav {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    line-height: 50px;
-  }
+    .nav {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        line-height: 50px;
+    }
 }
 
 @media all and (max-width: 900px) {
-  .nav {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    line-height: 50px;
-  }
+    .nav {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        line-height: 50px;
+    }
 }
