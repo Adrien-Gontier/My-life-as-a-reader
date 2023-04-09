@@ -1,42 +1,42 @@
 /* STYLE FOR THE PAGE TITLE and PICTURES */
 
 @media all and (min-width: 901px) {
-  .page-title-head {
-    display: flex;
-    justify-content: space-evenly;
-    height: fit-content;
-    align-items: center;
-    margin-bottom: 5rem;
-  }
+    .page-title-head {
+        display: flex;
+        justify-content: space-evenly;
+        height: fit-content;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
 
-  .page-title-head__page-title {
-    color: black;
-    font-family: "Courier New", Courier, monospace;
-    font-weight: 600;
-    font-size: 40px;
-  }
+    .page-title-head__page-title {
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        font-size: 40px;
+    }
 
-  .page-title-head__picture {
-    inline-size: 15%;
-  }
+    .page-title-head__picture {
+        inline-size: 15%;
+    }
 }
 
 @media all and (max-width: 900px) {
-  .page-title-head {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5rem;
-  }
+    .page-title-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
 
-  .page-title-head__page-title {
-    color: black;
-    font-family: "Courier New", Courier, monospace;
-    font-weight: 600;
-    font-size: 40px;
-  }
+    .page-title-head__page-title {
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        font-size: 40px;
+    }
 
-  .page-title-head__picture {
-    inline-size: 30%;
-  }
+    .page-title-head__picture {
+        inline-size: 30%;
+    }
 }
