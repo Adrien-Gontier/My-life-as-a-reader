@@ -1,0 +1,13 @@
+.website-title {
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    color: black;
+    font-size: 70px;
+}
+
+@media all and (max-width: 900px) {
+    .website-title {
+        font-weight: bold;
+        font-size: 50px;
+    }
+}
