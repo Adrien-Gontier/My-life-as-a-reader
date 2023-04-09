@@ -1,15 +1,15 @@
 /* STYLE FOR THE WEBSITE FOOTER */
 
 .footer {
-  display: flex;
-  justify-content: center;
-  background-color: black;
+    display: flex;
+    justify-content: center;
+    background-color: black;
 }
 
 .footer a {
-  margin-right: 30px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  color: white;
-  text-decoration: none;
+    margin-right: 30px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: white;
+    text-decoration: none;
 }
