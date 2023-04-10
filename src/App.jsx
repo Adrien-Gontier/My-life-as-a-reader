@@ -1,16 +1,16 @@
 import Title from './components/Title'
-import Wishlist from './routes/Wishlist'
+import Wishlist from './pages/Wishlist'
 import './assets/sass/App.css'
-import PileToRead from './routes/PileToRead'
-import ReadingInProgress from './routes/ReadingInProgress'
-import ReadingFinished from './routes/ReadingFinished'
-import WhoAmI from './routes/WhoAmI'
+import PileToRead from './pages/PileToRead'
+import ReadingInProgress from './pages/ReadingInProgress'
+import ReadingFinished from './pages/ReadingFinished'
+import WhoAmI from './pages/WhoAmI'
 import Footer from './components/Footer'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import Home from './routes/Home'
+import Home from './pages/Home'
 import React from 'react'
-import MapOfTheWebsite from './routes/MapOfTheWebsite'
+import MapOfTheWebsite from './pages/MapOfTheWebsite'
 
 export default function App() {
     return (
